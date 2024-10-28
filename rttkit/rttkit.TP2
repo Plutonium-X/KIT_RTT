@@ -1,0 +1,1395 @@
+BACKUP ~rttkit\backup~
+
+AUTHOR ~Kit: Al17 (rtt-mod@libero.it), weidu setup: al17 and the bigg~
+
+VERSION ~v1.3~
+
+README ~rttkit\Languages\Readme\readme%LANGUAGE%.htm~
+
+ALWAYS
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+		INCLUDE ~rttkit/fl#add_kit_ee.tpa~
+		ACTION_DEFINE_ARRAY ch_reload BEGIN
+		~Setup.tra~
+		END
+		ACTION_DEFINE_ARRAY ch_noconvert BEGIN END
+			LAF HANDLE_CHARSETS
+			INT_VAR
+			infer_charset = 1
+			STR_VAR
+			tra_path = EVAL ~%MOD_FOLDER%/Languages~
+			noconvert_array = ch_noconvert
+			reload_array = ch_reload
+		END
+	END
+END
+
+
+AUTO_TRA ~rttkit\Languages\%s~
+
+LANGUAGE ~English~
+         ~English~
+         ~rttkit/Languages/English/setup.tra~
+         ~rttkit/Languages/English/prompts.tra~
+LANGUAGE ~Italian~
+         ~Italian~
+         ~rttkit/Languages/Italian/setup.tra~
+         ~rttkit/Languages/Italian/prompts.tra~
+LANGUAGE ~French~
+         ~French~
+         ~rttkit/Languages/French/setup.tra~
+         ~rttkit/Languages/French/prompts.tra~
+
+
+// version 1.2
+
+/**************************************************************************/
+
+BEGIN @11	LABEL RTTKIT_amaz
+
+ADD_KIT ~amaz~
+~amaz                    0           0           0           1           1           0           0           1    ~
+~amaz 0  0  5  5  0  0  0  5  0  0  0  0  0  0  0  0  0  0  5  0  0  0  0  5  5  5  5  5  5  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~amaz                    3       18      3       3       3       14     ~
+~amaz                    0       2      -1       0       0       1      ~
+~amaz                    0       0       0       16      16      0      ~
+~amaz                    0       0       0       16      16      0      ~
+~amaz                    1       1       0       1       1       0       1       1       0  ~
+~amaz                    0       1       1       1       1       1     ~
+~rttkit/RTTKFI07.2DA~
+~ K_F_HE  K_F_H ~
+~0x00000001 2~
+~Fi0~
+~ CHAN09  *  HELM07  BAG21  *  *  *  *  *  *  *  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  SPEAR06  SW1H27  STAF08 ~
+SAY @10
+SAY @11
+SAY @12
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+LAF fl#add_kit_ee	STR_VAR kit_name = amaz	END
+END
+
+/**************************************************************************/
+
+BEGIN @80	LABEL RTTKIT_gladiat
+
+ADD_KIT ~gladiat~
+~gladiat                 1           1           1           1           1           1           1           1    ~
+~gladiat 5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  2  2  2  2  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~gladiat                 16      0       16      0       0       0      ~
+~gladiat                 1      -2       1       0       0      -2      ~
+~gladiat                 0       0       0       0       0       0      ~
+~gladiat                 0       0       0       0       0       0      ~
+~gladiat                 1       1       1       1       1       1       1       1       1  ~
+~gladiat                 0       0       0       0       0       0     ~ ~rttkit/RTTKFI11.2DA~
+~ K_F_HO  K_F_HE  K_F_E  K_F_D  K_F_H ~
+~0x00000001 2~
+~Fi0~
+~ CHAN09  *  HELM07  BAG21  *  *  *  *  *  *  *  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  HAMM07  SW1H27  STAF08 ~
+SAY @79
+SAY @80
+SAY @81
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+LAF fl#add_kit_ee	STR_VAR kit_name = gladiat	END
+END
+
+/**************************************************************************/
+
+BEGIN @74	LABEL RTTKIT_investigat
+
+ADD_KIT ~investigat~
+~investigat              1           1           1           0           1           1           1           1    ~
+~investigat 2  2  0  2  2  2  2  0  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  0  0  0  0  0  2  2  2  2  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~investigat              3       3       3       16      16      3      ~
+~investigat              0       0       0       1       1      -4      ~
+~investigat              0       0       0       0       0       0      ~
+~investigat              0       0       0       0       0       0      ~
+~investigat              0       1       0       0       0       0       0       0       0  ~
+~investigat              0       0       0       0       0       0     ~
+~rttkit/RTTKFI10.2DA~
+~ K_F_HO  K_F_HL  K_F_HE  K_F_E  K_F_G  K_F_D  K_F_H ~
+~0x00000008 2~
+~Fi0~
+~ CHAN09  *  HELM07  BAG21  *  *  *  *  *  *  *  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  HAMM07  SW1H27  STAF08 ~
+SAY @73
+SAY @74
+SAY @75
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+LAF fl#add_kit_ee	STR_VAR kit_name = investigat	END
+END
+
+/**************************************************************************/
+
+BEGIN @14	LABEL RTTKIT_archalf
+
+ADD_KIT ~archalf~
+~archalf                 1           1           1           1           1           1           1           1    ~
+~archalf 1  1  1  1  1  1  1  5  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  5  5  5  1  5  2  2  2  2  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~archalf                 3       16      3       3       3       3      ~
+~archalf                 0       1       0       0       0       0      ~
+~archalf                 0       0       0       0       0       0      ~
+~archalf                 0       0       0       0       0       0      ~
+~archalf                 1       1       0       1       1       0       1       1       0  ~
+~archalf                 0       0       0       0       0       0     ~
+~rttkit/RTTKFI08.2DA~
+~ K_F_HL ~
+~0x40000000 2~
+~Fi0~
+~ CHAN09  *  HELM07  BAG21  *  *  *  *  *  *  *  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  SLNG03  SW1H27  STAF08 ~
+SAY @13
+SAY @14
+SAY @15
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+LAF fl#add_kit_ee	STR_VAR kit_name = archalf	END
+END
+
+/**************************************************************************/
+
+BEGIN @71	LABEL RTTKIT_verosamurai
+
+ADD_KIT ~verosamurai~
+~verosamurai             1           1           1           1           1           1           1           1    ~
+~verosamurai 1  1  5  0  0  0  0  5  1  1  1  0  5  5  5  1  0  0  0  0  0  0  0  2  5  1  1  0  5  2  2  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~verosamurai             3       15      3       3       3       3      ~
+~verosamurai             0       0       0       0       0       0      ~
+~verosamurai             0       0       0       0       0       0      ~
+~verosamurai             0       0       0       0       0       0      ~
+~verosamurai             1       1       0       1       1       0       1       1       0  ~
+~verosamurai             0       0       0       0       0       0     ~
+~rttkit/RTTKFI09.2DA~
+~ K_F_H ~
+~0x00000001 2~
+~Fi0~
+~ CHAN09  *  HELM07  BAG21  *  *  *  *  *  *  *  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  HAMM07  SW1H75  STAF08 ~
+SAY @70
+SAY @71
+SAY @72
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+LAF fl#add_kit_ee	STR_VAR kit_name = verosamurai	END
+END
+
+/**************************************************************************/
+
+BEGIN @86	LABEL RTTKIT_uccisgiga
+
+ADD_KIT ~uccisgiga~
+~uccisgiga               1           1           1           1           1           1           1           1    ~
+~uccisgiga 5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  2  2  2  2  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~ ~uccisgiga               15      15      15      0       0       17     ~
+~uccisgiga               1       1       1       0       0       0      ~
+~uccisgiga               0       0       0       0       0       0      ~
+~uccisgiga               0       0       0       0       0       0      ~
+~uccisgiga               1       1       1       1       1       1       1       1       1  ~
+~uccisgiga               0       0       0       0       0       0     ~
+~rttkit/RTTKFI12.2DA~
+~ K_F_G ~
+~0x00000001 2~
+~Fi0~
+~ CHAN09  *  HELM07  BAG21  *  *  *  *  *  *  *  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  HAMM07  SW1H27  SLNG03 ~
+SAY @85
+SAY @86
+SAY @87
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+LAF fl#add_kit_ee	STR_VAR kit_name = uccisgiga	END
+END
+
+/**************************************************************************/
+
+BEGIN @47	LABEL RTTKIT_antipala
+
+ADD_KIT ~antipala~
+~antipala                1           1           1           1           1           1           1           1    ~
+~antipala 2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~antipala                3       3       3       17      17      17     ~
+~antipala                0       0       0       0       0       0      ~
+~antipala                0       0       0       0       0       0      ~
+~antipala                0       0       0       0       0       0      ~
+~antipala                0       0       1       0       0       0       0       0       0  ~
+~antipala                0       0       0       0       0       0     ~
+~rttkit/RTTKPA07.2DA~
+~ K_P_H ~
+~0x00000010 6~
+~Pa0~
+~ CHAN09  *  HELM07  BAG26  RING06  RING31  *  BOOT01  AMUL20  BRAC10  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  HAMM07  SW1H27  STAF08 ~
+SAY @46
+SAY @47
+SAY @48
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+LAF fl#add_kit_ee	STR_VAR kit_name = antipala	END
+END
+
+/**************************************************************************/
+
+BEGIN @50	LABEL RTTKIT_cavaosc
+
+ADD_KIT ~cavaosc~
+~cavaosc                 1           1           1           0           0           1           1           1    ~
+~cavaosc 2  2  0  2  2  2  2  0  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  0  0  0  0  0  2  2  2  2  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~cavaosc                 18      3       3       3       3       3      ~
+~cavaosc                 0       0       0       0       0       0      ~
+~cavaosc                 0       0       0       0       0       0      ~
+~cavaosc                 0       0       0       0       0       0      ~
+~cavaosc                 0       0       0       0       0       0       0       0       1  ~
+~cavaosc                 0       0       0       0       0       0     ~
+~rttkit/RTTKPA08.2DA~
+~ K_P_H ~
+~0x00000008 6~
+~Pa0~
+~ CHAN09  *  HELM07  BAG26  RING06  RING31  *  BOOT01  AMUL20  BRAC10  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  HAMM07  SW1H27  STAF08 ~
+SAY @49
+SAY @50
+SAY @51
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+LAF fl#add_kit_ee	STR_VAR kit_name = cavaosc	END
+END
+
+/**************************************************************************/
+
+BEGIN @5	LABEL RTTKIT_palaelf
+
+ADD_KIT ~palaelf~
+~palaelf                 1           1           1           1           1           1           1           1    ~
+~palaelf 2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~palaelf                 3       3       6       3       16      17     ~
+~palaelf                 0       1      -1       0       0       0      ~
+~palaelf                 0       0       0       0       0       0      ~
+~palaelf                 0       0       0       0       0       0      ~
+~palaelf                 1       0       0       0       0       0       0       0       0  ~
+~palaelf                 0       0       0       0       0       0     ~
+~rttkit/RTTKPA05.2DA~
+~ K_P_H ~
+~0x00000001 6~
+~Pa0~
+~ CHAN09  *  HELM07  BAG26  RING06  RING31  *  BOOT01  AMUL20  BRAC10  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  HAMM07  SW1H27  STAF08 ~
+SAY @4
+SAY @5
+SAY @6
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+LAF fl#add_kit_ee	STR_VAR kit_name = palaelf	END
+END
+
+/**************************************************************************/
+
+BEGIN @44	LABEL RTTKIT_messia
+
+ADD_KIT ~messia~
+~messia                  1           1           1           1           1           1           1           1    ~
+~messia 2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~messia                  3       3       3       18      18      18     ~
+~messia                  0       0       0       0       0       0      ~
+~messia                  3       3       3       3       3       3      ~
+~messia                  3       3       3       3       3       3      ~
+~messia                  1       0       0       0       0       0       0       0       0  ~
+~messia                  0       0       0       0       0       0     ~
+~rttkit/RTTKPA06.2DA~
+~ K_P_H ~
+~0x00000010 6~
+~Pa0~
+~ CHAN09  *  HELM07  BAG26  RING06  RING31  *  BOOT01  AMUL20  BRAC10  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  HAMM07  SW1H27  STAF08 ~
+SAY @43
+SAY @44
+SAY @45
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+LAF fl#add_kit_ee	STR_VAR kit_name = messia	END
+END
+
+/**************************************************************************/
+
+BEGIN @17	LABEL RTTKIT_arcano
+
+ADD_KIT ~arcano~
+~arcano                  1           1           1           0           0           1           1           1    ~
+~arcano 2  2  0  2  2  2  2  0  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  0  0  0  0  0  1  1  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~arcano                  3       3       3       16      16      3      ~
+~arcano                  0       0       0       0       0      -6      ~
+~arcano                  0       0       0       0       0       0      ~
+~arcano                  0       0       0       0       0       0      ~
+~arcano                  0       0       0       0       0       0       1       0       0  ~
+~arcano                  0       0       0       0       0       0     ~
+~rttkit/RTTKRN05.2DA~
+~ K_R_HE  K_R_E  K_R_H ~
+~0x40000000 12~
+~Ra0~
+~ LEAT14  *  HELM07  BAG24  RING06  RING31  CLCK02  BOOT01  AMUL19  BRAC16  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  HAMM07  SW1H39  STAF08 ~
+SAY @16
+SAY @17
+SAY @18
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+LAF fl#add_kit_ee	STR_VAR kit_name = arcano	END
+END
+
+/**************************************************************************/
+
+BEGIN @92	LABEL RTTKIT_rangelem
+
+ADD_KIT ~rangelem~
+~rangelem                1           1           1           1           1           1           1           1    ~
+~rangelem 2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~rangelem                0       0       17      0       12      0      ~
+~rangelem                0       0       0       0       0       0      ~
+~rangelem                0       0       0       0       0       0      ~
+~rangelem                0       0       0       0       0       0      ~
+~rangelem                1       0       0       1       0       0       1       0       0  ~
+~rangelem                0       0       0       0       0       0     ~
+~rttkit/RTTKRN07.2DA~
+~ K_R_HE  K_R_E  K_R_H ~
+~0x00008000 12~
+~Ra0~
+~ LEAT14  *  HELM07  BAG24  RING06  RING31  CLCK02  BOOT01  AMUL19  BRAC16  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  HAMM07  SW1H39  STAF08 ~
+SAY @91
+SAY @92
+SAY @93
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+LAF fl#add_kit_ee	STR_VAR kit_name = rangelem	END
+END
+
+/**************************************************************************/
+
+BEGIN @68	LABEL RTTKIT_guardtempo
+
+ADD_KIT ~guardtempo~
+~guardtempo              1           1           1           1           1           1           1           1    ~
+~guardtempo 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  5  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~guardtempo              3       3       3       18      18      3      ~
+~guardtempo              0       0       0       0       0       0      ~
+~guardtempo              0       0       0       0       0       0      ~
+~guardtempo              0       0       0       0       0       0      ~
+~guardtempo              1       0       0       1       0       0       1       0       0  ~
+~guardtempo              0       1       0       0       0       0     ~
+~rttkit/RTTKRN06.2DA~
+~ K_R_HE  K_R_E  K_R_H ~
+~0x40000000 12~
+~Ra0~
+~ LEAT14  *  HELM07  BAG24  RING06  RING31  CLCK02  BOOT01  AMUL19  BRAC16  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  HAMM07  SW1H39  STAF08 ~
+SAY @67
+SAY @68
+SAY @69
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+LAF fl#add_kit_ee	STR_VAR kit_name = guardtempo	END
+END
+
+/**************************************************************************/
+
+BEGIN @98	LABEL RTTKIT_ranosc
+
+ADD_KIT ~ranosc~
+~ranosc                  1           1           1           1           1           1           1           1    ~
+~ranosc 2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~ranosc                  0       0       0       0       0       0      ~
+~ranosc                  0       0       0       0       0       0      ~
+~ranosc                  0       0       0       0       0       0      ~
+~ranosc                  0       0       0       0       0       0      ~
+~ranosc                  0       0       0       0       0       1       0       0       0  ~
+~ranosc                  0       1       0       0       0       0     ~
+~rttkit/RTTKRN08.2DA~
+~ K_R_HE  K_R_E  K_R_H ~
+~0x00008000 12~
+~Ra0~
+~ LEAT14  *  HELM07  BAG24  RING06  RING31  CLCK02  BOOT01  AMUL19  BRAC16  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  HAMM07  SW1H39  STAF08 ~
+SAY @97
+SAY @98
+SAY @99
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+LAF fl#add_kit_ee	STR_VAR kit_name = ranosc	END
+END
+
+/**************************************************************************/
+
+BEGIN @89	LABEL RTTKIT_convertit
+
+ADD_KIT ~convertit~
+~convertit               0           0           1           1           0           1           0           0    ~
+~convertit 0  0  0  0  0  1  0  1  0  0  0  0  0  0  0  0  1  1  0  0  1  1  1  0  0  0  0  1  1  1  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~convertit               0       0       0       0       17      17     ~
+~convertit              -2       0      -2       0       0       0      ~
+~convertit               17      17      0       0       0       0      ~
+~convertit               17      17      0       0       0       0      ~
+~convertit               0       0       0       0       1       0       0       0       0  ~
+~convertit               1       0       1       1       0       0     ~
+~rttkit/RTTKPR10.2DA~
+~ K_C_HO  K_C_HL  K_C_HE  K_C_E  K_C_G  K_C_D  K_C_H ~
+~0x04000000 3~
+~Cl0~
+~ CHAN09  *  HELM07  BAG26  RING06  RING31  *  BOOT01  AMUL20  BRAC10  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  HAMM07  SW1H27  STAF08 ~
+SAY @88
+SAY @89
+SAY @90
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+LAF fl#add_kit_ee	STR_VAR kit_name = convertit	END
+END
+
+/**************************************************************************/
+
+BEGIN @23	LABEL RTTKIT_cyric
+
+ADD_KIT ~cyric~
+~cyric                   0           0           1           1           0           1           0           0    ~
+~cyric 0  0  0  0  1  1  0  1  0  0  0  0  0  0  0  0  1  1  0  0  1  1  1  0  0  0  0  1  1  1  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~cyric                   0       0       0       14      14      14     ~
+~cyric                   0       0       0       0       0       0      ~
+~cyric                   0       0       0       0       0       0      ~
+~cyric                   0       0       0       0       0       0      ~
+~cyric                   0       0       1       0       0       1       0       0       1  ~
+~cyric                   1       0       1       0       0       0     ~
+~rttkit/RTTKPR06.2DA~
+~ K_C_HO  K_C_HL  K_C_HE  K_C_E  K_C_G  K_C_D  K_C_H ~
+~0x01000000 3~
+~Cl0~
+~ CHAN09  *  HELM07  BAG26  RING06  RING31  *  BOOT01  AMUL20  BRAC10  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  HAMM07  SW1H27  STAF08 ~
+SAY @22
+SAY @23
+SAY @24
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+LAF fl#add_kit_ee	STR_VAR kit_name = cyric	END
+END
+
+/**************************************************************************/
+
+BEGIN @32	LABEL RTTKIT_mask
+
+ADD_KIT ~mask~
+~mask                    0           0           1           1           0           1           0           0    ~
+~mask 0  0  0  0  1  1  0  1  0  0  0  0  0  0  0  0  1  1  0  0  1  1  1  0  0  0  0  1  1  1  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~mask                    3       3       3       3       3       16     ~
+~mask                    0       0       0       0      -1       2      ~
+~mask                    0       17      0       17      15      0      ~
+~mask                    0       17      0       17      15      0      ~
+~mask                    0       0       0       0       0       1       0       1       0  ~
+~mask                    1       0       1       1       0       0     ~
+~rttkit/RTTKPR08.2DA~
+~ K_C_HO  K_C_HE  K_C_E  K_C_H ~
+~0x01000000 3~
+~Cl0~
+~ CHAN09  *  HELM07  BAG26  RING06  RING31  *  BOOT01  AMUL20  BRAC10  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  HAMM07  SW1H27  STAF08 ~
+SAY @31
+SAY @32
+SAY @33
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+LAF fl#add_kit_ee	STR_VAR kit_name = mask	END
+END
+
+/**************************************************************************/
+
+BEGIN @26	LABEL RTTKIT_mystra
+
+ADD_KIT ~mystra~
+~mystra                  0           0           1           1           0           1           0           0    ~
+~mystra 0  0  0  0  1  1  0  1  0  0  0  0  0  0  0  0  1  1  0  0  1  1  1  0  0  0  0  1  1  1  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~mystra                  0       0       0       14      14      0      ~
+~mystra                  0       0       0       0       0       0      ~
+~mystra                  0       0       0       0       0       0      ~
+~mystra                  0       0       0       0       0       0      ~
+~mystra                  1       0       0       1       0       0       1       0       0  ~
+~mystra                  1       0       1       0       0       0     ~
+~rttkit/RTTKPR07.2DA~ ~ K_C_HO  K_C_HL  K_C_HE  K_C_E  K_C_G  K_C_D  K_C_H ~
+~0x04000000 3~
+~Cl0~
+~ CHAN09  *  HELM07  BAG26  RING06  RING31  *  BOOT01  AMUL20  BRAC10  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  HAMM07  SW1H27  STAF08 ~
+SAY @25
+SAY @26
+SAY @27
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+LAF fl#add_kit_ee	STR_VAR kit_name = mystra	END
+END
+
+/**************************************************************************/
+
+BEGIN @8	LABEL RTTKIT_tempus
+
+ADD_KIT ~tempus~
+~tempus                  0           0           1           0           0           1           0           0    ~
+~tempus 0  0  0  0  2  2  0  0  0  0  0  0  0  0  0  0  2  2  0  0  2  2  2  0  0  0  0  0  2  2  2  2  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~tempus                  16      3       3       3       9       3      ~
+~tempus                  0       0       0       0      -2       0      ~
+~tempus                  0       0       0       17      15      0      ~
+~tempus                  0       0       0       17      15      0      ~
+~tempus                  0       0       0       0       0       0       0       1       0  ~
+~tempus                  0       0       1       0       0       0     ~
+~rttkit/RTTKPR05.2DA~
+~ K_C_H ~
+~0x02000000 3~
+~Cl0~
+~ CHAN09  *  HELM07  BAG26  RING06  RING31  *  BOOT01  AMUL20  BRAC10  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  HAMM07  SW1H27  STAF08 ~
+SAY @7
+SAY @8
+SAY @9 
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+LAF fl#add_kit_ee	STR_VAR kit_name = tempus	END
+END
+
+/**************************************************************************/
+
+BEGIN @59	LABEL RTTKIT_druoscuro
+
+ADD_KIT ~druoscuro~
+~druoscuro               1           1           1           1           1           1           1           1    ~
+~druoscuro 0  0  0  0  1  1  0  1  0  0  0  0  0  0  1  1  0  1  1  0  0  0  1  0  0  0  1  1  1  1  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~druoscuro               3       3       3       3       18      3      ~
+~druoscuro               0       0      -4       0       0      -8      ~
+~druoscuro               17      0       0       0       15      0      ~
+~druoscuro               17      0       0       0       15      0      ~
+~druoscuro               0       0       0       0       0       1       0       0       0  ~
+~druoscuro               1       0       0       0       0       0     ~
+~rttkit/RTTKDR08.2DA~
+~ K_D_HE  K_D_H ~
+~0x08000000 11~
+~Dr0~
+~ LEAT20  *  HELM19  BAG27  RING06  RING31  CLCK02  BOOT01  AMUL19  BRAC14  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  HAMM07  SW1H27  STAF08 ~
+SAY @58
+SAY @59
+SAY @60
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+LAF fl#add_kit_ee	STR_VAR kit_name = druoscuro	END
+END
+
+/**************************************************************************/
+
+BEGIN @41	LABEL RTTKIT_guardacqua
+
+ADD_KIT ~guardacqua~
+~guardacqua              0           0           1           1           0           1           0           0    ~
+~guardacqua 0  0  0  0  1  1  0  1  0  0  0  0  0  0  1  1  0  1  1  0  0  0  1  0  0  0  1  1  1  1  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~guardacqua              3       3       3       3       18      3      ~
+~guardacqua             -4       0       0       0       0       0      ~
+~guardacqua              17      0       0       0       15      0      ~
+~guardacqua              17      0       0       0       15      0      ~
+~guardacqua              0       0       0       0       1       0       0       0       0  ~
+~guardacqua              1       0       0       0       0       0     ~
+~rttkit/RTTKDR07.2DA~
+~ K_D_HE  K_D_H ~
+~0x08000000 11~
+~Dr0~
+~ LEAT20  *  HELM19  BAG27  RING06  RING31  CLCK02  BOOT01  AMUL19  BRAC14  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  HAMM07  SW1H27  STAF08 ~
+SAY @40
+SAY @41
+SAY @42
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+LAF fl#add_kit_ee	STR_VAR kit_name = guardacqua	END
+END
+
+/**************************************************************************/
+
+BEGIN @38	LABEL RTTKIT_guardfuoco
+
+ADD_KIT ~guardfuoco~
+~guardfuoco              0           0           1           1           0           1           0           0    ~
+~guardfuoco 0  0  0  0  1  1  0  1  0  0  0  0  0  0  1  1  0  1  1  0  0  0  1  0  0  0  1  1  1  1  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~guardfuoco              3       3       3       3       18      3      ~
+~guardfuoco             -4       0       0       0       0       0      ~
+~guardfuoco              17      0       0       0       15      0      ~
+~guardfuoco              17      0       0       0       15      0      ~
+~guardfuoco              0       0       0       0       1       0       0       0       0  ~
+~guardfuoco              1       0       0       0       0       0     ~
+~rttkit/RTTKDR06.2DA~
+~ K_D_HE  K_D_H ~
+~0x08000000 11~
+~Dr0~
+~ LEAT20  *  HELM19  BAG27  RING06  RING31  CLCK02  BOOT01  AMUL19  BRAC14  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  HAMM07  SW1H27  STAF08 ~
+SAY @37
+SAY @38
+SAY @39
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+LAF fl#add_kit_ee	STR_VAR kit_name = guardfuoco	END
+END
+
+/**************************************************************************/
+
+BEGIN @35	LABEL RTTKIT_guardvento
+
+ADD_KIT ~guardvento~
+~guardvento              0           0           1           1           0           1           0           0    ~
+~guardvento 0  0  0  0  1  1  0  1  0  0  0  0  0  0  1  1  0  1  1  0  0  0  1  0  0  0  1  1  1  1  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~guardvento              3       3       3       3       18      3      ~
+~guardvento             -4       0       0       0       0       0      ~
+~guardvento              17      0       0       0       15      0      ~
+~guardvento              17      0       0       0       15      0      ~
+~guardvento              0       0       0       0       1       0       0       0       0  ~
+~guardvento              1       0       0       0       0       0     ~
+~rttkit/RTTKDR05.2DA~
+~ K_D_HE  K_D_H ~
+~0x08000000 11~
+~Dr0~
+~ LEAT20  *  HELM19  BAG27  RING06  RING31  CLCK02  BOOT01  AMUL19  BRAC14  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  HAMM07  SW1H27  STAF08 ~
+SAY @34
+SAY @35
+SAY @36
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+LAF fl#add_kit_ee	STR_VAR kit_name = guardvento	END
+END
+
+/**************************************************************************/
+
+BEGIN @53	LABEL RTTKIT_cacctesor
+
+ADD_KIT ~cacctesor~
+~cacctesor               1           1           1           1           1           1           1           1    ~
+~cacctesor 0  1  0  0  1  0  0  1  0  1  1  0  0  1  1  1  0  1  0  0  0  0  1  1  0  1  1  1  1  1  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~cacctesor               3       9       3       15      3       3      ~
+~cacctesor               0      -1       1       0       0       0      ~ ~cacctesor               17      15      0       17      0       0      ~
+~cacctesor               17      15      0       17      0       0      ~
+~cacctesor               0       1       1       1       1       1       1       1       1  ~
+~cacctesor               1       1       1       0       0       0     ~
+~rttkit/RTTKTH07.2DA~
+~ K_T_HO  K_T_HL  K_T_HE  K_T_E  K_T_G  K_T_D  K_T_H ~
+~0x00100000 4~
+~Th0~
+~ LEAT14  *  *  BAG28  RING06  RING05,10  *  BOOT02  AMUL19  BRAC16  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  DAGG12  SW1H28  STAF08 ~
+SAY @52
+SAY @53
+SAY @54 
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+LAF fl#add_kit_ee	STR_VAR kit_name = cacctesor	END
+END
+
+/**************************************************************************/
+
+BEGIN @56	LABEL RTTKIT_furfante
+
+ADD_KIT ~furfante~
+~furfante                1           1           1           1           1           1           1           1    ~
+~furfante 0  1  0  0  1  0  0  1  0  1  1  0  0  1  1  1  0  1  0  0  0  0  1  1  0  1  1  1  1  1  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~furfante                3       3       16      3       3       3      ~
+~furfante                0       0       0       0       0       0      ~
+~furfante                17      15      0       17      0       0      ~
+~furfante                17      15      0       17      0       0      ~
+~furfante                0       1       1       0       1       1       0       1       1  ~
+~furfante                1       0       1       0       0       0     ~
+~rttkit/RTTKTH08.2DA~
+~ K_T_H ~
+~0x00100000 4~
+~Th0~
+~ LEAT14  *  *  BAG28  RING06  RING05,10  *  BOOT02  AMUL19  BRAC16  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  DAGG12  SW1H28  STAF08 ~
+SAY @55
+SAY @56
+SAY @57
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+LAF fl#add_kit_ee	STR_VAR kit_name = furfante	END
+END
+
+/**************************************************************************/
+
+BEGIN @95	LABEL RTTKIT_gentiluomo
+
+ADD_KIT ~gentiluomo~
+~gentiluomo              1           1           1           1           1           1           1           1    ~
+~gentiluomo 1  1  2  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  2  2  1  1  1  1  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~gentiluomo              0       0       0       0       0       16     ~
+~gentiluomo              0       0       0       0       0       3      ~
+~gentiluomo              17      15      0       17      17      0      ~
+~gentiluomo              17      15      0       17      17      0      ~
+~gentiluomo              0       0       0       1       0       0       1       0       0  ~
+~gentiluomo              1       1       1       0       1       0     ~
+~rttkit/RTTKTH09.2DA~
+~ K_T_HO  K_T_HL  K_T_HE  K_T_E  K_T_G  K_T_D  K_T_H ~
+~0x00040000 4~
+~Th0~
+~ LEAT14  *  *  BAG28  RING06  RING05,10  *  BOOT02  AMUL19  BRAC16  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  DAGG12  SW1H28  STAF08 ~
+SAY @94
+SAY @95
+SAY @96
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+LAF fl#add_kit_ee	STR_VAR kit_name = gentiluomo	END
+END
+
+/**************************************************************************/
+
+BEGIN @20	LABEL RTTKIT_samurai
+
+ADD_KIT ~samurai~
+~samurai                 1           1           0           1           1           0           1           1    ~
+~samurai 0  1  0  0  0  0  0  2  0  1  1  0  0  1  1  1  0  0  0  0  0  0  0  2  0  2  2  2  1  1  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~samurai                 16      16      3       3       3       3      ~
+~samurai                 0       0       0       0       0       0      ~
+~samurai                 0       0       0       17      0       0      ~
+~samurai                 0       0       0       17      0       0      ~
+~samurai                 0       1       1       1       1       1       1       1       1  ~
+~samurai                 0       0       1       0       0       0     ~
+~rttkit/RTTKTH05.2DA~
+~ K_T_H ~
+~0x00040000 4~
+~Th0~
+~ LEAT14  *  *  BAG28  RING06  RING05,10  *  BOOT02  AMUL19  BRAC16  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  DAGG12  SW1H28  STAF08 ~
+SAY @19
+SAY @20
+SAY @21
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+LAF fl#add_kit_ee	STR_VAR kit_name = samurai	END
+END
+
+/**************************************************************************/
+
+BEGIN @83	LABEL RTTKIT_ammaestr
+
+ADD_KIT ~ammaestr~
+~ammaestr                1           1           1           1           1           1           1           1    ~
+~ammaestr 1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~ammaestr                3       3       3       3       3       3      ~
+~ammaestr                0       0       0       0       0       0      ~
+~ammaestr                0       0       0       0       0       0      ~
+~ammaestr                0       0       0       0       0       0      ~
+~ammaestr                0       1       0       1       1       1       0       1       0  ~
+~ammaestr                0       0       0       0       0       0     ~
+~rttkit/RTTKBA07.2DA~
+~ K_B_HE  K_B_H ~
+~0x00800000 5~
+~Ba0~
+~ LEATH14  *  *  BAG30  RING06  RING34  CLCK02  BOOT01  AMUL19  BRAC16  BELT10  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  DAGG12  SW1H28  STAF08 ~
+SAY @82
+SAY @83
+SAY @84
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+LAF fl#add_kit_ee	STR_VAR kit_name = ammaestr	END
+END
+
+/**************************************************************************/
+
+BEGIN @77	LABEL RTTKIT_giocol
+
+ADD_KIT ~giocol~
+~giocol                  1           0           0           1           0           0           0           0    ~
+~giocol 1  2  0  1  1  1  0  1  1  1  2  0  1  1  1  2  1  1  1  1  1  1  1  0  0  0  2  0  1  1  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~giocol                  3       16      3       3       3       3      ~
+~giocol                  0       1       0       0       0       0      ~
+~giocol                  3       3       3       3       3       3      ~
+~giocol                  3       3       3       3       3       3      ~
+~giocol                  0       1       0       1       1       1       0       1       0  ~
+~giocol                  0       0       0       0       0       0     ~
+~rttkit/RTTKBA06.2DA~
+~ K_B_HE  K_B_H ~
+~0x00200000 5~
+~Ba0~
+~ LEATH14  *  *  BAG30  RING06  RING34  CLCK02  BOOT01  AMUL19  BRAC16  BELT10  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  DAGG12  SW1H28  STAF08 ~
+SAY @76
+SAY @77
+SAY @78
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+LAF fl#add_kit_ee	STR_VAR kit_name = giocol	END
+END
+
+/**************************************************************************/
+
+BEGIN @62	LABEL RTTKIT_menestr
+
+ADD_KIT ~menestr~
+~menestr                 1           1           1           1           1           1           1           1    ~
+~menestr 1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~menestr                 3       3       3       16      16      18     ~
+~menestr                -1      -1      -1       0       0       2      ~
+~menestr                 17      0       0       15      0       15     ~
+~menestr                 17      0       0       15      0       15     ~
+~menestr                 0       1       0       1       1       1       0       1       0  ~
+~menestr                 0       0       0       0       0       0     ~
+~rttkit/RTTKBA05.2DA~
+~ K_B_HE  K_B_H ~
+~0x00200000 5~
+~Ba0~
+~ LEATH14  *  *  BAG30  RING06  RING34  CLCK02  BOOT01  AMUL19  BRAC16  BELT10  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  DAGG12  SW1H28  STAF08 ~
+SAY @61
+SAY @62
+SAY @63
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+LAF fl#add_kit_ee	STR_VAR kit_name = menestr	END
+END
+
+/**************************************************************************/
+
+BEGIN @500	LABEL RTTKIT_Core
+
+APPEND ~ACTION.IDS~
+~181 ReallyForceSpellRES(S:RES*,O:Target)~
+UNLESS ~181 ReallyForceSpellRES(~
+
+COPY ~rttkit/copy~ ~override~
+
+COPY ~rttkit/AMA001.SPL~            ~override/AMA001.SPL~         
+  SAY NAME1 @100 
+
+COPY ~rttkit/AMA002.SPL~            ~override/AMA002.SPL~         
+  SAY NAME1 @100 
+
+COPY ~rttkit/AMA003.SPL~            ~override/AMA003.SPL~         
+  SAY NAME1 @101 
+  SAY UNIDENTIFIED_DESC @102 
+
+COPY ~rttkit/AMA004.SPL~            ~override/AMA004.SPL~         
+
+COPY ~rttkit/AMA005.SPL~            ~override/AMA005.SPL~         
+
+COPY ~rttkit/AMA006.SPL~            ~override/AMA006.SPL~         
+
+COPY ~rttkit/AMA007.SPL~            ~override/AMA007.SPL~         
+
+COPY ~rttkit/ARC001.SPL~            ~override/ARC001.SPL~         
+
+COPY ~rttkit/ARC100.SPL~            ~override/ARC100.SPL~         
+
+COPY ~rttkit/ARC101.SPL~            ~override/ARC101.SPL~         
+
+COPY ~rttkit/ARC102.SPL~            ~override/ARC102.SPL~         
+
+COPY ~rttkit/ARC104.SPL~            ~override/ARC104.SPL~         
+
+COPY ~rttkit/ARC105.SPL~            ~override/ARC105.SPL~         
+  SAY 0xfe @117 
+
+COPY ~rttkit/CAC001.SPL~            ~override/CAC001.SPL~         
+  SAY NAME1 @100 
+
+COPY ~rttkit/CAC002.SPL~            ~override/CAC002.SPL~         
+
+COPY ~rttkit/CAC003.SPL~            ~override/CAC003.SPL~         
+  SAY NAME1 @100 
+
+COPY ~rttkit/CAC010.SPL~            ~override/CAC010.SPL~         
+
+COPY ~rttkit/CAC011.SPL~            ~override/CAC011.SPL~         
+
+COPY ~rttkit/CAC012.SPL~            ~override/CAC012.SPL~         
+
+COPY ~rttkit/CAC013.SPL~            ~override/CAC013.SPL~         
+  SAY NAME1 @124 
+  SAY NAME2 @124 
+
+COPY ~rttkit/CAC014.SPL~            ~override/CAC014.SPL~         
+  SAY NAME1 @125 
+  SAY UNIDENTIFIED_DESC @126 
+
+COPY ~rttkit/CAC015.SPL~            ~override/CAC015.SPL~         
+  SAY NAME1 @127 
+  SAY NAME2 @127 
+
+COPY ~rttkit/CAC020.SPL~            ~override/CAC020.SPL~         
+
+COPY ~rttkit/CAC021.SPL~            ~override/CAC021.SPL~         
+
+COPY ~rttkit/CAC022.SPL~            ~override/CAC022.SPL~         
+
+COPY ~rttkit/CAC163.SPL~            ~override/CAC163.SPL~         
+  SAY NAME1 @135 
+  SAY UNIDENTIFIED_DESC @136 
+
+COPY ~rttkit/CAC164.SPL~            ~override/CAC164.SPL~         
+  SAY NAME1 @135 
+  SAY UNIDENTIFIED_DESC @136 
+
+COPY ~rttkit/CAC166.SPL~            ~override/CAC166.SPL~         
+  SAY NAME1 @100 
+
+COPY ~rttkit/CAC200.SPL~            ~override/CAC200.SPL~            
+  SAY NAME1 @137 
+  SAY UNIDENTIFIED_DESC @138 
+
+COPY ~rttkit/CAC201.SPL~            ~override/CAC201.SPL~         
+  SAY NAME1 @139 
+  SAY UNIDENTIFIED_DESC @138 
+
+COPY ~rttkit/CAC202.SPL~            ~override/CAC202.SPL~         
+  SAY NAME1 @140 
+  SAY UNIDENTIFIED_DESC @138 
+
+COPY ~rttkit/CAC203.SPL~            ~override/CAC203.SPL~         
+  SAY NAME1 @141 
+  SAY UNIDENTIFIED_DESC @138 
+
+COPY ~rttkit/CAC299.SPL~            ~override/CAC299.SPL~         
+  SAY NAME1 @142 
+
+COPY ~rttkit/CAC300.SPL~            ~override/CAC300.SPL~         
+  SAY NAME1 @143 
+
+COPY ~rttkit/CAC310.SPL~            ~override/CAC310.SPL~         
+
+COPY ~rttkit/CAC311.SPL~            ~override/CAC311.SPL~         
+
+COPY ~rttkit/CAC312.SPL~            ~override/CAC312.SPL~         
+
+COPY ~rttkit/CAC313.SPL~            ~override/CAC313.SPL~         
+
+COPY ~rttkit/CAC315.SPL~            ~override/CAC315.SPL~         
+
+COPY ~rttkit/CAC316.SPL~            ~override/CAC316.SPL~         
+  SAY NAME1 @100 
+
+COPY ~rttkit/CYR001.SPL~            ~override/CYR001.SPL~         
+
+COPY ~rttkit/CYR002.SPL~            ~override/CYR002.SPL~         
+  SAY NAME1 @156 
+  SAY UNIDENTIFIED_DESC @157 
+
+COPY ~rttkit/DROW001.SPL~           ~override/DROW001.SPL~        
+  SAY NAME1 @158 
+  SAY 0xce @159 
+
+COPY ~rttkit/DROW002.SPL~           ~override/DROW002.SPL~        
+  SAY NAME1 @158 
+  SAY 0xce @160 
+
+COPY ~rttkit/DROW003.SPL~           ~override/DROW003.SPL~        
+  SAY NAME1 @161 
+  SAY UNIDENTIFIED_DESC @136 
+
+COPY ~rttkit/DROW004.SPL~           ~override/DROW004.SPL~        
+  SAY NAME1 @142 
+
+COPY ~rttkit/DROW005.SPL~           ~override/DROW005.SPL~        
+
+COPY ~rttkit/DROW006.SPL~           ~override/DROW006.SPL~        
+
+COPY ~rttkit/DROW008.SPL~           ~override/DROW008.SPL~        
+
+COPY ~rttkit/DROW009.SPL~           ~override/DROW009.SPL~        
+
+COPY ~rttkit/DROW010.SPL~           ~override/DROW010.SPL~        
+  SAY NAME1 @100 
+
+COPY ~rttkit/DROW011.SPL~           ~override/DROW011.SPL~        
+
+COPY ~rttkit/GIO001.SPL~            ~override/GIO001.SPL~         
+  SAY NAME1 @100 
+
+COPY ~rttkit/GIO002.SPL~            ~override/GIO002.SPL~         
+  SAY NAME1 @174 
+  SAY UNIDENTIFIED_DESC @175 
+
+COPY ~rttkit/GUA001.SPL~            ~override/GUA001.SPL~         
+  SAY NAME1 @176 
+
+COPY ~rttkit/GUA002.SPL~            ~override/GUA002.SPL~         
+  SAY NAME1 @176 
+
+COPY ~rttkit/GUA003.SPL~            ~override/GUA003.SPL~         
+  SAY NAME1 @176 
+
+COPY ~rttkit/GUA101.SPL~            ~override/GUA101.SPL~         
+
+COPY ~rttkit/GUA102.SPL~            ~override/GUA102.SPL~         
+
+COPY ~rttkit/GUA103.SPL~            ~override/GUA103.SPL~         
+
+COPY ~rttkit/GUA104.SPL~            ~override/GUA104.SPL~         
+
+COPY ~rttkit/GUA105.SPL~            ~override/GUA105.SPL~         
+
+COPY ~rttkit/GUA106.SPL~            ~override/GUA106.SPL~         
+
+COPY ~rttkit/GUA107.SPL~            ~override/GUA107.SPL~         
+
+COPY ~rttkit/GUA108.SPL~            ~override/GUA108.SPL~         
+
+COPY ~rttkit/GUA109.SPL~            ~override/GUA109.SPL~         
+
+COPY ~rttkit/GUA110.SPL~            ~override/GUA110.SPL~         
+
+COPY ~rttkit/GUA111.SPL~            ~override/GUA111.SPL~         
+
+COPY ~rttkit/GUA112.SPL~            ~override/GUA112.SPL~         
+
+COPY ~rttkit/GUA113.SPL~            ~override/GUA113.SPL~         
+
+COPY ~rttkit/GUA114.SPL~            ~override/GUA114.SPL~         
+
+COPY ~rttkit/GUA201.SPL~            ~override/GUA201.SPL~         
+
+COPY ~rttkit/GUA202.SPL~            ~override/GUA202.SPL~         
+
+COPY ~rttkit/HBA001.SPL~            ~override/HBA001.SPL~         
+  SAY NAME1 @100 
+
+COPY ~rttkit/HBA002.SPL~            ~override/HBA002.SPL~         
+  SAY NAME1 @100 
+
+COPY ~rttkit/HBA003.SPL~            ~override/HBA003.SPL~         
+  SAY NAME1 @209 
+  SAY UNIDENTIFIED_DESC @210 
+
+COPY ~rttkit/MASK001.SPL~           ~override/MASK001.SPL~        
+  SAY NAME1 @211 
+
+COPY ~rttkit/MG001.SPL~             ~override/MG001.SPL~          
+  SAY NAME1 @212 
+  SAY UNIDENTIFIED_DESC @213 
+
+COPY ~rttkit/MYS001.SPL~            ~override/MYS001.SPL~         
+  SAY NAME1 @214 
+
+COPY ~rttkit/PAL100.SPL~            ~override/PAL100.SPL~         
+  SAY NAME1 @215 
+  SAY UNIDENTIFIED_DESC @216 
+  SAY 0x6f6 @117 
+  SAY 0x7e6 @117 
+
+COPY ~rttkit/PAL101.SPL~            ~override/PAL101.SPL~         
+  SAY NAME1 @217 
+  SAY UNIDENTIFIED_DESC @218 
+
+COPY ~rttkit/PAL102.SPL~            ~override/PAL102.SPL~         
+  SAY NAME1 @219 
+  SAY UNIDENTIFIED_DESC @220 
+
+COPY ~rttkit/PAL105.SPL~            ~override/PAL105.SPL~         
+  SAY NAME1 @221 
+  SAY UNIDENTIFIED_DESC @222 
+
+COPY ~rttkit/PAL200.SPL~            ~override/PAL200.SPL~         
+  SAY NAME1 @223 
+
+COPY ~rttkit/PAL201.SPL~            ~override/PAL201.SPL~         
+  SAY NAME1 @224 
+  SAY UNIDENTIFIED_DESC @225 
+
+COPY ~rttkit/PAL203.SPL~            ~override/PAL203.SPL~         
+  SAY NAME1 @226 
+  SAY UNIDENTIFIED_DESC @227 
+ COPY ~rttkit/PAL211.SPL~            ~override/PAL211.SPL~          
+COPY ~rttkit/PAL400.SPL~            ~override/PAL400.SPL~         
+  SAY NAME1 @230 
+
+COPY ~rttkit/PAL401.SPL~            ~override/PAL401.SPL~         
+  SAY NAME1 @231 
+  SAY UNIDENTIFIED_DESC @232 
+
+COPY ~rttkit/PAL402.SPL~            ~override/PAL402.SPL~         
+  SAY NAME1 @233 
+
+COPY ~rttkit/PAL403.SPL~            ~override/PAL403.SPL~         
+
+COPY ~rttkit/PAL405.SPL~            ~override/PAL405.SPL~         
+  SAY NAME1 @217 
+
+COPY ~rttkit/PELF001.SPL~           ~override/PELF001.SPL~        
+  SAY NAME1 @100 
+
+COPY ~rttkit/PELF002.SPL~           ~override/PELF002.SPL~        
+  SAY NAME1 @238 
+  SAY UNIDENTIFIED_DESC @239 
+
+COPY ~rttkit/PELF003.SPL~           ~override/PELF003.SPL~        
+  SAY NAME1 @240 
+  SAY UNIDENTIFIED_DESC @241 
+  SAY 0xfe @242 
+
+COPY ~rttkit/SSS104.SPL~            ~override/SSS104.SPL~         
+  SAY NAME1 @259 
+  SAY UNIDENTIFIED_DESC @260 
+
+COPY ~rttkit/SSS105.SPL~            ~override/SSS105.SPL~         
+  SAY NAME1 @261 
+  SAY UNIDENTIFIED_DESC @262 
+
+COPY ~rttkit/SSS106.SPL~            ~override/SSS106.SPL~         
+  SAY NAME1 @263 
+  SAY UNIDENTIFIED_DESC @264 
+
+COPY ~rttkit/SSS107.SPL~            ~override/SSS107.SPL~         
+  SAY NAME1 @265 
+  SAY UNIDENTIFIED_DESC @266 
+
+COPY ~rttkit/SSS110.SPL~            ~override/SSS110.SPL~         
+  SAY NAME1 @267 
+  SAY NAME2 @267 
+  SAY UNIDENTIFIED_DESC @268 
+
+COPY ~rttkit/SSS111.SPL~            ~override/SSS111.SPL~         
+  SAY NAME1 @269 
+  SAY UNIDENTIFIED_DESC @270 
+
+COPY ~rttkit/SSS112.SPL~            ~override/SSS112.SPL~         
+  SAY NAME1 @271 
+  SAY NAME2 @271 
+  SAY UNIDENTIFIED_DESC @272 
+
+COPY ~rttkit/SSS400.SPL~            ~override/SSS400.SPL~         
+  SAY NAME1 @80 
+
+COPY ~rttkit/SSS401.SPL~            ~override/SSS401.SPL~         
+  SAY NAME1 @273 
+
+COPY ~rttkit/SSS402.SPL~            ~override/SSS402.SPL~         
+  SAY NAME1 @274 
+
+COPY ~rttkit/SSS403.SPL~            ~override/SSS403.SPL~         
+  SAY NAME1 @89 
+
+COPY ~rttkit/SSS404A.SPL~           ~override/SSS404A.SPL~        
+  SAY NAME1 @92 
+
+COPY ~rttkit/SSS404B.SPL~           ~override/SSS404B.SPL~        
+  SAY NAME1 @92 
+
+COPY ~rttkit/SSS404C.SPL~           ~override/SSS404C.SPL~        
+  SAY NAME1 @92 
+
+COPY ~rttkit/SSS404D.SPL~           ~override/SSS404D.SPL~        
+  SAY NAME1 @92 
+
+COPY ~rttkit/SSS404E.SPL~           ~override/SSS404E.SPL~        
+  SAY NAME1 @92 
+
+COPY ~rttkit/SSS405.SPL~            ~override/SSS405.SPL~         
+  SAY NAME1 @95 
+
+COPY ~rttkit/SSS407.SPL~            ~override/SSS407.SPL~         
+  SAY NAME1 @98 
+ COPY ~rttkit/TEMP001.SPL~           ~override/TEMP001.SPL~        
+  SAY NAME1 @100 
+
+COPY ~rttkit/TEMP002.SPL~           ~override/TEMP002.SPL~        
+  SAY NAME1 @275 
+  SAY UNIDENTIFIED_DESC @276 
+
+COPY ~rttkit/TEMP003.SPL~           ~override/TEMP003.SPL~        
+  SAY NAME1 @277 
+
+COPY ~rttkit/TH05.SPL~              ~override/TH05.SPL~           
+
+COPY ~rttkit/XXX002.SPL~            ~override/XXX002.SPL~         
+  SAY NAME1 @176 
+
+COPY ~rttkit/XXX009.SPL~            ~override/XXX009.SPL~         
+  SAY NAME1 @278 
+  SAY NAME2 @278 
+
+COPY ~rttkit/Ama003.itm~           ~override/Ama003.itm~         
+  SAY NAME1 @401 
+  SAY NAME2 @401 
+
+COPY ~rttkit/arc002.SPL~           ~override/arc002.SPL~         
+  SAY NAME1 @402 
+
+COPY ~rttkit/cac005.SPL~           ~override/cac005.SPL~         
+  SAY NAME1 @402 
+
+COPY ~rttkit/cac006.SPL~           ~override/cac006.SPL~         
+  SAY NAME1 @402 
+
+COPY ~rttkit/cac007.SPL~           ~override/cac007.SPL~         
+  SAY NAME1 @402 
+
+COPY ~rttkit/cac030.SPL~           ~override/cac030.SPL~         
+  SAY NAME1 @402 
+
+COPY ~rttkit/cac031.SPL~           ~override/cac031.SPL~         
+  SAY NAME1 @402 
+
+COPY ~rttkit/cac032.SPL~           ~override/cac032.SPL~         
+  SAY NAME1 @402 
+
+COPY ~rttkit/CAC210.ITM~           ~override/CAC210.ITM~         
+  SAY NAME1 @403 
+  SAY NAME2 @403 
+  SAY UNIDENTIFIED_DESC @404 
+  SAY DESC @404 
+
+COPY ~rttkit/CAC210.SPL~           ~override/CAC210.SPL~         
+  SAY NAME1 @405 
+
+COPY ~rttkit/CAC211.ITM~           ~override/CAC211.ITM~         
+  SAY NAME1 @406 
+  SAY NAME2 @406 
+  SAY UNIDENTIFIED_DESC @407 
+  SAY DESC @407 
+
+COPY ~rttkit/CAC212.ITM~           ~override/CAC212.ITM~         
+  SAY NAME1 @408 
+  SAY NAME2 @408 
+  SAY UNIDENTIFIED_DESC @409 
+  SAY DESC @409 
+
+COPY ~rttkit/cac317.SPL~           ~override/cac317.SPL~         
+  SAY NAME1 @402 
+
+COPY ~rttkit/cac318.SPL~           ~override/cac318.SPL~         
+  SAY NAME1 @402 
+
+COPY ~rttkit/drow015.SPL~          ~override/drow015.SPL~        
+  SAY NAME1 @410 
+
+COPY ~rttkit/gio001.ITM~           ~override/gio001.ITM~         
+  SAY NAME1 @411 
+  SAY NAME2 @411 
+  SAY UNIDENTIFIED_DESC @411 
+  SAY DESC @411 
+
+COPY ~rttkit/GUA001.ITM~           ~override/GUA001.ITM~         
+  SAY NAME1 @403 
+  SAY NAME2 @403 
+  SAY UNIDENTIFIED_DESC @415    SAY DESC @416 
+
+COPY ~rttkit/GUA002.ITM~           ~override/GUA002.ITM~         
+  SAY NAME1 @403 
+  SAY NAME2 @403 
+  SAY UNIDENTIFIED_DESC @417 
+  SAY DESC @417 
+
+COPY ~rttkit/GUA003.ITM~           ~override/GUA003.ITM~         
+  SAY NAME1 @403 
+  SAY NAME2 @403 
+  SAY UNIDENTIFIED_DESC @418 
+  SAY DESC @418 
+
+COPY ~rttkit/GUA004.ITM~           ~override/GUA004.ITM~         
+  SAY NAME1 @419 
+  SAY NAME2 @419 
+  SAY UNIDENTIFIED_DESC @420 
+  SAY DESC @420 
+
+COPY ~rttkit/GUA005.ITM~           ~override/GUA005.ITM~         
+  SAY NAME1 @419 
+  SAY NAME2 @419 
+  SAY UNIDENTIFIED_DESC @420 
+  SAY DESC @420 
+
+COPY ~rttkit/MG002.SPL~            ~override/MG002.SPL~          
+  SAY NAME1 @421 
+  SAY UNIDENTIFIED_DESC @422 
+
+COPY ~rttkit/MG003.SPL~            ~override/MG003.SPL~          
+  SAY NAME1 @423 
+  SAY UNIDENTIFIED_DESC @424 
+
+COPY ~rttkit/PAL103.SPL~           ~override/PAL103.SPL~         
+  SAY NAME1 @425 
+  SAY UNIDENTIFIED_DESC @426 
+
+COPY ~rttkit/PAL104.SPL~           ~override/PAL104.SPL~         
+  SAY NAME1 @427 
+  SAY UNIDENTIFIED_DESC @428 
+
+COPY ~rttkit/PAL200.itm~           ~override/PAL200.itm~         
+  SAY NAME1 @429 
+  SAY NAME2 @429 
+  SAY UNIDENTIFIED_DESC @430 
+  SAY DESC @430 
+
+COPY ~rttkit/PAL201.ITM~           ~override/PAL201.ITM~         
+  SAY NAME1 @431 
+  SAY NAME2 @431 
+  SAY UNIDENTIFIED_DESC @432 
+  SAY DESC @432 
+
+COPY ~rttkit/PAL202.ITM~           ~override/PAL202.ITM~         
+  SAY NAME1 @433 
+  SAY NAME2 @433 
+  SAY UNIDENTIFIED_DESC @434 
+  SAY DESC @434 
+
+COPY ~rttkit/PAL202.SPL~           ~override/PAL202.SPL~         
+  SAY NAME1 @435 
+  SAY UNIDENTIFIED_DESC @436 
+
+COPY ~rttkit/PAL203.ITM~           ~override/PAL203.ITM~         
+  SAY NAME1 @437 
+  SAY NAME2 @437 
+  SAY UNIDENTIFIED_DESC @438 
+  SAY DESC @438 
+
+COPY ~rttkit/PAL204.ITM~           ~override/PAL204.ITM~         
+  SAY NAME1 @439 
+  SAY NAME2 @439 
+  SAY UNIDENTIFIED_DESC @439 
+  SAY DESC @439 
+
+COPY ~rttkit/PAL205.ITM~           ~override/PAL205.ITM~         
+  SAY NAME1 @440 
+  SAY NAME2 @440 
+  SAY UNIDENTIFIED_DESC @440 
+  SAY DESC @440 
+
+COPY ~rttkit/PAL210.SPL~           ~override/PAL210.SPL~         
+  SAY NAME1 @441 
+
+COPY ~rttkit/pal230.ITM~           ~override/pal230.ITM~         
+  SAY NAME1 @429 
+  SAY NAME2 @429 
+  SAY UNIDENTIFIED_DESC @442 
+  SAY DESC @442 
+
+COPY ~rttkit/PAL230.SPL~           ~override/PAL230.SPL~         
+  SAY NAME1 @441 
+
+COPY ~rttkit/pal231.ITM~           ~override/pal231.ITM~         
+  SAY NAME1 @433 
+  SAY NAME2 @433 
+  SAY UNIDENTIFIED_DESC @443 
+  SAY DESC @443 
+
+COPY ~rttkit/PAL404.SPL~           ~override/PAL404.SPL~         
+  SAY NAME1 @444 
+  SAY UNIDENTIFIED_DESC @445 
+
+COPY ~rttkit/SSS108.ITM~           ~override/SSS108.ITM~         
+
+COPY ~rttkit/SSS108.SPL~           ~override/SSS108.SPL~         
+  SAY NAME1 @446 
+  SAY UNIDENTIFIED_DESC @447 
+
+COPY ~rttkit/sss108a.ITM~          ~override/sss108a.ITM~        
+  SAY NAME1 @446 
+  SAY NAME2 @446 
+  SAY UNIDENTIFIED_DESC @447 
+  SAY DESC @447 
+
+COPY ~rttkit/sss110a.CRE~          ~override/sss110a.CRE~        
+
+COPY ~rttkit/sss110b.CRE~          ~override/sss110b.CRE~        
+
+COPY ~rttkit/sss110c.CRE~          ~override/sss110c.CRE~        
+  SAY NAME1 @448 
+  SAY NAME2 @448 
+
+COPY ~rttkit/sss110d.CRE~          ~override/sss110d.CRE~        
+
+COPY ~rttkit/sss110h.SPL~          ~override/sss110h.SPL~        
+  SAY NAME1 @449 
+  SAY UNIDENTIFIED_DESC @450 
+
+COPY ~rttkit/sss404.itm~           ~override/sss404.itm~         
+  SAY NAME1 @451 
+  SAY NAME2 @451 
+  SAY UNIDENTIFIED_DESC @452 
+  SAY DESC @452 
+
+COPY ~rttkit/SSS405A.SPL~          ~override/SSS405A.SPL~        
+  SAY NAME1 @453 
+
+COPY ~rttkit/SSS406.SPL~           ~override/SSS406.SPL~         
+  SAY NAME1 @453 
+
+COPY ~rttkit/TEMP004.SPL~          ~override/TEMP004.SPL~        
+  SAY NAME1 @454 
+  SAY UNIDENTIFIED_DESC @455 
+
+COPY ~rttkit/xxx009.ITM~           ~override/xxx009.ITM~         
+  SAY NAME1 @456    SAY NAME2 @456 
+  SAY UNIDENTIFIED_DESC @457 
+  SAY DESC @457 
+
+COMPILE ~rttkit/bcs~ USING ~rttkit/Languages/%s/setup.tra~
