@@ -1,0 +1,975 @@
+@0   = ~Voulez-vous installer tous les kits ?~
+@1   = ~guerrier elfe noir~
+@2   = ~Guerrier Elfe noir~
+@3   = ~GUERRIER ELFE NOIR : L'un des défauts de BG2 est, à mon avis, l'impossibilité de jouer un personnage principal de type elfe noir. Avec l'aide de ce kit (ainsi que ceux destinés au voleur et au clerc), cet oubli est désormais réparé.
+
+Avantages :
+- +3 % de résistance à la magie à chaque niveau jusqu'au niveau 20
+- +1 % de résistance à la magie à chaque niveau du niveau 21 au niveau 40
+- +1 en Dextérité
+- +1 en Intelligence
+- Utilisation de la capacité "Invisibilité des Elfes noirs"
+- Utilisation des capacités magiques suivantes : "Protection contre le feu", "Protection contre le froid", "Détection des pièges", "Délivrance de la magie" et "Sphère résistante d'Otiluke"
+
+Inconvénients :
+- Elfe uniquement
+- La couleur de peau du personnage doit être bleu foncé
+- Malus de -1 en Constitution
+- Malus de -1 en Force
+- Malus de -4 en Charisme
+- Aucune compétence d'arme ne peut dépasser la spécialisation~
+@4   = ~paladin elfe~
+@5   = ~Paladin Elfe~
+@6   = ~PALADIN ELFE : Maintenant, les elfes peuvent aussi accéder à la classe de paladin. Si pour la plupart des gens, croiser la route d'un paladin humain est plutôt rare, rencontrer un paladin elfique est un événement exceptionnel. Bien peu parmi les elfes ont le courage de suivre cette voie insolite, et seuls les plus valeureux réussissent à devenir les représentants des forces du bien et de la droiture.
+
+Avantages :
+- Privilège elfique deux fois par jour au niveau 1, et une fois par jour aux niveaux 10, 20 et 30
+- Guérison des Maladies deux fois par jour au niveau 1, et une fois par jour aux niveaux 7, 13, 20 et 30
+- Ralentissement du Poison deux fois par jour au niveau 1, et une fois par jour aux niveaux 7, 13, 20 et 30
+
+Inconvénients :
+- Pré-requis de 16 en Sagesse
+- Ne peut pas utiliser les sorts de Détection du Mal et Protection contre le Mal
+- Ne peut pas utiliser la capacité d'Imposition des Mains
+
+***NOTE : même si vous avez dû choisir "humain" comme race pour sélectionner cette classe, une fois le jeu lancé, votre personnage deviendra un elfe.***~
+@7   = ~prêtre de tempus~
+@8   = ~Prêtre de Tempus~
+@9   = ~PRÊTRE DE TEMPUS : Tempus, le dieu de la guerre, est l'un des plus célèbres dieux, craint dans tout Amn. Il ne demande qu'une seule chose à ses serviteurs : répandre le chaos à travers le monde. Celui qui suit cet ordre est récompensé par la divinité chaotique par l'octroi de puissants pouvoirs, selon certaines légendes que racontent les adeptes de ce culte.
+
+Avantages :
+- Spécialisation avancée dans les armes tranchantes et contondantes
+- Spécialisation avancée dans les styles de combat
+- +1 au TAC0 et aux dégâts aux niveaux 1, 10, 20 et 30
+- Don de Tempus une fois par jour aux niveaux 1, 12, 20 et 30
+- Rage du Barbare une fois par jour aux niveaux 1, 15, 21 et 27
+
+Inconvénients :
+- Pas d'armes à distance
+- Pré-requis de 16 en Force
+- Malus de -2 en Sagesse
+- Humain uniquement
+- Alignement chaotique-neutre~
+@10  = ~amazone~
+@11  = ~Amazone~
+@12  = ~AMAZONE : Les amazones sont des femmes guerrières qui s'exercent exclusivement aux armes à distance et aux lances, ce en quoi elles excellent véritablement. Elles aiment vivre au contact de la nature et collaborent souvent avec les druides pour protéger la forêt et les animaux. Elles entretiennent avec ces derniers une relation basée sur le respect et l'amitié.
+
+Avantages :
+- +2 en Dextérité
+- +1 en Charisme
+- +1 au TAC0 aux niveaux 1, 6 et 11
+- Charme-Personne une fois par jour aux niveaux 1, 6, 11, 21, 27, 33 et 39
+- Lance de la Valkyrie une fois par jour aux niveaux 1, 6, 11, 21, 27, 33 et 39
+- +1 attaque par round
+
+Inconvénients :
+- Race humaine ou demi-elfe uniquement
+- Personnage de sexe féminin uniquement
+- Le personnage ne peut utiliser que les armes à distance et la lance
+- Ne peut se spécialiser que dans le style de combat armes à deux mains ou à une main
+- Pré-requis de 18 en Dextérité
+- Pré-requis de 14 en Charisme
+- -1 en Constitution
+- Alignement non-mauvais~
+@13  = ~tireur petit-homme~
+@14  = ~Tireur petit-homme~
+@15  = ~TIREUR PETIT-HOMME : Les combattants halfelins ne sont certes pas connus pour leurs batailles épiques au corps-à-corps (où plutôt au corps-à-jambe), mais sont plutôt réputés comme étant d'excellent tireurs. Bien que la fronde reste leur arme favorite, certains de ces guerriers se sont aussi récemment spécialisés dans l'usage de l'arc ou de l'arbalète.
+
+Avantages :
+- +1 au TAC0 pour les armes à distance aux niveaux 1, 6, 11, 21, 27, 33 et 39
+- +1 attaque par round
+- +1 en Dextérité
+- Création de Projectiles une fois par jour aux niveaux 1, 6, 11, 21 et 27
+
+Inconvénients :
+- Halfelin uniquement
+- Alignement non-mauvais
+- Pré-requis de 16 en Dextérité
+- Spécialisation limitée dans toutes les armes autres que les armes à distance et dans les styles de combat~
+@16  = ~arcane~
+@17  = ~Arcane~
+@18  = ~RODEUR ARCANE : Les rôdeurs passent une grande partie de leur vie en contact avec la nature. Dans ces moments-là, ils s'entraînent pour devenir des guerriers invincibles, que ce soit au corps-à-corps ou à distance. Mais tous les rôdeurs n'agissent pas ainsi. En effet, certains rôdeurs préfèrent prendre le temps d'entraîner également leur esprit. Après plusieurs années d'entraînement, ces humains solitaires deviennent capables de communiquer avec la nature elle-même et peuvent en échange en recevoir l'aide magique.
+
+Avantages :
+- +20 % de résistance aux dégâts physiques
+- +20 % de résistance à la magie
+- L'Arcane est capable de lancer de nombreux sorts réservés aux mages
+
+Inconvénients :
+- Alignement chaotique-bon
+- Impossible de se spécialiser dans les armes à distance
+- Impossible de se multiclasser
+- Spécialisation limitée dans les styles de combat
+- Pré-requis de 16 en Intelligence et Sagesse
+- -6 en Charisme
+- -40 % pour se cacher dans l'ombre~
+@19  = ~ninja~
+@20  = ~Ninja~
+@21  = ~NINJA : Cette classe de voleurs n'est pas très connue en Amn, mais dans la zone sud-orientale des Royaumes, elle y est crainte et respectée. Les ninjas ont la réputation d'être de redoutables assassins, capables d'approcher leur victime sans faire le moindre bruit. Dans les terres d'Athkatla, ils sont considérés avec suspicion et détestés par toutes les communautés de voleurs.
+
+Avantages :
+- Spécialisation à deux étoiles maximum dans les armes à distance
+- Peut enduire son arme de Poison une fois par jour aux niveaux 1, 6, 11, 21, 27, 33 et 39
+- +40% pour se cacher dans l'ombre
+
+Inconvénients :
+- Humain uniquement
+- Spécialisation impossible dans les armes contondantes
+- Pré-requis de 16 en Dextérité et en Force
+- Ne peut se multiclasser qu'en magicien~
+@22  = ~prêtre de cyric~
+@23  = ~Prêtre de Cyric~
+@24  = ~PRÊTRE DE CYRIC : Cyric est le dieu de la haine et des mensonges. La tâche des prêtres de Cyric est de convertir le plus grand nombre possible d'individus à leurs obscures croyances. Ces partisans sont prêts à effectuer n'importe quelle fourberie pour plaire à leur dieu.
+
+Avantages :
+- Immobilisation des Morts-Vivants une fois par jour aux niveaux 1, 7, 20, 27, 33 et 39
+- Fascination du Mal une fois par jour aux niveaux 1, 7, 20, 27, 33 et 39
+- Traqueur Invisible une fois par jour aux niveaux 1, 15 et 30
+
+Inconvénients :
+- Pré-requis de 14 en Intelligence
+- Pré-requis de 14 en Sagesse
+- Pré-requis de 14 en Charisme
+- Alignement mauvais~
+@25  = ~prêtre de mystra~
+@26  = ~Prêtre de Mystra~
+@27  = ~PRÊTRE DE MYSTRA : Mystra est la déesse de la magie et une amie notable des Ménestrels. Tous ses prêtres sont dotés de pouvoirs magiques pour mieux se défendre et protéger les innocents.
+
+Avantages :
+- +2 aux jets de sauvegarde contre les sorts aux niveaux 1 à 20
+- +10 % de résistance à la magie aux niveaux 1 à 20
+- +20 % de résistance au feu, au froid, à l'électricité et à l'acide aux niveaux 1 à 20
+- Détection du Mal une fois par jour aux niveaux 1, 7, 15, 21 et 27
+- Protection contre le Mal une fois par jour aux niveaux 1, 7, 15, 21 et 27
+
+Inconvénients :
+- Pré-requis de 14 en Intelligence
+- Pré-requis de 14 en Sagesse
+- Personnages d'alignement bon uniquement~
+@28  = ~voleur elfe noir~
+@29  = ~Voleur Elfe noir~
+@30  = ~VOLEUR ELFE NOIR : L'un des défauts de BG2 est, à mon avis, l'impossibilité de jouer un personnage principal de type elfe noir. Avec l'aide de ce kit (ainsi que ceux destinés au guerrier et au clerc), cet oubli est désormais réparé.
+
+Avantages :
+- +3 % de résistance à la magie à chaque niveau jusqu'au niveau 20
+- +1 % de résistance à la magie à chaque niveau du niveau 21 au niveau 40
+- +2 en Dextérité
+- +1 en Intelligence
+- Bonus de 45 % dans toutes les caractéristiques du voleur, sauf en crochetage
+
+Inconvénients :
+- Elfe uniquement
+- La couleur de peau doit être sombre
+- -1 en Force
+- -1 en Constitution
+- -4 en Charisme
+- -35 % en vol à la tire~
+@31  = ~prêtre de mask~
+@32  = ~Prêtre de Mask~
+@33  = ~PRÊTRE DE MASK : Mask est le seigneur des ombres, le grand maître de tout les voleurs, mais les Voleurs de l'Ombre ne sont pas les seuls à rendre hommage à cette divinité maléfique. Il faut se rappeler que Mask est aussi protecteur de tous les marchands...
+
+Avantages :
+- Confusion deux fois par jour au niveau 1, et une fois par jour aux niveaux 10, 15, 20 et 30
+- Charme-personnes deux fois par jour au niveau 1, et une fois par jour aux niveaux 10, 15, 20 et 30
+- Débilité mentale deux fois par jour au niveau 1, et une fois par jour aux niveaux 10, 15, 20 et 30
+- +2 en Charisme
+- Immunité contre les sorts de charme, de débilité mentale et de confusion
+
+Inconvénients :
+- Pré-requis de 16 en Charisme
+- Classe inaccessible aux races naines, petites-personnes et gnomes
+- Personnages d'alignements chaotique neutre ou neutre mauvais uniquement
+- -1 en Sagesse
+- Un sort de moins aux niveaux 1, 2, 3 et 4~
+@34  = ~gardien des vents~
+@35  = ~Gardien des Vents~
+@36  = ~GARDIEN DES VENTS : Il existe de nombreux ordres druidiques, certains remontent très loin dans le temps. L'ordre des gardiens des Vents fait partie des plus anciens. Cet ordre, qui exploite les pouvoirs du vent, fait partie des mouvements extrémistes des druides, comme les ordres des gardiens du Feu et des gardiens de l'Eau. Il n'apparait pas étonnant que chacun des membres de l'un de ces ordres préfère sacrifier la vie de centaines de personnes pour sauver quelques arbres.
+
+Avantages :
+- 100 % de résistance à l'électricité
+- Eclair une fois par jour aux niveaux 1, 15 et 25
+- Chaîne d'Eclairs une fois par jour aux niveaux 13, 20 et 30
+- Poigne Electrique quatre fois par jour au niveau 1
+- Appel de la Foudre deux fois par jour au niveau 1
+- Convocation d'un Elémental d'Air une fois par jour aux niveaux 17 et 25
+
+Inconvénients :
+- Malus de -15 % aux résistances contre le poison, le feu et le froid
+- Ne peut utiliser que son bâton de l'ordre comme arme
+- Ne peut utiliser que sa tunique de l'ordre comme armure
+- Pré-requis de 18 en Sagesse
+- -4 en Force~
+@37  = ~gardien du feu~
+@38  = ~Gardien du Feu~
+@39  = ~GARDIEN DU FEU : Il existe de nombreux ordres druidiques, dont certains remontent très loin dans le temps. L'ordre des gardiens du Feu fait partie des plus anciens. Cet ordre, qui exploite les pouvoirs du feu, fait partie des mouvements extrémistes des druides, comme les ordres des gardiens des Vents et des gardiens de l'Eau. Il n'apparait pas étonnant que chacun des membres de l'un de ces ordres préfère sacrifier la vie de centaines de personnes pour sauver quelques arbres.
+
+Avantages :
+- 100 % de résistance au feu
+- Boule de Feu une fois par jour aux niveaux 1, 15 et 25
+- Tempête de Feu une fois par jour aux niveaux 13, 20 et 30
+- Mains Ardentes quatre fois par jour au niveau 1
+- Colonne de Feu deux fois par jour au niveau 1
+- Convocation d'un Elémental de Feu une fois par jour aux niveaux 17 et 25
+
+Inconvénients :
+- Malus de -40 % à la résistance contre le froid
+- Ne peut utiliser que son bâton de l'ordre comme arme
+- Ne peut utiliser que sa tunique de l'ordre comme armure
+- Pré-requis de 18 en Sagesse
+- -4 en Force~
+@40  = ~gardien de l'eau~
+@41  = ~Gardien de l'Eau~
+@42  = ~GARDIEN DE L'EAU : Il existe de nombreux ordres druidiques, dont certains remontent très loin dans le temps. L'ordre des gardiens de l'Eau fait partie des plus anciens. Cet ordre, qui tire sa force directement de l'eau, fait partie des mouvements extrémistes des druides, comme les ordres des gardiens du Feu et des gardiens des Vents. Il n'apparait pas étonnant que chacun des membres de l'un de ces ordres préfère sacrifier la vie de centaines de personnes pour sauver quelques arbres.
+
+Avantages :
+- 100 % de résistance au froid
+- Cône de Froid une fois par jour aux niveaux 1, 15 et 25
+- Tempête Glaciale une fois par jour aux niveaux 13, 20 et 30
+- Toucher Glacial quatre fois par jour au niveau 1
+- Tempête Instantanée deux fois par jour au niveau 1
+- Convocation d'un Elémental de Terre une fois par jour aux niveaux 17 et 25
+
+Inconvénients :
+- Malus de -40 % de résistance contre le Feu
+- Ne peut utiliser que son bâton de l'ordre comme arme
+- Ne peut utiliser que sa tunique de l'ordre comme armure
+- Pré-requis de 18 en Sagesse
+- -4 en Force~
+@43  = ~messie~
+@44  = ~Messie~
+@45  = ~MESSIE : Le messie est un paladin doté de pouvoirs extraordinaires par sa divinité. Le messie peut se considérer comme un vrai émissaire de son dieu sur terre, mais il faut noter que le corps du messie n'a absolument rien de divin. Il sait également qu'il est voué à périr tôt ou tard, mais jusqu'à la fin il sera au service du Bien.
+
+Avantages :
+- Est sous l'effet permanent d'un sort de Protection contre le Mal
+- Bonus de 30 % de résistance aux dégâts physiques, élémentaires et magiques
+- Imposition des Mains deux fois par jour au niveau 1, et une fois par jour aux niveaux 10, 15 et 25
+- Aube Illusoire deux fois par jour au niveau 1, et une fois par jour aux niveaux 15 et 25
+- Convocation d'un Elémental de Feu une fois par jour aux niveaux 1, 13 et 20
+- Fascination du Bien deux fois par jour au niveau 1, et une fois par jour au niveau 18 
+- Vision Véritable deux fois par jour au niveau 1, et une fois par jour aux niveaux 10, 15, 20, 25 et 30
+
+Inconvénients :
+- Pré-requis de 18 en Sagesse
+- Pré-requis de 18 en Intelligence
+- Ne peut utiliser que son épée, son armure, son bouclier et son casque consacrés
+- Ne peut pas s'équiper d'amulettes et d'anneaux
+- Au niveau 15, son Dieu bénit son épée et son bouclier~
+@46  = ~anti-paladin~
+@47  = ~Anti-paladin~
+@48  = ~ANTI-PALADIN : L'Anti-paladin est une personne qui méprise le Bien et qui considère les idéaux de bonté, fraternité et de justice comme des inventions de l'humanité. Pour lui, les plus forts doivent prendre le pouvoir et les plus faibles le subir. Les objectifs de l'anti-paladin sont d'infiltrer les ordres des vrais paladins pour leur porter atteinte de l'intérieur. L'anti-paladin espère réussir à convertir les jeunes écuyers (et certains futurs paladins) en serviteurs du Mal. Il est très important de ne pas confondre l'anti-paladin et le Chevalier Noir. L'anti-paladin n'est pas doté de capacités magiques innées, mais à force d'études, il a appris à contrer les enchantements habituels des paladins. Il souhaite détruire les organisations servant la justice qui l'empêchent d'exercer sa suprématie sur les plus faibles que lui. Le Chevalier Noir, quant à lui, est un personnage mi-homme mi-démon doté de pouvoirs magiques innés, et qui veut détruire toute chose. Depuis son enfance, il n'aspire qu'à disperser le chaos dans le monde entier.
+
+Avantages :
+- Imposition Maléfique des Mains deux fois par jour au niveau 1, et une fois par jour aux niveaux 15 et 30
+- Détection du Bien une fois par jour à chaque niveau
+- Protection contre le Bien une fois par jour à chaque niveau
+- Perversion du Mal trois fois par jour au niveau 1, et une fois par jour aux niveaux 10, 15, 20, 25 et 30
+
+Inconvénients :
+- Pas d'Impositions des Mains
+- Pas de Détection du Mal
+- Pas de Protection contre le Mal
+- Alignement loyal-mauvais
+- Pré-requis de 17 en Sagesse
+- Pré-requis de 17 en Intelligence
+- Pré-requis de 17 en Charisme~
+@49  = ~chevalier noir~
+@50  = ~Chevalier Noir~
+@51  = ~CHEVALIER NOIR : Il est très important de ne pas confondre l'Anti-paladin avec le Chevalier Noir. L'anti-paladin n'est pas doté de capacités magiques innées, mais à force d'études, il a appris à contrer les enchantements habituels des paladins. Il souhaite détruire les organisations servant la justice qui l'empêchent d'exercer sa suprématie sur les plus faibles que lui. Le Chevalier Noir, quant à lui, est un personnage mi-homme mi-démon doté de pouvoirs magiques innés, et qui veut détruire toute chose. Depuis son enfance, il n'aspire qu'à disperser le chaos dans le monde entier.
+
+Avantages :
+- 25 en Force
+- +50 % de résistance aux dégâts physiques et magiques
+- Est sous l'effet permanent d'un sort de Protection contre le Bien
+- Convocation Démoniaque une fois par jour aux niveaux 15 et 30
+- Nuage Puant une fois par jour aux niveaux 1, 10, 15 et 25
+- Lueur Ténébreuses une fois par jour aux niveaux 1, 10, 15, 20 et 30
+- Détection du Bien une fois par jour à chaque niveau
+
+Inconvénients :
+- Pas d'Imposition des Mains
+- Pas de Détection du Mal
+- Pas de Protection contre le Mal
+- Alignement chaotique-mauvais
+- Valeur maximale de 6 dans les autres caractéristiques
+- Impossible d'utiliser les armes à distance~
+@52  = ~chasseur de trésor~
+@53  = ~Chasseur de trésor~
+@54  = ~CHASSEUR DE TRESOR : Si vous souhaitez voler quelque chose... autant que ça en vaille la peine ! Ces quelques mots peuvent résumer la mentalité des chasseurs de trésors. A la différence des voleurs communs, les chasseurs de trésors ne s'abaissent pas à soutirer quelques pièces dans une auberge (sauf en cas d'absolue nécessité). Ils ont des objectifs bien plus audacieux, tels que la fortune de personnes richissimes, ou des trésors légendaires, ou bien des butins gardés par des dragons ou dans les grottes les plus profondes d'Amn. Ce type de voleur est spécialisé dans la recherche et dans le rapt de trésors qui se trouvent souvent dans ce genre d'endroits dangereux.
+
+Avantages :
+- +1 en Constitution
+- +50 % en détection et désamorçage des pièges, détection des illusions, pose de pièges et crochetage
+
+Inconvénients :
+- Pré-requis de 15 en Intelligence
+- -1 en Dextérité
+- -50 % en vol à la tire, se cacher dans l'ombre et déplacement silencieux~
+@55  = ~gredin~
+@56  = ~Gredin~
+@57  = ~GREDIN : Le gredin est exactement l'opposé du chasseur de trésor. Un tien vaut mieux que deux tu l'auras, autrement dit, il vaut mieux voler tout ce qu'on peut quand on le peut, car on ne peut pas savoir quand ce sera de nouveau possible. Le gredin dérobe tout ce qu'il peut à tout le monde, même à ceux qu'il ne devrait pas voler, et c'est bien pour cela qu'il est aussi bon à la course, dans le cas ou le dépossédé se rend compte du larcin...
+
+Avantages :
+- +10 % de dégâts physiques infligés
+- +50 % en vol à la tire, crochetage, se cacher dans l'ombre et déplacement silencieux
+- +40 % de résistance au poison
+
+Inconvénients :
+- Score maximum de 9 en Intelligence, en Sagesse et en Charisme
+- -50 % en pose de pièges, détection et désamorçage des pièges et détection des illusions
+- Pré-requis de 16 en Constitution
+- Humain uniquement
+- Alignement autre que bon~
+@58  = ~druide de l'ombre~
+@59  = ~Druide de l'Ombre~
+@60  = ~DRUIDE DE L'OMBRE : Vous pensiez que les druides étaient forcement immunisés contre le Mal, n'est ce pas ? Et bien.... vous vous trompez. Le druide de l'Ombre est un renégat de la nature, et il utilise uniquement une sombre magie grâce à laquelle il peut imposer sa volonté aux animaux de la forêt.
+
+Avantages :
+- Métamorphose en Ombre deux fois par jour au niveau 1, et une fois par jour aux niveaux 15, 20 et 30
+- Convocations de Chiens une fois par jour aux niveaux 1 et 10
+- Progéniture d'Araignée une fois par jour aux niveaux 5 et 15
+- Convocation d'Animaux I une fois par jour aux niveaux 15 et 25
+- Appel de la Wiverne une fois par jour aux niveaux 17 et 27
+- Mort d'Animal (sans jet de sauvegarde) trois fois par jour au niveau 1, et une fois par jour aux niveaux 10, 15, 20, 25 et 30
+
+Inconvénients :
+- Alignement neutre-mauvais
+- Pré-requis de 18 en Sagesse
+- Score maximum de 14 en Constitution
+- Score maximum de 10 en Charisme~
+@61  = ~conteur~
+@62  = ~Conteur~
+@63  = ~CONTEUR : Le conteur est un barde spécialisé dans l'art de conter. Mais à la différence des bardes communs, il parvient à être beaucoup plus persuasif. Par chance, les "joutes musicales" entre conteurs ne sont pas monnaie courante. En effet, ces derniers sont immunisés contre les sorts qu'ils utilisent, et par conséquent un duel sans aucune possibilité de tricher, durerait des années.
+
+Avantages :
+- Immunité au Charme et à la Débilité mentale
+- Charme une fois par jour au niveau 1
+- Cécité une fois par jour au niveau 1
+- Sommeil une fois par jour au niveau 1
+- Confusion une fois par jour au niveau 1
+- Silence une fois par jour au niveau 1
+- Domination une fois par jour au niveau 12
+- +2 en Charisme
+
+Inconvénients :
+- Pré-requis de 18 en Charisme
+- -1 en Force, en Dextérité et en Constitution
+- Pré-requis de 16 en Sagesse et en Intelligence
+- -30 % en crochetage et en vol à la tire~
+@64  = ~prêtre de lolth~
+@65  = ~Prêtre de Lolth~
+@66  = ~PRÊTRE DE LOLTH : Les elfes noirs ont également leur propre divinité. Comme il y avait déjà deux autres kits pour les Drows, j'ai décidé de compléter par un troisième. Lolth n'est pas une divinité bienveillante, et le joueur qui choisit ce culte devra bien faire attention à ces actions pour ne pas risquer de subir le courroux de la déesse.
+
+Avantages :
+- +3 % de résistance à la magie à chaque niveau jusqu'au niveau 20
+- +1 % de résistance à la magie à chaque niveau du niveau 21 au niveau 40
+- +1 en Dextérité
+- +1 en Intelligence
+- +100 % de résistance au poison
+- Progéniture d'Araignée une fois par jour aux niveaux 1, 15 et 20
+- Poison une fois par jour aux niveaux 1, 10, 15 et 20
+- Neutralisation du Poison une fois par jour aux niveaux 1, 10, 15 et 20
+
+Inconvénients :
+- Elfe uniquement
+- La couleur de peau doit être sombre
+- -1 en Constitution
+- -1 en Force
+- Score maximum de 10 en Charisme
+- Alignement mauvais uniquement
+- Pré-requis de 17 en Intelligence
+- Ne peut utiliser d'arme à distance~
+@67  = ~gardien du temps~
+@68  = ~Gardien du Temps~
+@69  = ~GARDIEN DU TEMPS : On raconte qu'il y a fort longtemps, le temps était gérée par une secte de druides. Lorsque l'on voit un gardien du Temps, on se dit que cette légende a un fond de vérité. Le gardien du Temps paraît être le descendant idéal de cette secte. S’il est aussi un guerrier, un simple druide n'ayant pu survivre durant tous les siècles passés, on peut donc deviner qu’il est une force de la nature... sans compter qu'il est capable d'arrêter le temps à volonté...
+
+Avantages :
+- Arrêt du temps (pour trois secondes) trois fois par jour au niveau 1
+- Arrêt du temps (pour six secondes) une fois par jour aux niveaux 10, 12 et 14
+- Arrêt du temps (pour douze secondes) une fois par jour aux niveaux 16, 18 et 20
+- Arrêt du temps (pour vingt secondes) une fois par jour aux niveaux 22, 24, 28 et 32
+
+Inconvénients :
+- Le personnage doit porter la tunique, les anneaux et l'amulette du gardien du temps et utiliser son bâton sacré
+- Pré-requis de 18 en Sagesse et en Intelligence~
+@70  = ~samouraï~
+@71  = ~Samourai~
+@72  = ~SAMOURAÏ : Le samouraï est l'incarnation vivante de l'honneur d'un guerrier. Même si certaines décisions des samouraïs peuvent sembler étrange pour un "non-samouraï", cette caste de guerriers est très respectée et crainte.
+
+Avantages :
+- +1 attaque par round
+- Invisibilité du Samurai cinq fois par jour au niveau 1, et une fois par jour aux niveaux 10, 15, 20, 25, 30, 35 et 40
+- Kai deux fois par jour au niveau 1, et une fois par jour aux niveaux 15, 30 et 40
+- +2 aux dégâts avec n'importe quelle arme
+
+Inconvénients :
+- Humain uniquement
+- Impossible de prendre une classe jumelée
+- Alignement non-mauvais
+- Pré-requis de 15 en Dextérité
+- Spécialisation à cinq étoiles maximum uniquement pour les épées à deux mains, katanas, wakizakis, arcs longs et dagues de jet
+- Spécialisation à une étoile maximum pour les autres lames et pour l'arc court
+- Spécialisation à cinq étoiles maximum pour les styles de combat à deux mains ou à deux armes, à deux étoiles maximum pour les autres~
+@73  = ~enquêteur~
+@74  = ~Enquêteur~
+@75  = ~ENQUÊTEUR : Parfois, utiliser sa tête est plus utile que de tuer d'abord et d'interroger ensuite. L'enquêteur tient à mettre en oeuvre ce dogme, favorisant le dialogue à la violence. Mais s'il n'y a rien à faire (si par exemple vous tentez de dialoguer avec un ogre très stupide), l'enquêteur ne dédaigne pas à utiliser la force. Il a aussi la capacité de percevoir les dangers et les embûches que les autres guerriers ne voient pas.
+
+Avantages :
+- +1 en Intelligence et en Sagesse
+- Détection et Désamorçage des Pièges quatre fois par jour au niveau 1, et une fois par jour aux niveaux 10, 15, 25 et 35
+- Connaissance des Alignements quatre fois par jour au niveau 1, et une fois par jour aux niveaux 10, 15, 25 et 35
+- Détection des Illusions quatre fois par jour au niveau 1, et une fois par jour aux niveaux 10, 15, 25 et 35
+- Crochetage quatre fois par jour au niveau 1, et une fois par jour aux niveaux 10, 15, 25 et 35
+
+Inconvénients :
+- Impossibilité de prendre une classe jumelée
+- Alignement loyal-bon
+- Pas de spécialisation dans les armes à distance
+- Spécialisation maximum pour les autres armes : deux étoiles
+- Pré-requis de 16 en Sagesse et en Intelligence
+- Score maximum de 14 en Charisme~
+@76  = ~jongleur~
+@77  = ~Jongleur~
+@78  = ~JONGLEUR : Le jongleur est un barde capable de divertir son public non pas uniquement avec des paroles, mais aussi avec des actes. Le jongleur est bien sûr capable de manier avec une grande célérité tous les types de couteaux et autres dagues.
+
+Avantages :
+- Spécialisation à deux étoiles maximum dans les couteaux, les dagues et les épées courtes
+- +5 au TAC0 avec les armes à distance
+- Furie du Jongleur quatre fois par jour au niveau 1, et une fois par jour aux niveaux 15, 20, 25, 30, 35 et 40
+- +1 en Dextérité
+
+Inconvénients :
+- Pré-requis de 16 en Dextérité
+- Pas de spécialisation dans les armes à distance
+- Impossibilité de porter une armure ou un casque~
+@79  = ~gladiateur~
+@80  = ~Gladiateur~
+@81  = ~GLADIATEUR : Combattre pour le spectacle, telle est la "profession" de gladiateur. Parfois, il arrive que les gladiateurs ayant racheté leur liberté décident de partir à l'aventure dans un monde plus vaste que leur arène de sable. Il ne fait aucun doute qu'avoir un gladiateur parmi les membres de son équipe est un avantage. Comme ce guerrier a passé quasiment les dernières années de sa vie à combattre, il a acquis une résistance innée aux dégâts physiques. Mais, ayant toujours vécu dans un monde dans lequel l'ignorance et la superstition sont rois, le gladiateur à une peur immense de tout ce qu'il considère comme "étrange", c'est-à-dire l'intelligence, la sagesse et les arts magiques.
+
+Avantages :
+- +1 en Force et en Constitution
+- +15 % de résistance aux dégâts physiques et élémentaires
+- Bonus de 3 points en Classe d'Armure
+
+Inconvénients :
+- -2 en Charisme et en Dextérité
+- Score maximum de 9 en Intelligence et en Sagesse
+- -2 aux jets de sauvegarde
+- -15 % de résistance à la magie
+- Pré-requis de 16 en Force et en Constitution
+- Impossibilité de prendre une classe jumelée
+- Non-accessible aux Gnomes et aux Petites-Personnes~
+@82  = ~maître des golems~
+@83  = ~Maître des golems~
+@84  = ~MAÎTRE DES GOLEMS : Certains bardes décident de se consacrer à la création de mélodies ayant pour but de contrôler les pouvoirs de la terre. L'entraîneur de golem fait partie de cette élite particulière de bardes. Outre les chants classiques, il s'est consacré exclusivement à la création de serviteurs, natifs de la terre, qui combattent à ses côtés.
+
+Avantages :
+- Convocation de golem principal deux fois par jour. Le type de golem dépend du niveau :
+    niveaux 1-13 : golem d'argile
+    niveaux 14-17 : golem de pierre
+    niveaux 18-21 : golem de givre
+    après le niveau 22 : golem d'adamantine
+- Convocation de golem de soutien quatre fois par jour (Convocation de trois golems du même type que le principal)
+- Charme-golem (avec jet de sauvegarde, sans résistance à la magie) une fois par jour aux niveaux 1, 5, 10, 15, 20, 25, 30, 35, 40
+
+Inconvénients :
+- Ne peut pas lancer de sorts
+- Ne peut pas crocheter
+- Ne peut pas utiliser la capacité de vol à la tire~
+@85  = ~tueur de géants~
+@86  = ~Tueur de géants~
+@87  = ~TUEUR DE GEANTS : Il existe très peu de gnomes courageux qui choisissent d'abandonner leur maison pour consacrer leur vie à ce noble but : exterminer les géants. Depuis la nuit des temps, les géants et les gnomes se détestent. Les géants ont toujours eu le dessus, sauf lors de brèves périodes où ont vécu de nobles gnomes tueurs de géant. 
+
+Avantages :
+- +1 en Force, en Dextérité et en Constitution
+- +4 au TAC0 et aux dégâts contre les grandes créatures
+- +1 au TAC0 et aux dégâts contre les grandes créatures aux niveaux 10, 15, 20, 25, 30, 35 et 40
+- Rage Gnomique deux fois par jour au niveau 1, et une fois par jour aux niveaux 15, 20, 25, 30, 35 et 40
+
+Inconvénients :
+- Pré-requis de 17 en Force, en Dextérité, en Constitution et en Charisme
+- Score maximum de 10 en Intelligence et en Sagesse~
+@88  = ~convertisseur~
+@89  = ~Convertisseur~
+@90  = ~CONVERTISSEUR : Son unique objectif est de "convertir" le plus d'individus possibles. Le convertisseur est au centre de "l'équilibre", et par le biais de ses pouvoirs, il cherche à convertir à sa cause n'importe quelle créature qui lui est hostile. Malheureusement la créature convertie conserve en elle le souvenir du sort dont elle a été victime et ainsi, une fois le sort annulé (s'il a été annulé par quelqu'un) elle se jettera sur le convertisseur pour lui faire payer tout ce qu'il l'a contraint à faire.
+
+Avantages :
+- Charme Durable quatre fois par jour au niveau 1, et une fois par jour au niveau 10
+- Charme Néfaste Durable deux fois par jour au niveau 14, et une fois par jour au niveau 18
+- Domination Durable une fois par jour aux niveaux 20, 25, 30, 35 et 40
+- Immunité au Charme
+
+Inconvénients :
+- Alignement neutre-strict
+- Pré-requis de 17 en Sagesse et en Charisme
+- -2 en Force et en Constitution~
+@91  = ~élémental~
+@92  = ~Elémental~
+@93  = ~ELEMENTAL : L'élémental est un type particulier de rôdeur qui s'est spécialisé dans les combats sans protection aucune. Après de nombreuses années de formation, sa peau est devenue quasiment aussi résistante que s'il portait une armure de premier choix. Il possède donc les bénéfices d'une armure naturelle sans les inconvénients d'une armure artificielle. Au cours de ces années d'entraînement, il a aussi acquis une grande capacité d'adaptation aux conditions climatiques.
+
+Avantages :
+- +3 % de résistance aux dégâts élémentaires aux niveaux 1 à 15
+- +2 % de résistance aux dégâts élémentaires aux niveaux 16 à 20
+- +1 % de résistance aux dégâts élémentaires au niveau 21
+- 15 % de résistance aux dégâts physiques, et bonus de 2 à la Classe d'Armure aux niveaux 15 et 25
+
+Inconvénients :
+- Ne peut porter d'armure, de bracelets ou de robe
+- Impossibilité de prendre une classe jumelée
+- Pré-requis de 17 en Constitution~
+@94  = ~gentilhomme~
+@95  = ~Gentilhomme~
+@96  = ~GENTILHOMME (ou GENTE-DAME) : Avez-vous toujours voulu interpréter un Robin des Bois dans le monde des Royaumes Oubliés ? Et bien... ce kit est ce qui est le plus proche du héros de Sherwood ! Le gentilhomme (ou gente-dame) bénéficie d'une haute réputation et jouit des faveurs de tout le peuple. Mais, hélas, ceci est aussi son grand malheur, car le gentilhomme ne peut se permettre d'effectuer une mauvaise action, au risque de perdre définitivement ces capacités spéciales.
+
+Avantages :
+- Réputation initiale : 16
+- +3 en Charisme
+- +75 % en vol à la tire, crochetage et déplacement silencieux
+- Spécialisation de deux étoiles maximum dans les arcs courts et les arcs longs
+
+Inconvénients :
+- Alignement neutre-bon ou chaotique-bon
+- Pré-requis de 16 en Charisme
+- Si la réputation descend en dessous de 16, il perd pour toujours ses capacités de gentilhomme
+- Chaque heure, le personnage donne automatiquement 125 pièces d'or~
+@97  = ~rôdeur ténébreux~
+@98  = ~Rodeur ténébreux~
+@99  = ~RÔDEUR TENEBREUX : De même que le druide de l'Ombre, le rôdeur ténébreux est l'autre renégat de la nature. Il se sert uniquement de ses connaissances magiques pour faire plier la volonté des animaux de la forêt.
+
+Avantages :
+- Métamorphose en Ombre deux fois par jour au niveau 1, et une fois par jour aux niveaux 15, 20 et 30
+- Convocations de Chiens une fois par jour aux niveaux 1 et 10
+- Progéniture d'Araignée une fois par jour aux niveaux 5 et 15
+- Convocation d'Animaux I une fois par jour aux niveaux 15 et 25
+- Appel de la Wiverne une fois par jour aux niveaux 17 et 27
+- Mort d'Animal (sans jet de sauvegarde) trois fois par jour au niveau 1, et une fois par jour aux niveaux 10, 15, 20, 25 et 30
+
+Inconvénients :
+- Alignement neutre-mauvais
+- Score maximum de 10 en Charisme
+- Score maximum de 14 en Constitution
+- Ne peut se cacher dans l'ombre ou se déplacer silencieusement~
+@100 = ~âme~
+@101 = ~Lance de la Valkyrie~
+@102 = ~Lance de la Valkyrie
+Niveau : inné (kit d'Amazone)
+Portée : le jeteur de sorts
+Durée : 114 secondes
+Temps d'incantation : 3
+Zone d'effet : 1 créature
+Jet de sauvegarde : aucun
+
+Effets : L'amazone évoque une des légendaires lances de la Valkyrie, la divinité des amazones.~
+@103 = ~Charme-animal~
+@117 = ~Guéri~
+@124 = ~Convocation de Chiens~
+@125 = ~Mort d'Animal~
+@126 = ~Mort d'Animal
+Niveau : 3 (druide)
+Portée : 1 animal
+Durée : permanente
+Temps d'incantation : 3
+Zone d'effet : 50 mètres
+Jet de sauvegarde : annule
+
+Effets : Les druides aiment la nature et les animaux plus que tout autre chose au monde, sûrement même plus que les êtres humains. Mais parfois certains animaux innocents sont entraînés par des hommes mauvais et tournent mal. Dans ce genre de cas, le druide ne peut faire qu'une seule chose pour abréger leurs souffrances... les supprimer. Avec ce sort la pauvre bête ne sentira rien.~
+@127 = ~Métamorphose en Ombre~
+@135 = ~Invisibilité du Samouraï~
+@136 = ~Invisibilité des Elfes Noirs
+Niveau : inné (kit de Guerrier Elfe noir)
+Portée : le jeteur de sorts
+Durée : 20 secondes
+Temps d'incantation : 1
+Zone d'effet : 1 créature
+Jet de sauvegarde : aucun
+
+Effets : Les elfes noirs sont les maîtres des mouvements furtifs, et ceci est leur capacité innée qui fait d'eux des guerriers. Le Drow est capable de devenir invisible (notez que le temps d'incantation est inférieur au sort classique d'invisibilité) pour une courte période. En fait, au bout de 20 secondes il est obligé de respirer, du fait de la fatigue et du poids de l'armure qu'il porte, et ainsi il révèle sa position.~
+@137 = ~Arrêt du Temps (3s)~
+@138 = ~Arrêt du Temps (Altération) 
+Niveau : 9
+Portée : spéciale
+Durée : spéciale
+Temps d'incantation : 9
+Zone d'effet : spéciale
+Jet de sauvegarde : aucun
+
+En lançant un sort d'Arrêt du Temps, le mage arrête l'écoulement du temps pour 1 round dans la zone d'effet. A l'intérieur de la sphère, l'enchanteur est libre d'agir pour 3 rounds de temps apparent. Le mage peut se déplacer et agir librement à l'intérieur de la zone ou le temps est arrêté, mais toutes les autres créatures sont figées et ne peuvent agir, car elles se trouvent littéralement coincés dans les rouages du temps (la durée du sort est subjective pour l'enchanteur). Rien ne peut entrer dans la zone d'effet sans se retrouver aussitôt figé. A la fin du sort, le mage est de nouveau soumis au temps normal. Tous les sorts lancés pendant l'interruption du temps sont immédiatement effectifs lorsque le temps reprend son cours normal.~
+@139 = ~Arrêt du Temps (6s)~
+@140 = ~Arrêt du Temps (12s)~
+@141 = ~Arrêt du Temps (20s)~
+@142 = ~Peau sombre~
+@143 = ~Poison~
+@156 = ~Fascination du Mal~
+@157 = ~Fascination du Mal
+Niveau : inné (kit de Prêtre de Cyric)
+Portée : une cible
+Durée : 120 secondes, 3600 secondes
+Temps d'incantation : 1
+Zone d'effet : 1 créature
+Jet de sauvegarde : annule
+
+Effets : Cyric, le dieu de la haine, donne à ses prêtres ce sort particulier pour leur permettre de convertir à sa croyance le plus grand nombre possible de personnes. L'individu victime de l'effet de ce sort se retrouve aux ordres du prêtre pour 120 secondes et devient pour 3600 secondes d'alignement chaotique-mauvais (soyez prudent si vous avez des paladins).~
+@158 = ~Résistance à la magie innée~
+@159 = ~Résistance à la magie : +3 %~
+@160 = ~Résistance à la magie : +1 %~
+@161 = ~Invisibilité des Elfes Noirs~
+@173 = ~Dissipation des Effets~
+@174 = ~Furie du Jongleur~
+@175 = ~<No Text>~
+@176 = ~gardiens~
+@209 = ~Création de Projectiles~
+@210 = ~Création de Projectiles
+Niveau : inné (kit de Tireur petit-homme)
+Portée : le jeteur de sorts
+Durée : instantanée
+Temps d'incantation : 9
+Zone d'effet : 1 créature
+Jet de sauvegarde : aucun
+
+Effets : Si un tireur petit-homme se retrouve sans projectile, voilà qui résoudra ses problèmes : il est désormais capable de les créer. Avec ce sort il peut créer 10 flèches, 10 dagues, et 10 billes (pour la fronde) dans l'inventaire.~
+@211 = ~Prêtre de Mask~
+@212 = ~Tempête Instantanée~
+@213 = ~Tempête Instantanée
+Niveau : inné (kit de Gardien de l'eau)
+Portée : une cible
+Durée : 20 secondes
+Temps d'incantation : 5
+Zone d'effet : 40 mètres
+Jet de sauvegarde : annule 
+
+Effets : En lançant ce sort, le mage divise en deux le ciel au-dessus de la victime et lui fait tomber un liquide bouillant, constitué d'un mélange d'eau, de poison et de dieu sait quoi d'autre. Dans tous les cas la victime devient aveugle et sourde à cause du liquide qui la recouvre et subit des dégâts chaque seconde jusqu'à la fin du sortilège, à cause du poison contenu dans le liquide. Le personnage est en outre ralenti à cause du volume d'eau qui lui tombe dessus.~
+@214 = ~Mystra~
+@215 = ~Imposition Maléfique des Mains~
+@216 = ~Imposition Maléfique des Mains
+Niveau : inné (kit d'Anti-paladin)
+Portée : une cible
+Durée : instantanée
+Temps d'incantation : 1
+Zone d'effet : 1 créature
+Jet de sauvegarde : annule
+
+Effets : Ceci est la capacité innée de l'anti-paladin. L'Imposition maléfique des mains est l'exact opposé de l'Imposition des mains, c'est-à-dire que le sort retire 2 points de vie par niveau d'anti-paladin au personnage ciblé.~
+@217 = ~Détection du Bien~
+@218 = ~Détection du Bien
+Niveau : inné (kit d'Anti-paladin)
+Portée : toute la zone
+Durée : instantanée
+Temps d'incantation : 1
+Zone d'effet : aire de jeu
+Jet de sauvegarde : aucun
+
+Effets : Ceci est l'exact opposé du sort Détection du Mal. Cet enchantement permet d'identifier en les illuminant tout les personnages d'alignement bon de la zone dans laquelle se trouve l'anti-paladin.~
+@219 = ~Protection contre le Bien~
+@220 = ~Protection contre le Bien
+Niveau : inné (kit d'Anti-paladin)
+Portée : le jeteur de sorts
+Durée : 60 secondes
+Temps d'incantation : 1
+Zone d'effet : 1 créature
+Jet de sauvegarde : aucun
+
+Effets : Ceci est l'exact opposé du sort Protection contre le Mal. Le sortilège octroie un malus de -2 au TAC0 des personnages bons qui sont visés par la Protection contre le Bien et un bonus de +2 au TAC0 des personnages mauvais qui sont atteints par ce sort. Ce type de sort protège aussi contre les créatures démoniaques.~
+@221 = ~Perversion du Mal~
+@222 = ~Perversion du Mal
+Niveau : inné (kit d'Anti-paladin)
+Portée : une cible
+Durée : 15 secondes
+Temps d'incantation : 3
+Zone d'effet : 1 créature
+Jet de sauvegarde : aucun
+
+Effets : Tous les anti-paladins reçoivent ce pouvoir inné, qui est le vrai point fort de ce kit. Chaque fois que l'anti-paladin se trouve en difficulté dans une bataille, il peut lancer ce sort. La volonté de son adversaire est alors bloquée pendant 15 secondes, sa résistance aux dégâts physiques et élémentaires est baissée de 50 % et les jets de sauvegardes se font à -5. Après ça, ça devient un vrai jeu d'enfant !~
+@223 = ~Magie messianique~
+@224 = ~Fascination du Bien~
+@225 = ~Fascination du Bien
+Niveau : inné (kit de Messie)
+Portée : une cible
+Durée : 120 secondes, 3600 secondes
+Temps d'incantation : 1
+Zone d'effet : 1 créature
+Jet de sauvegarde : annule
+
+Effets : Ce sort est l'exact opposé de Fascination du Mal. Le personnage sous l'effet de ce sort est sous les ordres du prêtre pendant 120 secondes et devient pour 3600 secondes d'alignement loyal-bon.~
+@226 = ~Aube Illusoire~
+@227 = ~Aube Illusoire (Evocation)
+Sphère : Soleil
+Niveau : 6
+Portée : 0
+Durée : 5 rounds
+Temps d'incantation : 9
+Zone d'effet : sphère de 9 mètres de rayon
+Jet de sauvegarde : aucun
+
+Ce sort génère une lueur rougeâtre aveuglante, semblable à celle du lever du soleil, le tout à l'intérieur de la zone d'effet. Tous les morts-vivants à l'intérieur de l'Aube Illusoire subissent 6D6 points de dégâts sans jet de sauvegarde. De plus, ils sont totalement désorientés au cours du round où le sort est lancé.~
+@230 = ~cave ténébreuse~
+@231 = ~Nuage Puant~
+@232 = ~Nuage Puant (Invocation)
+Niveau : 2
+Portée : 27 mètres
+Durée : 1 round/niveau
+Temps d'incantation : 2
+Zone d'effet : rayon de 9 mètres
+Jet de sauvegarde : spécial
+
+Quand il lance ce sort, le mage crée un nuage de vapeurs nauséabondes jusqu'à 27 mètres de sa position. Toute créature prise dans le nuage doit réussir un jet de sauvegarde contre le poison ou être incapable d'attaquer, à cause de la nausée, pour 1D4+1 rounds après avoir quitté le nuage. Un jet de sauvegarde réussi permet de quitter le nuage sans problème. Ceux qui restent dans le nuage doivent effectuer un nouveau jet de sauvegarde à chaque round. On peut ralentir ou neutraliser le poison avec une magie appropriée.~
+@233 = ~Lueur Ténébreuse~
+@238 = ~Privilège Elfique~
+@239 = ~Privilège Elfique
+Niveau : inné (kit de Paladin Elfe)
+Portée : le jeteur de sorts
+Durée : 114 secondes
+Temps d'incantation : 3
+Zone d'effet : 1
+Jet de sauvegarde : aucun
+
+Effets : Ceci est le sort que Lathandre met à disposition de ses paladins Elfes. Aucune autre classe ne peut utiliser ce sort qui donne les bonus temporaires suivants : +1 à tous les jets de sauvegardes, +1 au TAC0, 1/2 attaque supplémentaire par round, +50% de résistance aux dégâts physiques, un bonus de 4 en Classe d'Armure et l'immunité au drainage de niveaux~
+@240 = ~Guérison des Maladies~
+@241 = ~Guérison des Maladies (Conjuration/convocation)
+Niveau : 3
+Sphère : Nécromancie
+Portée : contact
+Durée : instantanée
+Temps d'incantation : 1
+Zone d'effet : 1 créature
+Jet de sauvegarde : aucun
+
+En imposant les mains, le lanceur peut soigner un individu atteint d'une maladie. La guérison est permanente mais n'empêche pas le sujet de contracter d'autres maladies. Ce sort permet aussi de guérir la cécité ou la surdité. Certaines maladies magiques ne peuvent pas être soignées par ce sort.~
+@242 = ~Maladie soignée~
+@243 = ~Kai~
+@244 = ~Impositions des Mains~
+@250 = ~Protection contre le Mal~
+@251 = ~Arme empoisonnée~
+@252 = ~Bloquer les Morts-Vivants~
+@253 = ~Ralentissement du Poison~
+@259 = ~Rage Gnomique~
+@260 = ~Rage Gnomique
+Niveau : inné (kit de Tueur de Géants)
+Portée : le jeteur de sorts
+Durée : 30 secondes
+Temps d'incantation : 1
+Zone d'effet : 1 créature
+Jet de sauvegarde : aucun
+
+Effets : Les effets sont ceux du sortilège Rage du Barbare auxquels s'ajoutent la vélocité des gnomes.~
+@261 = ~Charme Durable~
+@262 = ~Charme Durable
+Niveau : inné (kit de Convertisseur)
+Portée : 108 mètres
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : une cible
+Jet de sauvegarde : annule
+
+Effets : Les effets sont ceux du sortilège Charme-personne, sauf qu'ils ne sont pas limités dans le temps. La seule méthode pour arrêter ce charme est de lancer un sort pour le supprimer.~
+@263 = ~Charme Néfaste Durable~
+@264 = ~Charme Néfaste Durable 
+Niveau : inné (kit de Convertisseur)
+Portée : 18 mètres
+Durée : permanente
+Temps d'incantation : 3
+Zone d'effet : une cible
+Jet de sauvegarde : annule
+
+Effets : Les effets sont ceux du sortilège Charme néfaste, sauf qu'ils ne sont pas limités dans le temps. La seule méthode pour arrêter ce charme est de lancer un sort pour le supprimer.~
+@265 = ~Domination Durable~
+@266 = ~Domination Durable
+Niveau : inné (kit de Convertisseur)
+Portée : 18 mètres
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : une cible
+Jet de sauvegarde : annule
+
+Effets : Les effets sont ceux du sortilège Domination, sauf qu'ils ne sont pas limités dans le temps. La seule méthode pour arrêter ce charme est de lancer un sort pour le supprimer.~
+@267 = ~Convocation de Golem Principal~
+@268 = ~Convocation de Golem Principal
+Niveau : inné (kit de Maître des golems)
+Portée : 40 mètres
+Durée : 3600 secondes
+Temps d'incantation : 9
+Zone d'effet : spéciale
+Jet de sauvegarde : aucun
+
+Effets : Ceci est l'un des sorts qui distingue les maîtres des golems. Le barde invoque un golem à ses ordres pour 3600 secondes. Le type de golem dépend du niveau de l'invocateur : golem d'argile pour les niveaux 1-13, golem de pierre pour les niveaux 14-17, golem de givre pour les niveaux 18-21 et golem d'adamantine après le niveau 22.~
+@269 = ~Convocation de Golem de Soutien~
+@270 = ~Conjuration de Golem de Soutien
+Niveau : inné (kit de Maître des golems)
+Portée : 40
+Durée : 3600 secondes
+Temps d'incantation : 9
+Zone d'effet : spéciale
+Jet de sauvegarde : aucun
+
+Effets : Ceci est l'un des sorts qui distingue les maîtres des golems. Le barde invoque trois golems de soutien à ses ordres pour 3600 secondes. Le type de golem de soutien dépend de celui du golem principal. Trois golems de même type que le principal seront donc invoqués, mais de niveaux inférieurs.~
+@271 = ~Charme-Golem~
+@272 = ~Charme-Golem
+Niveau : inné (kit de Maître des golems)
+Portée : toucher
+Durée : 3600 secondes
+Temps d'incantation : 1
+Zone d'effet : un golem
+Jet de sauvegarde : annule
+
+Effets : Avec ce sort, le personnage contrôle un Golem pour 3600 secondes. Notez que la résistance à la magie n'a aucun effet pour ce sortilège, mais rappelez-vous qu'un jet de sauvegarde peut le faire échouer.~
+@273 = ~Golem~
+@274 = ~Tueur~
+@275 = ~Don de Tempus~
+@276 = ~Don de Tempus
+Niveau : inné (kit de Prêtre de Tempus)
+Portée : le jeteur de sorts
+Durée : 60 secondes
+Temps d'incantation : 3
+Zone d'effet : 1 créature
+Jet de sauvegarde : aucun
+
+Effets : Ceci est le sort que Tempus, le dieu de la guerre, a mis à dispositions de ses prêtres. Aucune autre classe ne peut lancer ce sort qui donne les bonus temporaires suivants : +2 à tous les jets de sauvegardes, +4 au TAC0, 1/2 attaque supplémentaire par round, +4 aux dégâts et immunité contre le drain de niveaux.~
+@277 = ~Furie Barbare~
+@278 = ~Armes~
+@279 = ~Don de 125 pièces d'or~
+@401 = ~Lance de la Valkyrie~
+@402 = ~Nada~
+@403 = ~Tunique du Gardien~
+@404 = ~Ceci est la tunique du gardien du temps. Lavage à sec uniquement.~
+@405 = ~gardiens~
+@406 = ~Anneau du Gardien~
+@407 = ~Ceci est l'anneau sacré du gardien du temps.~
+@408 = ~Amulette du Gardien~
+@409 = ~Ceci est l'amulette sacrée du gardien du temps.~
+@410 = ~Résistance à la magie innée~
+@411 = ~Le jongleur ne peut pas s'équiper d'armures et de casques.~
+@415 = ~Ceci est la tunique du gardien des Vents. Recommandation très importante : lavage à sec uniquement...~
+@416 = ~Ceci est la tunique du gardien du Feu. Recommandation très importante : lavage à sec uniquement...~
+@417 = ~Ceci est la tunique du gardien de l'Eau. Recommandation très importante : lavage à sec uniquement...~
+@418 = ~Ceci est la tunique du gardien de l'Eau. Recommandation très importante : lavage à sec uniquement...~
+@419 = ~Bâton du Gardien~
+@420 = ~Ceci est le bâton du Gardien, l'unique arme qu'il peut utiliser.~
+@421 = ~Tempête Instantanée~
+@422 = ~Tempête Instantanée
+Niveau : 3 (profane)
+Portée : 40 mètres
+Durée : 20 secondes
+Temps d'incantation : 5
+Zone d'effet : une cible
+Jet de sauvegarde : annule 
+
+Effets : en lançant ce sort, le mage divise en deux le ciel au-dessus de la victime et lui fait tomber un liquide bouillant, constitué d'un mélange d'eau, de poison et de dieu sait quoi d'autre. Dans tous les cas la victime devient aveugle et sourde à cause du liquide qui la recouvre et subit des dégâts chaque secondes jusqu'à la fin du sortilège, à cause du poison contenu dans le liquide. Le personnage est en outre ralenti à cause du volume d'eau qui lui tombe dessus.~
+@423 = ~Tempête Instantanée Améliorée~
+@424 = ~Tempête Instantanée Améliorée
+Niveau : 5 (profane)
+Portée : 40
+Durée : 60 secondes
+Temps d'incantation : 5
+Zone d'effet : une cible
+Jet de sauvegarde : annule 
+
+Effets : Les effets sont identiques à ceux du sort Tempête Instantanée, avec pour seule différence que le personnage ciblé le subit pour 60 secondes (au lieu de 20) et subit 2 points de dégâts par seconde (au lieu de 1).~
+@425 = ~Détection du Bien~
+@426 = ~Détection du Bien
+Niveau : 1 (divin)
+Portée : toute la zone
+Durée : instantanée
+Temps d'incantation : 1
+Zone d'effet : aire de jeu
+Jet de sauvegarde : aucun
+
+Effets : Ceci est l'exact opposé du sort de Détection du Mal. Ce sort permet d'identifier en les illuminant tout les personnages d'alignement bon de la zone dans laquelle se trouve le prêtre.~
+@427 = ~Protection contre le Bien~
+@428 = ~Protection contre le Bien
+Niveau : 1 (divin)
+Portée : le jeteur de sorts
+Durée : 60 secondes
+Temps d'incantation : 1
+Zone d'effet : le jeteur de sorts
+Jet de sauvegarde : aucun
+
+Effets : Ceci est l'exact opposé du sort Protection contre le Mal. Le sortilège octroie un malus de -2 au TAC0 aux personnages bons qui sont victimes de la Protection contre le Bien, et un bonus de +2 au TAC0 des personnages mauvais qui sont atteints par ce sort. Cet enchantement protège aussi contre les créatures démoniaques.~
+@429 = ~Epée du Messie~
+@430 = ~Ceci est l'épée du Messie...
+
+PARAMETRES :
+
+Dégâts : 1D10 +1, +1D3 dégâts électriques~
+@431 = ~Armure du Messie~
+@432 = ~Ceci est l'armure du Messie...
+
+PARAMETRES :
+
+Classe d'Armure : 3~
+@433 = ~Bouclier du Messie~
+@434 = ~Ceci est le bouclier du Messie...
+
+PARAMETRES :
+
+Bouclier moyen +1~
+@435 = ~Fascination du Bien~
+@436 = ~Fascination du Bien
+Niveau : 2 (divin)
+Portée : 1 créature
+Durée : 120 secondes, 3600 secondes
+Temps d'incantation : 1
+Zone d'effet : une cible
+Jet de sauvegarde : annule
+
+Effets : Ce sort est l'exact opposé de Fascination du Mal. Le personnage sous l'effet de ce sort est sous les ordres du prêtre pour 120 secondes et devient pour 3600 secondes d'alignement loyal-bon.~
+@437 = ~Casque du Messie~
+@438 = ~Ceci est le casque du Messie...~
+@439 = ~Vous ne pouvez pas vous équiper d'anneaux.~
+@440 = ~Vous ne pouvez pas vous équiper d'amulettes.~
+@441 = ~Magie messianique~
+@442 = ~Ceci est l'épée améliorée du Messie...
+
+PARAMETRES :
+
+Dégâts : 1D14 +3, +1D8 dégâts électriques~
+@443 = ~Ceci est le bouclier amélioré du Messie...
+
+PARAMETRES :
+
+Bouclier Moyen +6~
+@444 = ~Lueur Ténébreuses~
+@445 = ~Lueur Ténébreuses
+Niveau : 7 (profane)
+Portée : 6 mètres
+Durée : 20 secondes
+Temps d'incantation : 4
+Zone d'effet : cible d'alignement bon
+Jet de sauvegarde : annule 
+
+Effets : Ce sort est l'opposé du sort d’Aube Illusoire. Au lieu des morts-vivants et des personnages mauvais, il inflige des dégâts aux personnages d'alignement bon à l'intérieur de la zone d'effet.~
+@446 = ~Poigne Electrique Majeure~
+@447 = ~Poigne Electrique Majeure
+Niveau : 3 (profane)
+Portée : contact
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : une cible
+Jet de sauvegarde : annule
+
+Effets : Les effets sont ceux du sort de Poigne Electrique, mais au lieu d'infliger 1D10 points de dégâts électriques, le coup porté est de 4D10 points de dégâts électriques.~
+@448 = ~Golem de givre~
+@449 = ~Convocation Golem Principal~
+@450 = ~Convocation Golem Principal
+Niveau : inné (kit de Maître des Golems)
+Portée : 40
+Durée : 3600 secondes
+Temps d'incantation : 9
+Zone d'effet : spéciale
+Jet de sauvegarde : aucun
+
+Effets : Ceci est l'un des sorts qui distingue les maîtres des golems. Le barde invoque un golem à ses ordres pour 3600 secondes. Le type de golem dépend du niveau de l'invocateur : golem d'argile pour les niveaux 1-13, golem de pierre pour les niveaux 14-17, golem de givre pour les niveaux 18-21 et golem d'adamantine après le niveau 22.~
+@451 = ~Impossible de s'en équiper~
+@452 = ~Le rôdeur élémental n'est pas autorisé à porter une armure, des bracelets ou une robe.~
+@453 = ~Gentilhomme~
+@454 = ~Don de Tempus~
+@455 = ~Don de Tempus
+Niveau : 3 (divin)
+Durée : 60 secondes
+Temps d'incantation : 3
+Zone d'effet : lanceur
+Jet de sauvegarde: aucun
+
+Effets : +2 aux jets de sauvegarde, +4 au TAC0, +4 aux dégâts, 1/2 attaque supplémentaire par round, immunité contre le drain de niveaux.
+
+Chaque divinité possède des sortilèges spécifiques... et ceci est celui de Tempus. En lançant ce sort, le prêtre bénéficiera de grands avantages, mais pour peu de temps.~
+@456 = ~Non-utilisable~
+@457 = ~Ce kit ne peut pas utiliser d'arme à distance.~
+@500 = ~Sorts et armes des kits (ce composant est necessaire)~

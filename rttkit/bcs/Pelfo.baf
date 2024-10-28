@@ -1,0 +1,20 @@
+IF
+  Global("PELFO","GLOBAL",0)
+  Gender(Myself,MALE)
+THEN
+  RESPONSE #100
+    SetGlobal("PELFO","GLOBAL",1)
+    Polymorph(FIGHTER_MALE_ELF)
+    ChangeRace(Myself,ELF)
+END
+
+IF
+  Global("PELFO","GLOBAL",0)
+  Gender(Myself,FEMALE)
+THEN
+  RESPONSE #100
+    SetGlobal("PELFO","GLOBAL",1)
+    Polymorph(FIGHTER_FEMALE_ELF)
+    ChangeRace(Myself,ELF)
+END
+

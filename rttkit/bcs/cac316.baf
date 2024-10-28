@@ -1,0 +1,18 @@
+IF
+  CheckStatGT(Myself,31,LOCKPICKING)
+  Global("mensmala","LOCALS",0)
+THEN
+  RESPONSE #100
+    ReallyForceSpellRES("CAC317",Myself)  // CAC317
+    SetGlobal("mensmala","LOCALS",1)
+END
+
+IF
+  CheckStatGT(Myself,31,PICKPOCKET)
+  Global("mensmalb","LOCALS",0)
+THEN
+  RESPONSE #100
+    ReallyForceSpellRES("CAC318",Myself)  // CAC318
+    SetGlobal("mensmalb","LOCALS",1)
+END
+

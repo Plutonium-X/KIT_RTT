@@ -1,0 +1,10 @@
+IF
+  CheckStatGT(Myself,41,HIDEINSHADOWS)
+  CheckStatGT(Myself,41,STEALTH)
+  Global("arcagdwja","LOCALS",0)
+THEN
+  RESPONSE #100
+    ReallyForceSpellRES("ARC002",Myself)  // ARC002
+    SetGlobal("arcagdwja","LOCALS",1)
+END
+

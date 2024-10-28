@@ -1,0 +1,957 @@
+@0    = ~Vuoi installare tutti i kit?~
+@1    = ~guerriero drow~
+@2    = ~Guerriero Drow~
+@3    = ~GUERRIERO DROW: Uno dei difetti di Bg2 è, a mio parere, l'impossibilità di interpretare un personaggio principale Drow. Con l'aggiunta di questo kit (insieme a quelli per il ladro e per il chierico) questa mancanza viene colmata.
+
+Vantaggi:
+- Bonus +3% Resistenza alla Magia ogni livello fino al 20°
+- Bonus +1% Resistenza alla Magia ogni livello dal 21° al 40°
+- Bonus +1 alla Destrezza
+- Bonus +1 alla Intelligenza
+- Utilizzo della magia "Invisibilità del Drow"
+- Utilizzo di diverse abilità magiche, tra cui "Protezione dal Fuoco", "Protezione dal Freddo", "Individua Trappole", "Dissolvi Magie" e "Sfera Elastica di Otiluke"
+
+Svantaggi:
+- Il personaggio deve essere un Elfo
+- Il colore della pelle del personaggio deve essere blu scuro
+- Penalità -1 alla Costituzione
+- Penalità -1 alla Forza
+- Penalità -4 al Carisma
+- Nella competenza delle armi non può superare la specializzazione~
+@4    = ~elfo paladino~
+@5    = ~Elfo Paladino~
+@6    = ~ELFO PALADINO: da ora anche gli elfi possono accedere alla classe del paladino. Se per molti l'incontro con un paladino umano è un fatto raro, di cui ci si vanta da vecchi, l'incontro con un paladino elfo è un evento quasi unico. Pochi tra gli elfi hanno il coraggio di intraprendere questa insolita via, e solo i più valorosi riusciranno a divenire delle vere forze del bene e della rettitudine!
+
+VANTAGGI:
+- Privilegio Elfico ai livelli 1x2-10-20-30
+- Cura Malattie ai livelli 1x2-7-13-20-30
+- Rallenta Veleno ai livelli 1x2-7-13-20-30
+
+SVANTAGGI:
+- Richiede 16 in Saggezza
+- Meno Individuazione del Male e Protezione dal Male
+- No Imposizione delle mani
+
+***NOTA: anche se hai scelto "umano" come razza, una volta nel gioco il tuo personaggio sarà un elfo.***~
+@7    = ~sacerdote di tempus~
+@8    = ~Sacerdote di Tempus~
+@9    = ~SACERDOTE DI TEMPUS: Tempus è il dio della guerra, oltre ad essere una delle divinità più famose e temute di tutto l'Amn. Il dio chiede una sola cosa ai suoi servitori: diffondere il caos per il mondo. Chi lo farà, sarà ricompensato dalla più caotica delle divinità con enormi poteri, o almeno così recita un'antica leggenda in cui credono ciecamente gli adepti di questo culto.
+
+VANTAGGI:
+- Specializzazione avanzata con armi chiodate e da impatto
+- Specializzazione avanzata negli stili di combattimento
+- +1THAC0 e danno ai livelli 1-10-20-30
+- Dono di Tempus ai livelli 1-12-20-30
+- Furia Barbarica ai livelli 1-15-21-27
+
+SVANTAGGI:
+- No armi da lancio
+- Richiede 16 in forza
+- -2 Saggezza
+- Solo Umani
+- Solo personaggi di allineamento Caotico Neutrale~
+@10   = ~amazzone~
+@11   = ~Amazzone~
+@12   = ~AMAZZONE: le amazzoni sono delle donne guerriere che si dedicano esclusivamente all'uso delle armi da lancio e della lancia, e nel loro utilizzo sono i migliori combattenti al mondo. Amano vivere a contatto con la natura, e spesso collaborano per la salvaguardia delle foreste e degli animali con i druidi, con i quali hanno un rapporto di stima e di amicizia.
+
+VANTAGGI:
+- +2 destrezza
+- +1 carisma
+- +1 THAC0 ai livelli 1-6-11
+- Charme animale ai livelli 1-6-11-21-27-33-39
+- Lancia della Valkiria ai livelli 1-6-11-21-27-33-39
+- +1 attacco a round
+
+SVANTAGGI:
+- Solo umani e mezz'elfi
+- Solo personaggi di sesso femminile
+- Può usare solo le armi da lancio e la lancia
+- Può specializzarsi solo nel combattimento con arma a due mani o arma singola
+- Richiede 18 in destrezza
+- Richiede 14 in carisma
+- -1 costituzione
+- Solo personaggi non Malvagi~
+@13   = ~lanciatore halfling~
+@14   = ~Lanciatore Halfling~
+@15   = ~LANCIATORE HALFLING: i guerrieri halfling non sono certo famosi per le loro epiche battaglie corpo a corpo (o meglio corpo a gambe), ma bensì per la loro fama di tiratori scelti. Anche se la fionda rimane la loro arma preferita, recentemente alcuni guerrieri si sono specializzati anche nell'uso dell'arco e della balestra.
+
+VANTAGGI:
+- +1 Thac0 armi da lancio ai liv 1-6-11-21-27-33-39
+- +1 attacco a round
+- +1 destrezza
+- Sono in grado di creare colpi per la loro arma ai liv 1-6-11-21-27
+
+SVANTAGGI:
+- Solo halfing
+- Solo non malvagi
+- Richiede 16 in destrezza
+- Specializzazione limitata armi non da lancio e stile di combattimento~
+@16   = ~arcano~
+@17   = ~Arcano~
+@18   = ~RANGER ARCANO: i Ranger trascorrono buona parte della loro vita a stretto contatto con la natura. Durante questo tempo si allenano per diventare dei guerrieri invincibili, sia nel combattimento corpo a corpo che in quello a distanza. Ma non tutti i Ranger fanno così. Infatti in rari casi i Ranger possono trascurare gli allenamenti fisici per concentrarsi su quelli spirituali. Dopo molti anni di allenamento questi uomini solitari riescono a comunicare con la natura stessa, e possono farsi aiutare da essa sfruttando la magia che ha in se.
+
+VANTAGGI:
+- +20% resistenza al danno fisico
+- +20% resistenza alla magia
+- L'Arcano è in grado di lanciare innumerevoli incantesimi riservati ai maghi
+
+SVANTAGGI:
+- Solo personaggi Caotici Buoni
+- Non può specializzarsi con armi da lancio
+- Non può biclassare
+- Specializzazione limitata in stile di combattimento
+- Richiede 16 in intelligenza e saggezza
+- -6 al carisma
+- - 40% nascondersi nelle ombre
+~
+@19   = ~ninja~
+@20   = ~Ninja~
+@21   = ~NINJA: questa classe di ladri non è molto famosa nell'Amn, ma nelle zone sud orientali dei Reami è temuta e rispettata. I ninja hanno la fama di essere dei formidabili sicari, in grado di avvicinarsi alla propria vittima senza fare il più impercettibile rumore. Nella terra di Athkatla sono visti con sospetto, e odiati da tutti i comuni ladri.
+
+VANTAGGI:
+- Specializzazione x2 nelle armi da lancio
+- Veleno ai liv 1-6-11-21-27-33-39
+- +40% nascondersi nelle ombre
+
+SVANTAGGI:
+- Solo umani
+- Non specializzazione armi contundenti
+- Richiede 16 in destrezza e forza
+- Può biclassare solo come mago~
+@22   = ~sacerdote di cyric~
+@23   = ~Sacerdote di Cyric~
+@24   = ~SACERDOTE DI CYRIC: Cyric è il dio dell'odio e della menzogna. Il compito dei sacerdoti di Cyric è quello di far convertire il maggior numero possibile di persone a questa oscura fede. I suoi seguaci sono disposti a compiere qualsiasi nefandezza pur di compiacere il loro dio.
+
+VANTAGGI:
+- Blocca non morti ai livelli 1-7-20-27-33-39
+- Fascino del male ai livelli 1-7-20-27-33-39
+- Cacciatore invisibile ai livelli 1-15-30
+
+SVANTAGGI:
+- Richiede 14 in Intelligenza
+- Richiede 14 in Saggezza
+- Richiede 14 in Carisma
+- Solo personaggi di allineamento Malvagio~
+@25   = ~sacerdote di mystra~
+@26   = ~Sacerdote di Mystra~
+@27   = ~SACERDOTE DI MYSTRA: Mystra è la dea della magia ed una nota amica degli Arpisti. Tutti i suoi sacerdoti vengono dotati di poteri magici per poter meglio difendere sè stessi e tutte le persone indifese.
+
+VANTAGGI:
+- +2 T.S. contro magia ai livelli 1-20
+- +10% resistenza alla magia ai livelli 1-20
+- +20% resistenza al fuoco, freddo, elettricità e acido ai livelli 1-20
+- Individuazione del Male ai livelli 1-7-15-21-27
+- Protezione dal Male ai livelli 1-7-15-21-27
+
+SVANTAGGI:
+- Richiede 14 in Intelligenza
+- Richiede 14 in Saggezza
+- Personaggi di allineamento Buono~
+@28   = ~ladro drow~
+@29   = ~Ladro Drow~
+@30   = ~LADRO DROW: Uno dei difetti di Bg2 è, a mio parere, l'impossibilità di interpretare un personaggio principale Drow. Con l'aggiunta di questo kit (insieme a quelli per il guerriero e per il chierico) questa mancanza viene colmata.
+
+VANTAGGI:
+- Bonus +3% Resistenza alla Magia ogni livello fino al 20°
+- Bonus +1% Resistenza alla Magia ogni livello dal 21° al 40°
+- Bonus +2 destrezza
+- Bonus +1 intelligenza
+- Bonus +45% in tutte le abilità da ladro tranne che in scassinare
+
+SVANTAGGI:
+- Solo Elfi
+- Solo pelle scura
+- Penalità -1 forza
+- Penalità -1 costituzione
+- Penalità -4 carisma
+- Penalità -35% rubare~
+@31   = ~sacerdote di mask~
+@32   = ~Sacerdote di Mask~
+@33   = ~SACERDOTE DI MASK: Mask è il Signore delle ombre, il Gran Maestro di tutti i ladri, e non a caso i ladri tenebrosi rendono omaggio a questa caotica divinità. Fa pensare il fatto che Mask sia anche il protettore di tutti i mercanti...
+
+VANTAGGI:
+- Lancia Confusione ai liv. 1x2, 10, 15, 20, 30
+- Lancia Charme ai liv. 1x2, 10, 15, 20, 30
+- Lancia Regressione Mentale ai liv. 1x2, 10, 15, 20, 30
+- Bonus +2 carisma
+- Immune charme, risucchio mentale e confusione
+
+SVANTAGGI:
+- Richiede 16 in carisma
+- No a nani, halfing e gnomi
+- Personaggio solo Caotici Neutrali o Neutrali Malvagi
+- Penalità -1 saggezza
+- Un incantesimo in meno memorizzabile di livello 1, 2, 3, 4~
+@34   = ~guardiano del vento~
+@35   = ~Guardiano del Gento~
+@36   = ~GUARDIANO DEL VENTO: esistono moltissimi ordini di druidi, anche antichissimi, e l'ordine dei Guardiani del Vento è stato uno dei primi. Questo ordine, che sfrutta i poteri del vento, fa parte, insieme agli ordini dei Guardiani del Fuoco e dei Guardiani dell'Acqua, dell'ala estremista dei druidi. Non c'è da meravigliarsi se un membro di uno di questi tre ordini decida di sacrificare la vita di centinaia di persone per salvare pochi alberi.
+
+VANTAGGI:
+- Resistenza fulmine 100%
+- Lancia Fulmine ai liv 1, 15, 25
+- Lancia Catena di Fulmini ai liv 13, 20, 30
+- Lancia Scarica Elettrica ai liv 1x4
+- Lancia Invocare il Fulmine ai liv 1x2
+- Evoca Elementale dell'Aria al liv 17, 25
+
+SVANTAGGI:
+- Penalità -15% resistenza veleno, fuoco, freddo
+- Può usare solo il proprio bastone dell'ordine come arma
+- Può indossare solo la tunica dell'ordine come armatura
+- Richiede 18 in saggezza
+- Penalità -4 forza~
+@37   = ~Guardiano del fuoco~
+@38   = ~Guardiano del Fuoco~
+@39   = ~GUARDIANO DEL FUOCO: esistono moltissimi ordini di druidi, anche antichissimi, e l'ordine dei Guardiani del Fuoco è stato uno dei primi. Questo ordine, che sfrutta i poteri del fuoco, fa parte, insieme agli ordini dei Guardiani del Vento e dei Guardiani dell'Acqua, dell'ala estremista dei druidi. Non c'è da meravigliarsi se un membro di uno di questi tre ordini decida di sacrificare la vita di centinaia di persone per salvare pochi alberi.
+
+VANTAGGI:
+- Resistenza fuoco 100%
+- Lancia Palla di Fuoco ai liv 1, 15, 25
+- Lancia Tempesta di Fuoco ai liv 13, 20, 30
+- Lancia Mani Brucianti ai liv 1x4
+- Lancia Colonna di Fuoco ai liv 1x2
+- Evoca Elementale del fuoco al liv 17, 25
+
+SVANTAGGI:
+- Penalità -40 resistenza freddo
+- Può usare solo il proprio bastone dell'ordine come arma
+- Può indossare solo la tunica dell'ordine come armatura
+- Richiede 18 in saggezza
+- Penalità -4 forza~
+@40   = ~guardiano dell'acqua~
+@41   = ~Guardiano dell'Acqua~
+@42   = ~GUARDIANO DELL'ACQUA: esistono moltissimi ordini di druidi, anche antichissimi, e l'ordine dei Guardiani dell'Acqua è stato uno dei primi. Questo ordine, che sfrutta la forza dirompente dell'acqua, fa parte, insieme agli ordini dei Guardiani del Fuoco e dei Guardiani del Vento, dell'ala estremista dei druidi. Non c'è da meravigliarsi se un membro di uno di questi tre ordini decida di sacrificare la vita di centinaia di persone per salvare pochi alberi.
+
+VANTAGGI:
+- Resistenza freddo 100%
+- Lancia Cono di Freddo ai liv 1, 15, 25
+- Lancia Tempesta di Ghiaccio ai liv 13, 20, 30
+- Lancia Tocco Gelido ai liv 1x4
+- Lancia Tormenta Istantanea ai liv 1x2
+- Evoca Elementale della Terra al liv 17, 25
+
+SVANTAGGI:
+- Penalità -40% resistenza fuoco
+- Può usare solo il proprio bastone dell'ordine come arma
+- Può indossare solo la tunica dell'ordine come armatura
+- Richiede 18 in saggezza
+- Penalità -4 forza~
+@43   = ~messia~
+@44   = ~Messia~
+@45   = ~MESSIA: il messia è un paladino dotato dal proprio dio di straordinario poteri. Il messia può considerarsi l'inviato vero e proprio del dio in terra. Non bisogna confondersi però: il corpo del messia non ha nulla di divino. Anche egli è destinato a perire prima o poi, ma fino ad allora sarà a servizio del bene.
+
+VANTAGGI:
+- Protezione dal Male perenne
+- Bonus Resistenza +30% danni fisici, danni elementali e magia
+- Lancia Imposizione delle Mani ai liv. 1x2, 10, 15, 25
+- Lancia Finta Alba ai liv. 1x2, 15, 25
+- Evoca Elementale del Fuoco ai liv. 1, 13, 20
+- Lancia Fascino del bene ai liv. 1x2, 18 
+- Lancia Visione del Vero ai liv. 1x2, 10, 15, 20, 25, 30
+
+SVANTAGGI:
+- Richiede 18 in saggezza
+- Richiede 18 in intelligenza
+- Usa soltanto la proprio spada, armatura, scudo, elmo.
+- Non può indossare amuleti e anelli
+- Al livello 15 il suo Dio benedice la spada e lo scudo~
+@46   = ~antipaladino~
+@47   = ~Antipaladino~
+@48   = ~ANTIPALADINO: l'Antipaladino è una persona che odia il bene e che considera gli ideali di bontà, fratellanza e giustizia delle invenzioni degli umani. Il più forte prende il potere ed i deboli devono sottostare a chi comanda. Lo missione dell'Antipaladino è quella di infiltrarsi negli ordini dei veri paladini per minarli dall'interno. L'Antipaladino spera di riuscire a convertire tutti i giovani scudieri (e quindi futuri paladini) in servitori del male. E' molto importante non confondere l'Antipaladino con il Cavaliere Oscuro. L'Antipaladino non è dotato dalla nascita di abilità magiche, ma, attraverso lo studio, è riuscito a capovolgere gli incantesimi tipici dei paladini. L'Antipaladino vuole distruggere gli organi di giustizia che non gli permettono di esercitare la sua supremazia su chi è più debole di lui. Il Cavaliere Oscuro è una sorta di mezzo uomo e mezzo demone, dotato di poteri magici sin dalla più tenera età, che vuole distruggere ogni cosa. Egli infatti non aspira al potere ma alla diffusione del caos sul mondo intero.
+
+VANTAGGI:
+- Lancia Sacrilegio delle Mani liv 1x2, 15, 30
+- Lancia Individuazione del Bene liv 1, 2, 3, 4, 5, etc
+- Lancia protezione dal Bene liv 1, 2, 3, 4, 5, etc
+- Lancia Perversione del Male liv 1x3, 10, 15, 20, 25, 30
+
+SVANTAGGI:
+- No a Imposizione delle Mani
+- No a Individuazione del Male
+- No a Protezione dal Male
+- Solo Personaggio Legali Malvagi
+- Richiede 17 in saggezza
+- Richiede 17 in intelligenza
+- Richiede 17 in carisma~
+@49   = ~cavaliere oscuro~
+@50   = ~Cavaliere Oscuro~
+@51   = ~CAVALIERE OSCURO: è molto importante non confondere l'Antipaladino con il Cavaliere Oscuro. L'Antipaladino non è dotato dalla nascita di abilità magiche, ma, attraverso lo studio, è riuscito a capovolgere gli incantesimi tipici dei paladini. L'Antipaladino vuole distruggere gli organi di giustizia che non gli permettono di esercitare la sua supremazia su chi è più debole di lui. Il Cavaliere Oscuro è una sorta di mezzo uomo e mezzo demone, dotato di poteri magici sin dalla più tenera età, che vuole distruggere ogni cosa. Egli infatti non aspira al potere ma alla diffusione del caos sul mondo intero.
+
+VANTAGGI:
+- Forza Impostata a 25
+- Bonus +50% resistenza danni fisici e magia
+- Protezione dal Bene perenne
+- Evoca Demone al liv. 15, 30
+- Lancia Nube Maleodorante ai liv. 1, 10, 15, 25
+- Lancia Luce Oscura ai liv. 1, 10, 15, 20, 30
+- Lancia Individuazione del Bene ai liv. 1, 2, 3, 4, 5, etc
+
+SVANTAGGI:
+- No a Imposizione delle Mani
+- No a Individuazione del Male
+- No a Protezione dal Male
+- Solo Personaggio Caotici Malvagi
+- Massimo punteggio in altre caratteristiche 6
+- Non può usare armi da lancio~
+@52   = ~cacciatore di tesori~
+@53   = ~Cacciatore di Tesori~
+@54   = ~CACCIATORE DI TESORI: sei proprio vuoi rubare... ruba in grande! Con queste poche parole si può riassumere la mentalità dei cacciatori di tesori. A differenza dei comuni ladri, il cacciatore di tesori non si abbassa a rubare poche monete in un ostello (tranne in caso di necessità!), punta più in alto, punta ai tesori custoditi dai ricchi signori, o a bottini leggendari, bottini custoditi da draghi o sepolti nelle caverne più profonde dell'Amn. Proprio per questo si è specializzato nella ricerca e nella rimozione delle trappole che spesso si trovano in questi luoghi pericolosi.
+
+VANTAGGI:
+- +1 costituzione
+- +50% a trovare trappole, rimuovere trappole, trovare illusioni, piazzare trappole e aprire serrature
+
+SVANTAGGI:
+- Richiede 15 in intelligenza
+- -1 destrezza
+- -50% a rubare, nascondersi nelle ombre e muoversi silenziosamente~
+@55   = ~furfante~
+@56   = ~Furfante~
+@57   = ~FURFANTE: il furfante è l'esatto opposto del cacciatore di tesori. Meglio un uovo oggi che una gallina domani, ovvero, ruba ogni cosa che puoi quando puoi, nel caso domani non ci sia la stessa possibilità. Il furfante arraffa tutto quello che può da tutti, e a volte, anche da chi non dovrebbe, ed è proprio per questo che i furfanti sono anche degli ottimi velocisti, nel caso in cui il derubato si accorga del furto!
+
+VANTAGGI:
+- +10% danni fisici
+- +50% a rubare, aprire serrature, nascondersi nelle ombre e muoversi silenziosamente
+- +40% resistenza al veleno
+
+SVANTAGGI:
+- Massima Intelligenza, Saggezza e Carisma: 9
+- -50% piazzare trappole, trovare trappole, rimuovere trappole e trovare illusioni
+- Richiede 16 in costituzione
+- Solo Umani
+- Solo personaggi non buoni~
+@58   = ~druido oscuro~
+@59   = ~Druido Oscuro~
+@60   = ~DRUIDO OSCURO: pensavate che i druidi fossero immuni al male, vero? Beh.... vi sbagliavate. Il druido oscuro è un povero reietto dalla natura, e solo tramite le arti magiche nere riesce a piegare al suo volere gli animali del bosco.
+
+VANTAGGI:
+- Mutazione in Ombra ai liv. 1x2, 15, 20, 30
+- Evoca Cane al liv. 1, 10
+- Evoca Progenie di Ragno al liv. 5, 15
+- Evoca Orso di Montagna al liv. 15, 25
+- Evoca Viverna al liv. 17, 27
+- Lancia Uccidi Animale (senza t.s.) ai liv. 1x3, 10, 15, 20, 25, 30
+
+SVANTAGGI:
+- Deve essere Neutrale Malvagio
+- Richiede 18 in saggezza
+- Massima costituzione 14
+- Massimo Carisma 10~
+@61   = ~menestrello~
+@62   = ~Menestrello~
+@63   = ~MENESTRELLO: il menestrello è un bardo specializzato nel raccontare storie. Ma, a differenza di un comune bardo, riesce ad essere molto più persuasivo, facendo ricorso alla magia. Per fortuna "battaglie musicali" tra menestrelli se ne vedono molto poche. Infatti il menestrello è anche immune alle magie che usualmente lancia, e quindi uno scontro alla pari, senza possibilità di barare, durerebbe per anni e anni.
+
+VANTAGGI:
+- Immune Charme e Risucchio Mentale
+- Lancia Charme al liv. 1
+- Lancia Accecare al liv. 1
+- Lancia Sonno al liv. 1
+- Lancia Confusione al liv. 1
+- Lancia Silenzio al liv. 1
+- Lancia Dominio al liv. 12
+- +2 carisma
+
+SVANTAGGI:
+- Richiede 18 in carisma
+- -1 a forza, destrezza e costituzione
+- Richiede 16 in saggezza ed intelligenza
+- -30% a scassinare e rubare~
+@64   = ~sacerdote di lolth~
+@65   = ~Sacerdote di Lolth~
+@66   = ~SACERDOTE DI LOLTH: anche i drow hanno le loro divinità, e siccome di kit per drow in questo mod c'è ne sono già altri due, ho deciso di completare l'opera con un trio! Lolth non è una divinità benevola, ed il giocatore che sceglie questo culto farà bene a ponderare le sue azioni per evitare possibili "vendette" della dea.
+
+VANTAGGI:
+- +3% resistenza alla magia dal liv. 1-20
+- +1% resistenza alla magia dal liv. 21-40
+- +1 destrezza
+- +1 intelligenza
+- +100% resistenza al veleno
+- Lancia Progenie di Ragno ai liv. 1, 15, 20
+- Lancia Veleno ai liv. 1, 10, 15, 20
+- Lancia Neutralizzare Veleno ai liv. 1, 10, 15, 20
+
+SVANTAGGI:
+- Solo Elfi
+- Solo Pelle scura
+- -1 costituzione
+- -1 forza
+- Massimo Carisma 10
+- Solo personaggi Malvagi
+- Richiede 17 in intelligenza
+- No alle armi da lancio~
+@67   = ~guardiano del tempo~
+@68   = ~Guardiano del Tempo~
+@69   = ~GUARDIANO DEL TEMPO: si narra che nella antichità il tempo fosse gestito da un setta di druidi. Forse questo era vero se pensiamo al guardiano del tempo. Il guardiano del tempo sarebbe l'ideale discendente di questa setta. Egli è un guerriero, un semplice druido non se la sarebbe cavata per tutti questi secoli, ma è anche una forza della natura... senza contare che è in grado di fermare il tempo a suo piacimento!
+
+VANTAGGI:
+- Lancia Fermare il Tempo (per tre secondi) ai liv. 1x3
+- Lancia Fermare il Tempo (per sei secondi) ai liv. 10, 12, 14
+- Lancia Fermare il Tempo (per dodici secondi) ai liv. 16, 18, 20
+- Lancia Fermare il Tempo (per venti secondi) ai liv. 22, 24, 28, 32
+
+SVANTAGGI:
+- Deve indossare la tunica, gli anelli e l'amuleto del guardiano del tempo ed usare il suo sacro bastone.
+- Richiede 18 in saggezza ed intelligenza~
+@70   = ~samurai~
+@71   = ~Samurai~
+@72   = ~SAMURAI: il samurai è l'incarnazione dell'onore in un guerriero. Anche se alcune decisioni di un samurai possono sembrare strane per un "non samurai", questa casta di guerrieri è molto rispettata e temuta.
+
+VANTAGGI:
+- +1 attacco a round
+- Invisibilità del Samurai ai liv. 1x5, 10, 15, 20, 25, 30, 35, 40
+- Colpo Kai al liv. 1x2, 15, 30, 40
+- +2 al danno con qualsiasi arma
+
+SVANTAGGI:
+- Solo Umano
+- No a biclass
+- No Malvagio
+- Richiede 15 in destrezza
+- Specializzazione x5 solo spade a due mani, katane, wakizaki, arco lungo e dardo da lancio
+- Specializzazione x1 per le altre lame e l'arco corto
+- Specializzazione x5 stile di combattimento con arma a due mani o due armi, x2 con gli altri~ 
+@73   = ~investigatore~
+@74   = ~Investigatore~
+@75   = ~INVESTIGATORE: a volte usare la testa è molto più utile che uccidere prima e chiedere poi. L'investigatore cerca proprio di fare questo, cerca di usare il dialogo prima di ricorrere alla violenza. Se però non c'è nulla da fare (o se il tuo conversatore è un orco molto stupido), l'investigatore non disdegna la forza. L'investigatore ha anche la capacità innata di scorgere i pericoli e le insidie che gli altri guerriero non vedono.
+
+VANTAGGI:
+- +1 a intelligenza e saggezza
+- Individua Trappole ai liv. 1x4, 10, 15, 25, 35
+- Individua Allineamento ai liv. 1x4, 10, 15, 25, 35
+- Individua Illusioni ai liv. 1x4, 10, 15, 25, 35
+- Scassinare ai liv. 1x4, 10, 15, 25, 35
+
+SVANTAGGI:
+- No a biclasse
+- Deve essere Legale Neutrale
+- No specializzazione per le armi da lancio
+- Massima specializzazione per le altre armi "due stelline"
+- Richiede 16 in saggezza e intelligenza
+- Massimo carisma 14~
+@76   = ~giocoliere~
+@77   = ~Giocoliere~
+@78   = ~GIOCOLIERE: il giocoliere è un bardo capace di intrattenere il pubblico non solo con parola, ma anche con l'azione. Il giocoliere è infatti in grado di maneggiare con estrema maestria tutti i pugnali e le piccole lame.
+
+VANTAGGI:
+- Specializzazione x2 pugnale, dardo e spada corta
+- +5 thac0 armi da lancio
+- Lancia Furia del Giocoliere ai liv. 1x4, 15, 20, 25, 30, 35, 40
+- +1 alla destrezza
+
+SVANTAGGI:
+- Richiede 16 in destrezza
+- No specializzazione armi da lancio
+- Non può indossare armature ed elmi~
+@79   = ~gladiatore~
+@80   = ~Gladiatore~
+@81   = ~GLADIATORE: combattere per lo spettacolo, è questa la "professione" del gladiatore. A volte però capita che i gladiatori che hanno riscattato la loro libertà decidano di mettersi in viaggio in cerca di avventure in un mondo più grande di una arena di sabbia. Senza dubbio aver nel proprio party un gladiatore è un gran vantaggio. Siccome questi guerrieri hanno passato gli ultimi anni della loro vita esclusivamente a combattere, hanno sviluppato un innata resistenza ai danni fisici. Ma, ahime, avendo vissuto sempre in un mondo in cui l'ignoranza e la superstizione ne fanno da padrona, i gladiatori hanno una insensata paura di tutto ciò che loro considerano "strano", cioè l'intelligenza, la saggezza e le arti magiche.
+
+VANTAGGI:
+- Forza e Costituzione: +1
+- Resistenza danni Fisici ed Elementali: +15%
+- CA: +3
+
+SVANTAGGI:
+- Carisma e Destrezza: -2
+- Intelligenza e Saggezza Massima: 9
+- T.S.: -2
+- Resistenza alla Magia: -15%
+- Richiede Forza e Costituzione: 16
+- No Biclasse
+- No Gnomi e Halfing~
+@82   = ~ammaestratore di golem~
+@83   = ~Ammaestratore di Golem~
+@84   = ~AMMAESTRATORE DI GOLEM: alcuni bardi decidono di dedicarsi alla creazione di melodie per controllare i poteri della terra. L'ammaestratore di golem fa parte di questa particolare elite di bardi. Accantonate le classiche canzoni, egli si dedica esclusivamente alla creazione di servitori, nati dalle viscere della terra, che combattano al suo posto.
+
+VANTAGGI:
+- 2 volte al giorno "Evoca Golem Principale" per un giorno (il tipo di golem dipende dal livello: fino al liv. 13 golem di argilla, dal liv. 14-17 golem di pietra, dal liv. 18-21 golem di ghiaccio, dal liv. 22 golem di adamantite)
+- 4 volte al giorno "Evoca Golem di Supporto" (evoca tre golem del tipo precedente a quello principale)
+- Charme Golem per un giorno (con ts, senza resistenza alla magia) ai liv. 1, 5, 10, 15, 20, 25, 30, 35, 40
+
+SVANTAGGI:
+- No alla magia
+- No a scassinare
+- No a rubare~
+@85   = ~uccisore di giganti~
+@86   = ~Uccisore di Giganti~
+@87   = ~UCCISORE DI GIGANTI: sono davvero pochi gli impavidi gnomi che scelgono di abbandonare la propria casa per dedicare la loro vita a una nobile causa: lo sterminio dei giganti! Sin dai tempi più antichi gnomi e giganti si sono sempre odiati. I giganti hanno sempre avuto la meglio, tranne che per brevi periodi, nei quali vissero dei nobili gnomi uccisori di giganti. 
+
+VANTAGGI:
+- Forza, Destrezza e Costituzione: +1
+- Thac0 e Danno contro creature giganti: +4
+- Ulteriore Thac e Danno contro creature giganti: +1 ai liv. 10, 15, 20, 25, 30, 35, 40
+- Furia Gnomica ai liv. 1x2, 15, 20, 25, 30, 35, 40
+
+SVANTAGGI:
+- Richiede Forza, Destrezza, Costituzione e Carisma: 17
+- Intelligenza e Saggezza Massima: 10~
+@88   = ~convertitore~
+@89   = ~Convertitore~
+@90   = ~CONVERTITORE: il suo unico scopo è quello di "convertire" quante più persone possibili. Il convertitore si pone al centro dell'"equilibrio" e attraverso arcani poteri riesce a far convertire alla sua causa qualsiasi creatura che gli sia nemica. Purtroppo la creatura convertita mantiene dentro di se la consapevolezza dell'incantesimo di cui è affetto e così, una volta annullata la magia (se mai verrà annullata da qualcuno) si getterà contro il convertitore per fargli pagare tutto quello che gli ha costretto fare.
+
+VANTAGGI:
+- Charme Perenne ai liv. 1x4, 10
+- Charme Estremo Perenne ai liv. 14x2, 18
+- Dominio Perenne ai liv. 20, 25, 30, 35, 40
+- Immune allo Charme
+
+SVANTAGGI:
+- Solo Neutrali Veri
+- Richiede Saggezza e Carisma: 17
+- Forza e Costituzione: -2~
+@91   = ~elementale~
+@92   = ~Elementale~
+@93   = ~ELEMENTALE: l'elementale è un particolare tipo di ranger guerriero che si è dedicato al combattimento libero di ogni protezione. Dopo molti anni di addestramento, la sua pelle è diventata così resistente che in pratica equivale ad indossare una armatura di primordine! Egli avrà la difesa di una armatura naturale senza però essere impacciato da una armatura artificiale! E poi dobbiamo sempre tenere in considerazione la sua gran capacità acquisita negli anni di resistere ad ogni clima.
+
+VANTAGGI:
+
+- Resistenza Danni Elementali: +3% dai liv. 1-15
+- Resistenza Danni Elementali: +2% dai liv. 16-20
+- Resistenza Danni Elementali: +1% dal liv. 21
+- Resistenza Danni Fisici: +15% e CA: +2 ai liv. 15, 25
+
+SVANTAGGI:
+- No armature, bracciali e mantelli
+- No Biclasse
+- Richiede Costituzione: 17~
+@94   = ~gentiluomo~
+@95   = ~Gentiluomo~
+@96   = ~GENTILUOMO (o GENTILDONNA): avete mai sognato di interpretare un Robin Hood nel mondo dei Forgotten Realms? Beh... questo kit è quanto più si avvicina al mitico eroe di Sherwood! Il gentiluomo (o gentildonna) ha un altissima reputazione e gode dei favori di tutto il popolo. Ma, ahime, questa è anche la sua sfortuna! Il gentiluomo non può permettersi di compiere neanche una azione nefanda, onde evitare di perdere i suoi speciali poteri.
+
+VANTAGGI:
+- Reputazione Iniziale: 16
+- Carisma: +3
+- Rubare, Scassinare e Muoversi Silenziosamente: +75%
+- Specializzazione x2 arco corto e lungo
+
+SVANTAGGI:
+- Solo Neutrale o Caotico Buono
+- Richiede Carisma: 16
+- Se Reputazione scende sotto 16 perde per sempre i suoi poteri speciali di gentiluomo
+- Ogni ora dona automaticamente 125 m.o.~
+@97   = ~ranger oscuro~
+@98   = ~Ranger Oscuro~
+@99   = ~RANGER OSCURO: insieme al druido oscuro, il ranger oscuro è l'altro rinnegato della natura. Solo attraverso le arti magiche nere riesce a piegare al suo volere gli animali del bosco.
+
+VANTAGGI:
+- Mutazione in Ombra ai liv. 1x2, 15, 20, 30
+- Evoca Cane al liv. 1, 10
+- Evoca Progenie di Ragno al liv. 5, 15
+- Evoca Orso di Montagna al liv. 15, 25
+- Evoca Viverna al liv. 17, 27
+- Lancia Uccidi Animale (senza t.s.) ai liv. 1x3, 10, 15, 20, 25, 30
+
+SVANTAGGI:
+- Deve essere Neutrale Malvagio
+- Carisma Massimo: 10
+- Costituzione Massima: 14
+- No a Nascondersi nelle Ombre e Movimento Silenzioso~
+@100  = ~anima~
+@101  = ~Lancia della Valkiria~
+@102  = ~Lancia della Valkiria
+Tipo: innata (kit Amazzone)
+Raggio di Azione: 1
+Durata: 114 secondi
+Tempo di Lancio: 3
+Bersaglio: Se stessi
+T.S.: NO
+Effetti: L'amazzone evoca una delle leggendarie lance delle Valkirie, le amazzoni divine.
+~
+@103  = ~Charma animale~
+@117  = ~Guarito~
+@124  = ~Evocare Cani~
+@125  = ~Uccidi Animale~
+@126  = ~Uccidi Animale
+Tipo: druidi, livello 3
+Raggio di Azione: 50 metri
+Durata: Permanente
+Tempo di Lancio: 3
+Bersaglio: Animali in Area
+T.S.: Si
+Effetti: i druidi amano la natura e gli animali più di qualsiasi altra cosa al mondo, molto probabilmente anche degli esseri umani. A volte capita però che degli innocenti animali si ammalino e siano inguaribili oppure che siano stati addestrati da uomini malvagi facendoli diventare a loro volta animali malvagi. In questi casi il druido può fare una sola cosa per alleviare le loro sofferenze... sopprimerli. Con questo incantesimo la povera bestiola non si accorgerà di nulla.~
+@127  = ~Mutazione in Ombra~
+@135  = ~Invisibilità del Samurai~
+@136  = ~Invisibilità Drow
+Tipo: innata (kit Guerriero Drow)
+Raggio di Azione: 1
+Durata: 20 secondi
+Tempo di Lancio: 1
+Bersaglio: Se stessi
+T.S.: NO
+Effetti: I Drow sono i maestri del movimento furtivo, e questa è l'abilità innata che permette di farlo ai guerrieri. Il Drow è in grado di diventare subito invisibile (nota il Tempo di Lancio inferiore rispetto ai classici incantesimi di invisibilità), anche se per poco tempo, infatti dopo 20 secondi è costretto a respirare di nuovo, affaticato dal peso della armatura che indossa, e quindi a rivelarsi.
+~
+@137  = ~Fermare il Tempo (3s)~
+@138  = ~Fermare il Tempo (Alterazione) 
+Livello: 9
+Raggio di Azione: 0
+Durata: Speciale
+Tempo di Lancio: 9
+Area di Effetto: Speciale
+Tiro Salvezza: Nessuno 
+
+Lanciando un  incantesimo di Fermare il Tempo, il mago ferma lo scorrere del tempo per 1 round nell'area di effetto. All'interno della sfera, l'incantatore è libero di agire per 3 round di tempo apparente. Il mago può muoversi e agire liberamente all'interno dell'area dove il tempo è fermo, ma tutte le altre creature sono paralizzate nelle loro azioni, perché si trovano letteralmente fra i due battiti di un orologio. (La durata dell'incantesimo è soggettiva per l'incantatore.) Nulla può entrare nell'area di effetto senza essere a sua volta bloccato nel tempo. Quando la durata dell'incantesimo cessa, il mago opera nuovamente in tempo reale. Si noti che tutti gli incantesimi lanciati durante l'interruzione del tempo hanno effetto immediatamente dopo che il tempo è tornato normale.~
+@139  = ~Fermare il Tempo (6s)~
+@140  = ~Fermare il Tempo (12s)~
+@141  = ~Fermare il Tempo (20s)~
+@142  = ~Pelle Scura~
+@143  = ~Veleno~
+@156  = ~Fascino del Male~
+@157  = ~Fascino del Male
+Tipo: innata (kit Sacerdote di Cyric)
+Raggio di Azione: 1
+Durata: 120 secondi, 3600 secondi
+Tempo di Lancio: 1
+Bersaglio: Un personaggio
+T.S.: Si
+Effetti: Cyric, il dio dell'odio, regala ai suoi sacerdoti questa particolare magia per permettere loro di convertire al suo credo il maggior numero possibile di persone. Il personaggio sotto l'effetto di questa magia sarà agli ordini del sacerdote per 120 secondi e resterà per 3600 secondi di allineamento Caotico Malvagio (fate attenzione se siete dei paladini).
+~
+@158  = ~Resistenza Magica Innata~
+@159  = ~Resistenza alla Magia: +3%~
+@160  = ~Resistenza alla Magia: +1%~
+@161  = ~Invisibilità Drow~
+@173  = ~Dissolvi effetti~
+@174  = ~Furia del Giocoliere~
+@175  = ~<No Text>~
+@176  = ~guardiani~
+@209  = ~Crea Proiettili~
+@210  = ~Crea Proiettili
+Tipo: innata (kit Lanciatore Halfing)
+Raggio di Azione: 1
+Durata: Istantanea
+Tempo di Lancio: 9
+Bersaglio: Se stessi
+T.S.: NO
+Effetti: Se un Lanciatore Halfing rimane senza proiettili, non ci sono problemi! Egli è in grado di crearseli da solo! Con questa magia vengono creati 10 dardi, 10 frecce e 10 proiettili (per le fionde) nell'inventario.
+~
+@211  = ~sacerdote mask~
+@212  = ~Tormenta Istantanea~
+@213  = ~Tormenta Istantanea
+Tipo: innata (kit Guardiano dell'Acqua)
+Raggio di Azione: 40
+Durata: 20 secondi
+Tempo di Lancio: 5
+Bersaglio: Un personaggio
+T.S.: Si 
+Effetti: lanciando questa magia il mago divide in due il cielo sopra la vittima e fa rigettare del liquido bollente, un miscuglio di acqua, veleno e chi sa cosa altro ancora. In ogni caso la vittima diventerà sordo e cieco perchè l'acqua che lo ricopre annulla questi due sensi e subirà un danno ogni secondi fino alla fine dell'incantesimo a causa del veleno sciolto nel liquido. Il personaggio è anche rallentato a causa del volume d'acqua che gli piove addosso.
+~
+@214  = ~Mystra~
+@215  = ~Sacrilegio delle Mani~
+@216  = ~Sacrilegio delle Mani
+Tipo: innata (kit Antipaladino)
+Raggio di Azione: 1
+Durata: Istantanea
+Tempo di Lancio: 1
+Bersaglio: Un personaggio
+T.S.: Si
+Effetti: Questa è l'abilità innata di cui sono dotati tutti gli Antipaladini. Il Sacrilegio delle Mani è esattamente l'opposto della Imposizione delle Mani, toglie, invece di dare, 2 punti ferita per livello dell'Antipaladino al personaggi scelto.~
+@217  = ~Individuazione del Bene~
+@218  = ~Individuazione del Bene
+Tipo: innata (kit Antipaladino)
+Raggio di Azione: Area di Gioco
+Durata: Istantanea
+Tempo di Lancio: 1
+Bersaglio: Tutti
+T.S.: No
+Effetti: E' esattamente l'opposto dell'incantesimo Individuazione del Male. Semplicemente individua ed illumina tutti i personaggio di allineamento buono nell'area in cui si trova l'Antipaladino.
+~
+@219  = ~Protezione dal Bene~
+@220  = ~Protezione dal Bene
+Tipo: innata (kit Antipaladino)
+Raggio di Azione: 1
+Durata: 60 secondi
+Tempo di Lancio: 1
+Bersaglio: Se Stessi
+T.S.: No
+Effetti: E' esattamente l'opposto dell'incantesimo Protezione dal Male. Semplicemente da -2 thac0 ai personaggi buoni vicini a chi è Protetto dal Bene, e +2 thac0 ai personaggi malvagi vicini sempre a chi è Protetto dal Bene. Anche questo incantesimo protegge dalla creature demoniache.
+~
+@221  = ~Perversione del Male~
+@222  = ~Perversione del Male
+Tipo: innata (kit Antipaladino)
+Raggio di Azione: 1
+Durata: 15 secondi
+Tempo di Lancio: 3
+Bersaglio: Un personaggio
+T.S.: No
+Effetti: Tutti gli Antipaladini sono dotati di questa potentissima abilità innata, che è il vero e proprio cavallo di battaglia di questo kit. Ogni qualvolta l'antipaladino si trova in difficoltà in una battaglia lancia questo incantesimo. Il suo avversario rimarrà per 15 secondi bloccato, gli saranno abbassate le resistenze di -50% ai danni fisici ed elementari e i T.S. di -5. A questo punto è un gioco da ragazzi!
+~
+@223  = ~messia magie~
+@224  = ~Fascino del Bene~
+@225  = ~Fascino del Bene
+Tipo: innata (kit Messia)
+Raggio di Azione: 1
+Durata: 120 secondi, 3600 secondi
+Tempo di Lancio: 1
+Bersaglio: Un personaggio
+T.S.: Si
+Effetti: Questo incantesimo è l'esatto opposto del Fascino del Male.  Il personaggio sotto l'effetto di questa magia sarà agli ordini del sacerdote per 120 secondi e resterà per 3600 secondi di allineamento Legale Buono.
+~
+@226  = ~Finta Alba~
+@227  = ~Finta Alba (Evocazione)
+Sfera: Sole
+Livello: 6
+Raggio d'Azione: 0
+Durata: 5 round
+Tempo di lancio: 9
+Area d'effetto: una sfera del raggio di 9 mt.
+Tiro salvezza: Nessuno
+
+La Finta Alba genera una luce rossastra brillante, simile a quella del sorgere del sole, all'interno dell'area d'effetto. Tutte le creature non morte all'interno di una finta alba subiscono 6d6 danni. Contro questo danno non c'è tiro salvezza. I non morti influenzati potrebbero anche agire in modo confuso nel round successivo a quello della falsa alba.~
+@230  = ~cav oscuro~
+@231  = ~Nube maleodorante~
+@232  = ~Nube maleodorante (Apparizione)
+Livello: 2
+Raggio di azione: 27 m
+Durata: 1 round/livello
+Tempo di lancio: 2
+Area d'effetto: Raggio di 9 m
+Tiro-salvezza: Speciale
+Quando viene lanciata una nube maleodorante, lo stregone crea un'ondata di vapori nauseabondi fino a 27 m dalla sua posizione. Tutte le creature che rimangono bloccate nella nube devono mandare a segno un tiro-salvezza contro il veleno o verranno stordite e non potranno attaccare a causa della nausea per 1d4 +1 round dopo aver lasciato la nube. Coloro che manderanno a segno i tiri-salvezza, potranno uscire dalla nube senza subire alcun effetto, mentre quelli che rimarranno nella nube dovranno cercare di salvarsi a ogni round. Gli effetti provocati possono essere limitati o neutralizzati da adeguate magie.~
+@233  = ~Luce Oscura~
+@238  = ~Privilegio Elfico~
+@239  = ~Privilegio Elfico
+Tipo: innata (kit Elfo Paladino)
+Raggio di Azione: 1
+Durata: 114 secondi
+Tempo di Lancio: 3
+Bersaglio: Se Stessi
+T.S.: No
+Effetti: Questa è la magia che Lathander ha messo a disposizione ai suoi elfi paladini. Nessun altra classe può lanciare questa magia che da i seguenti bonus momentanei: +1 a tutti i T.S., +1 Thac0, +1/2 attacco a round, +50% resistenza ai danni fisici, +4 AC e l'immunità al level drain.
+~
+@240  = ~Cura Malattie~
+@241  = ~Cura Malattie (Scongiurazione) 
+Livello: 3
+Sfera: Necromanzia
+Raggio d'azione: Tocco 
+Durata: Permanente 
+Tempo di lancio: 1 
+Area d'effetto: 1 Creatura 
+Tiro-salvezza: Nessuno
+
+Questo incantesimo permette al sacerdote di curare la maggior parte delle malattie con l'imposizione delle mani.  La cura è permanente, ma non rende il bersaglio immune a contagi successivi.  L'incantesimo può curare anche la cecità e la sordità.  Alcune malattie magiche potrebbero non essere alla portata di questo incantesimo.~
+@242  = ~Malattia Curata~
+@243  = ~Kai~
+@244  = ~Imposizione mani~
+@250  = ~Protezione dal Male~
+@251  = ~Avvelenare Arma~
+@252  = ~Blocca non morti~
+@253  = ~Rallenta veleno~
+@259  = ~Furia Gnomica~
+@260  = ~Furia Gnomica
+Tipo: innata (kit Uccisore di Giganti)
+Raggio di Azione: 0
+Durata: 30 secondi
+Tempo di Lancio: 1
+Bersaglio: se stessi
+T.S.: No
+Effetti: gli effetti sono gli stessi della magia Furia Barbarica con l'aggiunta dell'aumento della velocità dello gnomo.~
+@261  = ~Charme Perenne~
+@262  = ~Charme Perenne
+Tipo: innata (kit Convertitore)
+Raggio di Azione: 108 metri
+Durata: permanente
+Tempo di Lancio: 1
+Bersaglio: un personaggio
+T.S.: Si
+Effetti: gli effetti sono gli stessi della magia Charme, ma non ci sono limiti di tempo. L'unico modo per far tornare in sè il bersaglio è di lanciare una magia per rimuovere lo charme.~
+@263  = ~Charme Estremo Perenne~
+@264  = ~Charme Estremo Perenne
+Tipo: innata (kit Convertitore)
+Raggio di Azione: 18 metri
+Durata: permanente
+Tempo di Lancio: 3
+Bersaglio: un personaggio
+T.S.: Si
+Effetti: gli effetti sono gli stessi della magia Charme Estremo, ma non ci sono limiti di tempo. L'unico modo per far tornare in sè il bersaglio è di lanciare una magia per rimuovere lo charme.~
+@265  = ~Dominio Perenne~
+@266  = ~Dominio Perenne
+Tipo: innata (kit Convertitore)
+Raggio di Azione: 18 metri
+Durata: permanente
+Tempo di Lancio: 1
+Bersaglio: un personaggio
+T.S.: Si
+Effetti: gli effetti sono gli stessi della magia Dominio, ma non ci sono limiti di tempo. L'unico modo per far tornare in sè il bersaglio è di lanciare una magia che elimini il dominio.~
+@267  = ~Evoca Golem Principale~
+@268  = ~Evoca Golem Principale
+Tipo: innata (kit Ammaestratore Golem)
+Raggio di Azione: 40
+Durata: 3600 secondi
+Tempo di Lancio: 9
+Bersaglio: speciale
+T.S.: No
+Effetti: questa è una delle magie che contraddistingue gli ammaestratori di golem. Il bardo in questione evocherà un golem ai suoi ordini per 3600 secondi. Il tipo del golem dipende dal livello dell'evocatore: livelli 1-13: golem di argilla, livelli 14-17 golem di pietra livelli 18-21 golem di ghiaccio e dal livello 22 golem di adamantite.~
+@269  = ~Evoca Golem di Supporto~
+@270  = ~Evoca Golem di Supporto
+Tipo: innata (kit Ammaestratore Golem)
+Raggio di Azione: 40
+Durata: 3600 secondi
+Tempo di Lancio: 9
+Bersaglio: speciale
+T.S.: No
+Effetti: questa è una delle magie che contraddistingue gli ammaestratori di golem. Il bardo in questione evocherà ben tre golem di supporto ai suoi ordini per 3600 secondi. Il tipo del golem di supporto dipende dal tipo di golem principale. Verranno evocati tre golem di un livello inferiore rispetto a quello principale.~
+@271  = ~Charme Golem~
+@272  = ~Charme Golem
+Tipo: innata (kit Ammaestratore di Golem)
+Raggio di Azione: 1
+Durata: 3600
+Tempo di Lancio: 1
+Bersaglio: Un Golem
+T.S.: Si
+Effetti: con questo incantesimo puoi controllare un Golem per 3600. Nota che la resistenza magica non influisce sull'effetto della magia, ma ricorda che un ts superato farà fallire il tuo incantesimo!
+~
+@273  = ~Golem~
+@274  = ~Uccisore~
+@275  = ~Dono di Tempus~
+@276  = ~Dono di Tempus
+Tipo: innata (kit Sacerdote di Tempus)
+Raggio di Azione: 1
+Durata: 60 secondi
+Tempo di Lancio: 3
+Bersaglio: Se Stessi
+T.S.: No
+Effetti: Questa è la magia che Tempus, il dio della guerra, ha messo a disposizione ai suoi sacerdoti. Nessun altra classe può lanciare questa magia che da i seguenti bonus momentanei: +2 a tutti i T.S., +4 Thac0, +1/2 attacco a round, +4 al danno e l'immunità al level drain.
+~
+@277  = ~Furia Barbarica~
+@278  = ~Armi~
+@279  = ~Donazione di 125 m.o.~
+@401  = ~Lancia della Valkiria~
+@402  = ~Nada~
+@403  = ~Tunica del Guardiano~
+@404  = ~Questa è la tunica del Guardiano del Tempo. Mi raccomando lavare solo a secco.~
+@405  = ~guardiani~
+@406  = ~Anello del Guardiano~
+@407  = ~Quest è l'anello sacro del Guardiano del Tempo.~
+@408  = ~Amuleto del Guardiano~
+@409  = ~Questo è l'amuleto sacro del Guardiano del Tempo.~
+@410  = ~Resistenza Magica Innata~
+@411  = ~Il giocoliere non può indossare armature ed elmi.~
+@415  = ~Questa è la tunica del Guardiano del Vento. Mi raccomando è molto importante! Lavare solo a secco...~
+@416  = ~Questa è la tunica del Guardiano del Fuoco. Mi raccomando è molto importante! Lavare solo a secco...~
+@417  = ~Questa è la tunica del Guardiano dell'Acqua. Mi raccomando è molto importante! Lavare solo a secco...~
+@418  = ~Questa è la tunica del Guardiano del l'Acqua. Mi raccomando è molto importante! Lavare solo a secco...~
+@419  = ~Bastone del Guardiano~
+@420  = ~Questo è il bastone del Guardiano, l'unica arma che può usare.~
+@421  = ~Tormenta Istantanea~
+@422  = ~Tormenta Istantanea
+Tipo: maghi, livello 3
+Raggio di Azione: 40
+Durata: 20 secondi
+Tempo di Lancio: 5
+Bersaglio: Un personaggio
+T.S.: Si 
+Effetti: lanciando questa magia il mago divide in due il cielo sopra la vittima e fa rigettare del liquido bollente, un miscuglio di acqua, veleno e chi sa cosa altro ancora. In ogni caso la vittima diventerà sordo e cieco perchè l'acqua che lo ricopre annulla questi due sensi e subirà un danno ogni secondi fino alla fine dell'incantesimo a causa del veleno sciolto nel liquido. Il personaggio è anche rallentato a causa del volume d'acqua che gli piove addosso.
+~
+@423  = ~Tormenta Istantanea Potenziato~
+@424  = ~Tormenta Istantanea Potenziata
+Tipo: maghi, livello 5
+Raggio di Azione: 40
+Durata: 60 secondi
+Tempo di Lancio: 5
+Bersaglio: Un personaggio
+T.S.: Si 
+Effetti: gli effetti sono gli stessi della magia Tormenta Istantanea, con l'unica differenza che il personaggio bersaglio della magia la subirà per 60 secondi (invece di 20) e subirà 2 danni al secondo (invece di uno solo).
+~
+@425  = ~Individuazione del Bene~
+@426  = ~Individuazione del Bene
+Tipo: sacerdoti, livello1
+Raggio di Azione: Area di Gioco
+Durata: Istantanea
+Tempo di Lancio: 1
+Bersaglio: Tutti
+T.S.: No
+Effetti: E' esattamente l'opposto dell'incantesimo Individuazione del Male. Semplicemente individua ed illumina tutti i personaggio di allineamento buono nell'area in cui si trova il sacerdote.
+~
+@427  = ~Protezione dal Bene~
+@428  = ~Protezione dal Bene
+Tipo: sacerdoti, livello1
+Raggio di Azione: 1
+Durata: 60 secondi
+Tempo di Lancio: 1
+Bersaglio: Se Stessi
+T.S.: No
+Effetti: E' esattamente l'opposto dell'incantesimo Protezione dal Male. Semplicemente da -2 thac0 ai personaggi buoni vicini a chi è Protetto dal Bene, e +2 thac0 ai personaggi malvagi vicini sempre a chi è Protetto dal Bene. Anche questo incantesimo protegge dalla creature demoniache.
+~
+@429  = ~Spada del Messia~
+@430  = ~Questa è la spada del messia...
+
+DESCRIZIONE:
+Danno: 1d10+1, +1d3 danno elettrico~
+@431  = ~Corazza del Messia~
+@432  = ~Questa è la corazza del messia...
+
+DESCRIZIONE:
+AC: 3~
+@433  = ~Scudo del Messia~
+@434  = ~Questo è lo scudo del messia...
+
+DESCRIZIONE:
+Scudo Medio +1~
+@435  = ~Fascino del Bene~
+@436  = ~Fascino del Bene
+Tipo: sacerdoti, livello 2
+Raggio di Azione: 1
+Durata: 120 secondi, 3600 secondi
+Tempo di Lancio: 1
+Bersaglio: Un personaggio
+T.S.: Si
+Effetti: Questo incantesimo è l'esatto opposto del Fascino del Male.  Il personaggio sotto l'effetto di questa magia sarà agli ordini del sacerdote per 120 secondi e resterà per 3600 secondi di allineamento Legale Buono.
+~
+@437  = ~Elmo del Messia~
+@438  = ~Questo è l'elmo del messia...
+~
+@439  = ~Mi spiace, ma non puoi indossare anelli.~
+@440  = ~Mi spiace, ma non puoi indossare amuleti.~
+@441  = ~messia magie~
+@442  = ~Questa è la spada potenziata del messia...
+
+DESCRIZIONE:
+Danno: 1d14+3, +1d8 danno elettrico~
+@443  = ~Questo è lo scudo potenziato del messia...
+
+DESCRIZIONE:
+Scudo Medio +6~
+@444  = ~Luce Oscura~
+@445  = ~Luce Oscura
+Tipo: maghi, livello 7
+Raggio di Azione: 6 metri
+Durata: 20 secondi
+Tempo di Lancio: 4
+Bersaglio: Personaggi Buoni
+T.S.: Si 
+Effetti: questa magia è l'inverso di Finta Alba. Invece dei non morti e dei personaggi malvagi, saranno danneggiati i personaggi di allineamento buono all'interno dell'area di effetto.~
+@446  = ~Scarica Elettrica Maggiore~
+@447  = ~Scarica Elettrica Maggiore
+Tipo: maghi, livello 3
+Raggio di Azione: 0
+Durata: permanente
+Tempo di Lancio: 1
+Bersaglio: un personaggio
+T.S.: Si
+Effetti: gli effetti sono gli stessi della magia Scarica Elettrica, ma invece di 1d10 danno elettrico il colpo andato a segno farà 4d10 danno elettrico.~
+@448  = ~Golem di ghiaccio~
+@449  = ~Evoca Golem Principale~
+@450  = ~Evoca Golem Principale
+Tipo: innata (kit Ammaestratore Golem)
+Raggio di Azione: 40
+Durata: 3600 secondi
+Tempo di Lancio: 9
+Bersaglio: speciale
+T.S.: No
+Effetti: questa è una delle magie che contraddistingue gli ammaestratori di golem. Il bardo in questione evocherà un golem ai suoi ordini per 3600 secondi. Il tipo del golem dipende dal livello dell'evocatore: livelli 1-13: golem di argilla, livelli 14-17 golem di pietra livelli 18-21 golem di ghiaccio e dal livello 22 golem di adamantite.~
+@451  = ~Impossibile Indossarlo~
+@452  = ~Mi spiace, ma al ranger elementale non è consentito indossare armature, bracciali e mantelli.~
+@453  = ~Gentiluomo~
+@454  = ~Dono di Tempus~
+@455  = ~Dono di Tempus
+Livello: 3
+Durata: 60 secondi
+Tempo di Lancio: 3
+Area di Effetto: Sacerdote 
+Tiro Salvezza: Nessuno
+Effetti: +2 T.S., +4 THAC0, +4 al danno, +1/2 attacco a round, immunità al level drain.
+
+Ogni divinità ha la propria magia specifica... beh questa è quella di Tempus. Lanciando questa magia il sacerdote avrà dei grandi benefici, anche se per poco tempo.~
+@456  = ~Non utilizzabile~
+@457  = ~Mi spiace, ma questo kit non può usare armi da lancio.~
+
+@500  = ~Magie e armi dei kit (questo componente e' necessario)~

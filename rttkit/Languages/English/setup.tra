@@ -1,0 +1,938 @@
+@0    = ~Do you want to install all the kits?~
+@1    = ~drow warrior~
+@2    = ~Drow Warrior~
+@3    = ~DROW WARRIOR: One of the shortfalls of BG2, in my opinion, is the impossibility of having the main character be a drow elf. With the addition of this kit (along with those for the thief and the cleric) this deficiency is made good.
+
+ADVANTAGES:
+- Bonus +3% Magic resistance for each level till 20th
+- Bonus +1% Magic resistance for each level from 21st to 40th
+- Bonus +1 Dexterity
+- Bonus +1 Intelligence
+- Innate ability - "Drow Invisibility"
+- Use of various wizard spells, including "Protection from Fire", 
+"Protection from Cold", "Find Traps", "Remove Magic" and "Otiluke's 
+Resilient Sphere"
+
+DISADVANTAGES:
+- Character must be an Elf
+- Character's skin colour must be dark blue
+- Penalty -1 to Constitution
+- Penalty -1 to Strength
+- Penalty -4 to Charisma
+- Weapon proficiency may not exceed specialization
+~
+@4    = ~elf paladin~
+@5    = ~Elf Paladin~
+@6    = ~ELF PALADIN: Now even elves are able to become paladins. If, for many people, a meeting with an human paladin is a rare occurrence, of which boast ca be made when they are old, a meeting with an elven paladin is a unique event. Few elves have the courage or temperament to embark on the road of a paladin and if only few attempt it, even fewer are brave enough to finally become true forces of peace and justice!
+
+ADVANTAGES:
+-Elven Privilege twice per day at level 1, then 1 more time per day at levels 10, 20 and 30
+-Cure Disease twice per day at level 1, then 1 more time per day at levels 7, 13, 20 and 30
+-Slow Poison twice per day at level 1, then 1 more time per day at levels 7, 13, 20 and 30
+
+DISADVANTAGES:
+-Requires 16 wisdom
+-Less Detect Evil and Protection from Evil
+-No Lay on Hands
+
+***Note: even if you have chosen human as your race, once in the game your character will be automatically changed into an elf.***~
+@7    = ~priest of tempus~
+@8    = ~Priest of Tempus~
+@9    = ~PRIEST OF TEMPUS: Tempus is the god of war and battle, a famous and widely worshipped divinity. Though both good and evil warriors venerate Tempus, all battle is pleasing in His sight, so the clergy has an odd reputation. Sometimes righteous, sometimes butchers, all for the glory of Tempus!
+
+ADVANTAGES:
+- May specialize with crushing weapons
+- May specialize with fighting styles
+- +1 Thac0 and damage at levels 1, 10, 20 and 30
+- Gift of Tempus at levels 1, 12, 20 and 30
+- Barbaric Fury at levels 1, 15, 21 and 27
+
+DISADVANTAGES:
+- No ranged weapons
+- Need 16 strength
+- -2 wisdom
+- Only humans
+- Only chaotic neutral~
+@10   = ~amazon~
+@11   = ~Amazon~
+@12   = ~AMAZON: Amazons are female warriors that decide to train themselves exclusively in the use of ranged weapons and spears. With these two types of weapons, they are without doubt the best warriors in Amn! They love to live in contact with nature and often work with druids to protect forests and animals.
+
+ADVANTAGES:
+- +2 dexterity
+- +1 charisma
+- +1 thac0 at levels 1, 6 and 11
+- Cast "Charm Animal" at levels 1, 6, 11, 21, 27, 33 and 39
+- Cast "Valkiria's Lance" at levels 1, 6, 11, 21, 27, 33 and 39
+- +1 attack per round
+
+DISADVANTAGES:
+- Only human or half elf
+- Only female
+- They can use only ranged weapons and spears
+- They can specialize only with two handed weapon and single weapon styles
+- Need 18 dexterity
+- Need 14 charisma
+- -1 constitution
+- Only non-evil characters~
+@13   = ~halfling thrower~
+@14   = ~Halfling Thrower~
+@15   = ~HALFLING THROWER: Halfling warriors aren't famous for their hand to hand battles (or hand to legs, most likely), but for their reputation as skirmishers and missile specialists. Even if slings remain their favoured weapon, some halfling warriors are specialized in the use of bows and crossbows.
+
+ADVANTAGES:
+- +1 thac0 to missile weapons at levels 1, 6, 11, 21, 27, 33 and 39
+- +1 round attack
+- +1 dexterity
+- Are able to create projectiles for their weapons at levels 1, 6, 11, 21 and 27
+
+DISADVANTAGES:
+- Only halfling
+- No evil characters
+- Requires 16 in dexterity
+- Limited specialization in fighting styles and melee weapons~
+@16   = ~arcane~
+@17   = ~Arcane~
+@18   = ~ARCANE RANGER: Rangers spend a great part of their life in contact with nature. During this time they train themselves to become doughty warriors, in hand to hand and in distance combat. But not all Rangers do this. A few rangers can neglect physical exercises to concentrate themselves on spiritual ones. After many years of training these solitary men are able to communicate with nature, and can call the powers of nature to their aid using magic.
+
+
+ADVANTAGES:
+- +20% physical damage resistance
+- +20% magic resistance
+- Arcane Ranger is able to cast many spells normally reserved to wizards
+
+DISAVANTAGES:
+- Only Chaotic Good characters
+- Can't use missile weapons
+- Can't dualclass
+- Specialization limited in fighting styles
+- Requires 16 in intelligence and wisdom
+- -6 to charisma
+- -40% hiding in shadows
+~
+@19   = ~ninja~
+@20   = ~Ninja~
+@21   = ~NINJA: This class of thieves isn't very famous in Amn, but in the east it is another story. In Kara-Tur they are justly respected and feared. They have the reputation of being formidable killers, able to approach their victim making no noise. Though little known in Amn, they are still regarded with suspicion, and the common thieves often hate them.
+
+ADVANTAGES:
+- Advanced specialization (two slots) in ranged weapons.
+- Poison at levels 1, 6, 11, 21, 27, 33 and 39
+- +40% hiding in shadows
+
+DISAVANTAGES: 
+- Only humans
+- No proficiency in crushing weapons
+- Requires 16 in dexterity and strength
+- Can dualclass only as wizard~
+@22   = ~priest of cyric~
+@23   = ~Priest of Cyric~
+@24   = ~PRIEST OF CYRIC: Cyric is the god of hatred, lies, strife, death and tyranny. Amongst the duties of the priests of Cyric is to convert others to His worship, for the Prince of Lies hungers for the adoration or mortalkind. Suffering pleases Him, so His followers are disposed to commit any crime to please their god.
+
+ADVANTAGES:
+- Hold Undead at levels 1, 7, 20, 27, 33 and 39
+- Fascination of Evil at levels 1, 7, 20, 27, 33 and 39
+- Invisible Stalker at level 1, 15 and 30
+
+DISADVANTAGES:
+- Need 14 intelligence, wisdom and charisma
+- Only evil alignments~
+@25   = ~priest of mystra~
+@26   = ~Priest of Mystra~
+@27   = ~PRIEST OF MYSTRA: Mystra is the goddess of magic and a well known friend of the Harpers. All of her priests are endowed with special magic powers to better defend themselves and the innocent.
+
+ADVANTAGES:
+- +2 to saving throws vs. against magic at levels 1 and 20
+- +10% Magic Resistance at levels 1 and 20
+- +20% to Fire, Cold, Acid and Lightining Resistences at levels 1 and 20
+- Detect Evil at levels 1, 7, 15, 21 and 27
+- Protection from Evil at levels 1, 7, 15, 21 and 27
+
+DISADVANTAGES:
+- Need 14 intelligence and wisdom
+- Only good alignments~
+@28   = ~drow thief~
+@29   = ~Drow Thief~
+@30   = ~DROW THIEF: One of the shortfalls of Bg2, in my opinion, is the impossibility of playing the main character as Drow. With the addition of this kit (along with the matching kits for the warrior and for the cleric) this deficiency is made good.
+
+ADVANTAGES:
+- +3 Magic Resistance each level till 20th  
+- +1 Magic Resistance each level from 21 to 41
+- +2 Dexterity
+- +1 Intelligence
+- +45% to all thief abilities except to Open Locks and Pick Pockets 
+
+DISADVANTAGES:
+- Only Elf
+- Only dark skin
+- -1 Strength
+- -1 Constitution
+- -4 Charisma
+- -35% to Pick Pockets
+~
+@31   = ~priest of mask~
+@32   = ~Priest of Mask~
+@33   = ~PRIEST OF MASK: Mask is the God of the shadows, the Great Master of all thieves, and He is given respect, worship and fear by all who steal for a living, even the Shadow Thieves. Curiously, Mask is also venerated by certain merchants...
+
+ADVANTAGES:
+- Cast "Chaos Word" twice per day at first level, with additional castings at levels 10, 15, 20 and 30
+- Cast "Charm" twice per day at first level, with additional castings at levels 10, 15, 20 and 30
+- Cast "Fleeblemind" twice per day at first level, with additional castings at levels 10, 15, 20 and 30
+- +2 Charisma
+- Immune to charm, confusion and feeblemind
+
+DISADVANTAGES:
+- Least 16 Charisma
+- No dwarves, gnomes and halflings
+- Only Chaotic Neutral or Neutral Evil alignments
+- -1 Wisdom
+- You can memorize one less spell of 1, 2, 3 and 4 level~
+@34   = ~warden of the wind~
+@35   = ~Warden of the Wind~
+@36   = ~WARDEN OF THE WIND: There are many old druidic orders, and the order of the Wardens of the Wind is one of the oldest. This order uses the power of the wind, and with the orders of the Wardens of Fire and Water, are an extremist order of druids. Members of such orders would rather save ten trees than a thousand of people!
+
+ADVANTAGES:
+- Lightning Resistance 100%
+- Cast Lightning once per day at levels 1, 15 and 25
+- Cast Chain of Lightning at levels 13, 20 and 30
+- Cast Lightning Discharges four times per day at level 1 
+- Cast Invoke Lightning twice per day at level 1 
+- Cast Summon Air Elemental at levels 17 and 25
+
+DISADVANTAGES:
+- -15% Acid, Fire and Cold Resistance
+- May only use the order's ceremonial weapon
+- May only wear the order's tunic as armor
+- Must have 18 Wisdom or greater
+- -4 Strength~
+@37   = ~warden of the fire~
+@38   = ~Warden of the Fire~
+@39   = ~WARDEN OF THE FIRE: There are many old druidic orders, and the order of the Wardens of the Fire is one of the oldest. This order uses the power of fire, and with the orders of the Wardens of Wind and Water, are an extremist order of druids. Members of such orders would rather save ten trees than a thousand of people!
+
+ADVANTAGES:
+- Fire Resistance 100%
+- Cast Fire Ball once per day at levels 1, 15 and 25
+- Cast Firestorm once per day at levels 13, 20 and 30
+- Cast Burning Hands four times per day at level 1
+- Cast Fire Column twice per day at level at level 1
+- Cast Summon Fire Elemental at levels 17 and 25
+
+DISADVANTAGES:
+- -40% Cold Resistance
+- May only use the order's ceremonial weapon
+- May only wear the order's tunic as armor
+- at Least 18 Wisdom
+- -4 Strength~
+@40   = ~warden of the water~
+@41   = ~Warden of the Water~
+@42   = ~WARDEN OF THE WATER: There are many old druidic orders, and the order of the Wardens of the Water is one of the oldest. This order uses the power of water, and with the orders of the Wardens of Wind and Fire, are an extremist order of druids. Members of such orders would rather save ten trees than a thousand of people!
+
+ADVANTAGES:
+- Cold Resistance 100%
+- Cast Cone of Cold once per day at levels 1, 15 and 25
+- Cast Ice Storm once per day at levels 13, 20 and 30
+- Cast Ice Touch four times per day at level 1
+- Cast Sudden Storm twice per day at level at level 1
+- Cast Summon Earth Elemental at levels 17 and 25
+
+DISADVANTAGES:
+- -40% Fire Resistance
+- May only use the order's ceremonial weapon
+- May only wear the order's tunic as armor
+- Least 18 Wisdom
+- -4 Strength~
+@43   = ~messiah~
+@44   = ~Messiah~
+@45   = ~MESSIAH: A messiah is a strong paladin equipped by his patron deity with great magic powers. He can be considered to be the messenger of the deity in the world. It's very important not to be confused: the body of the messiah has nothing of the divine nature. He is still condemned to die sooner or later, but until that moment he will be a mighty servant of Good.
+
+ADVANTAGES:
+- Permanent Protection from Evil
+- + 30% Resistance to physical, elemental, and magical damage
+- Cast Imposition of the Hand twice per day at levels 1, 2, 10, 15, 25
+- Cast False Dawn twice per day at first level with an additional casting at levels 15 and 25
+- Cast Summon Fire Elemental at levels 1, 13 and 20
+- Cast Fascination of Good twice per day at first level with an additional casting at level 18 
+- Cast True Sight twice per day at first level, with additional castings at levels 10, 15, 20, 25 and 30
+
+DISADVANTAGES:
+- Minimum 18 Wisdom and Intelligence
+- May only use magical weapons, armor, shields and helms.
+- No rings and necklaces
+- New improved weapons at level 15~
+@46   = ~anti-paladin~
+@47   = ~Anti-paladin~
+@48   = ~ANTI-PALADIN: An anti-paladin hates good and considers the ideals of goodness, fraternity and justice to be useless human inventions. True power belongs to the strongest and all others must subject themselves to him. The duty of the anti-paladin is to enter into the orders of real paladins to destroy them from within. He tries to convert the young knights (squires) into servants of evil. It is very important not to confuse the anti-paladin and the dark knight. The anti-paladin is a person with no innate abilities, but through study and perseverance they can be successful in inverting the typical innate abilities of the paladins. The anti-paladin's goals are to subvert the systems of justice that prevent his rise to power. The dark knight is a sort of half demon, half man with innate abilities who wants to destroy everything. 
+
+ADVANTAGES:
+- Cast Sacrilege of the Hands twice per day at level 1, with additional castings at levels 15 and 30
+- Cast Detect Good once per day, gaining additional castings every level.
+- Cast Protection from Good once per day, gaining additional castings every level.
+- Cast Perversion of Evil twice per day at level 1, with additional castings at levels 10, 15, 20, 25 and 30
+
+DISADVANTAGES:
+- No Lay on Hands
+- No Detect Evil
+- No Protection from Evil
+- Alignment restricted toy Lawful Evil
+- Minimum 17 Wisdom, Intelligence and Charisma~
+@49   = ~dark knight~
+@50   = ~Dark Knight~
+@51   = ~DARK KNIGHT: It is very important not to confuse the anti-paladin and the dark knight. The anti-paladin is a person with no innate abilities, but through study and perseverance they can be successful in inverting the typical innate abilities of the paladins. The anti-paladin's goals are to subvert the systems of justice that prevent his rise to power. The dark knight is a sort of half demon, half man with innate abilities who wants to destroy everything. In fact, the dark knight's only purpose seems to be to spread chaos and destruction through the world.
+
+
+ADVANTAGES:
+- Strength set to 25
+- +50% resistance to physical and magical damage
+- Permanent Protection from Good
+- Cast Dark Light at level 1, 10, 15, 20 and 30
+- Cast Summon Demon at levels 15 and 30
+- Cast Stinking Cloud once per day at levels 1, 10, 15 and 25
+- Cast Detect Good at once per day at level 1 with additional castings every level.
+
+DISADVANTAGES:
+- No Lay on Hands
+- No Detect Evil
+- No Protection from Evil
+- Alignment restricted to Chaotic Evil
+- May not use missile weapons
+- All stats apart from STR capped at 6~
+@52   = ~treasure hunter~
+@53   = ~Treasure Hunter~
+@54   = ~TREASURE HUNTER: If you have to steal... steal a lot! With these few words, you can summarize the mentality of the Treasure Hunter. A Treasure Hunter doesn't lower themselves to steal a mere ten coins at an inn, nay! A Treasure Hunter's sight is set on loftier goals! The treasures of nobility, or the legendary hoards guarded by dragons or buried in the deepest caves. Because of this, the Treasure Hunter is specialized in the search for and in removal of, the traps that are often present in these dangerous places.
+
+ADVANTAGES:
+- Constitution: +1
+- Find/Remove Traps, Detect Illusion, Set Traps and Open Locks: +50%
+
+DISADVANTAGES:
+- Need Intelligence: 15
+- Dexterity: -1
+- Pick Pockets, Hide in Shadows and Move Silently: -50%~
+@55   = ~scoundrel~
+@56   = ~Scoundrel~
+@57   = ~SCOUNDREL: The Scoundrel is the exact opposite of the Treasure Hunter. A bird in the hand is worth two in the bush, half a loaf is better than no bread, or, steal everything when you can, because tomorrow you might not have the opportunity. The scoundrel steals and snatches from everyone, and sometimes from the wrong people, so every successful Scoundrel is also a formidable runner.
+
+ADVANTAGES:
+- Physical Damage Resistance: +10%
+- Pick Pockets, Open Lock, Hide in Shadows and Move Silently: +50%
+- Acid Resistance: +40%
+
+DISADVANTAGES:
+- Maximum Intelligence, Wisdom and Charisma: 9
+- Find/Remove Traps, Detect Illusion and Set Traps: -50%
+- Need Constitution: 16
+- Humans only
+- May not be of any good alignment.~
+@58   = ~dark druid~
+@59   = ~Dark Druid~
+@60   = ~DARK DRUID: Do you think druids are immune from the influence of evil?  Well... you are wrong! The dark druid is a rejected by nature, and only through dark and evil magics do they succeed in bending the natural world to their will.
+
+ADVANTAGES:
+- Shadow Transformation: Twice per day at level 1, plus additional castings at levels 15, 20 and 30
+- Summon Dog at levels 1 and 10
+- Summon Spider Progeny at levels 5 and 15
+- Summon Mountain Bear at levels 15 and 25
+- Summon Wyvern at levels 17 and 27
+- Cast Slay Animal: Three times per day at level 1, plus additional castings at levels 10, 15, 20, 25 and 30
+
+DISADVANTAGES:
+- Alignment must be Neutral Evil
+- Need Wisdom: 18
+- Maximum Constitution: 14
+- Maximum Charisma: 10~
+@61   = ~minstrel~
+@62   = ~Minstrel~
+@63   = ~MINSTREL: The Minstrel is a bard specialized in the telling of stories. They are more persuasive than a normal bard, due in part to their use of magic to catch the attention of the audience. Fortunately, few Minstrels engage in "Song Battles". Since Minstrels are immune to their own brand of magic a competition between them might go on forever!
+
+ADVANTAGES:
+- Immune to Charm and Mental Drain
+- Cast Charm Person at level 1
+- Cast Blind at level 1
+- Cast Sleep at level 1
+- Cast Confusion at level 1
+- Cast Silence at level 1
+- Cast Domination at level 12
+- Charisma: +2
+
+DISADVANTAGES:
+- Requires Charisma: 18
+- Requires Wisdom and Intelligence: 16
+- Strength, Dexterity and Constitution: -1
+- Pick Pockets and Open Lock: -30%~
+@64   = ~priestess of lolth~
+@65   = ~Priestess of Lolth~
+@66   = ~PRIESTESS OF LOLTH: The drow also have their gods, and because Return To Trademeet already has two other drow kits, well... good things come in threes!  Lolth isn't a benevolent deity, and her priestesses should be very careful how they act, lest they fall into Her disfavour...
+
+ADVANTAGES:
+- Magic Resistance: +3% per level up to 20
+- Magic Resistance: +1% per level from 21
+- Dexterity and Intelligence: +1
+- Acid Resistance: 10%
+- Cast Spider Progeny once per day, with additional castings at levels 15 and 20
+- Cast Poison once per day, with additional castings at levels 15 and 20
+- Cast Neutralize Poison once per day, with additional castings at levels 15 and 20
+
+DISADVANTAGES:
+- Only (Drow) Elves
+- Constitution and Strength: -1
+- Maximum charisma: 10
+- Only evil alignments
+- Requires Intelligence: 17
+- No ranged weapons~
+@67   = ~time keeper~
+@68   = ~Time Keeper~
+@69   = ~TIME KEEPER: It's said that time is an element, just like earth, air, fire or water and that, long ago, time was controlled by a druidic sect. Considering the existence of Time Keepers, this could be true! Time Keepers are warriors, since a simple druid wouldn't survive for all these centuries, but they are also a force of nature... do not forget that the flow of time itself is at their command!
+
+ADVANTAGES:
+- Cast Time Stop (3 seconds) three times per day at level 1
+- Cast Time Stop (6 seconds) once per day at level 10, with additional castings at levels 12 and 14
+- Cast Time Stop (12 seconds) once per day at level 16, with additional castings at levels 18 and 20
+- Cast Time Stop (20 seconds) at levels 22, 24, 28 and 32
+
+DISADVANTAGES:
+- May never remove their sacred tunic, rings or amulet.
+- May only fight with their holy cudgel.
+- Requires Intelligence and Wisdom: 18~
+@70   = ~samurai~
+@71   = ~Samurai~
+@72   = ~SAMURAI: A Samurai is the incarnation of honour in a warrior. Even if some of their choices may seem strange to a non-samurai, this caste of warriors is well-respected and revered.
+
+ADVANTAGES:
+- Attacks per round: +1
+- Cast Samurai Invisibility, five time a day at level 1, with additional castings at levels 10, 15, 20, 25, 30, 35 and 40
+- Cast Kai twice per day at level 1 with an additional casting at levels 15, 30 and 40
+- Damage Bonus: +2
+
+DISADVANTAGES:
+- Humans Only
+- No dual-class
+- No evil alignments
+- Requires: Dexterity 15
+- May achieve Grand Mastery only in two handed swords, wakizashis, katanas, long bows and darts
+- May achieve Basic Proficiency (one slot) in other blades and short bows
+- May achieve Grand Mastery only in two handed and two weapon fighting styles~ 
+@73   = ~investigator~
+@74   = ~Investigator~
+@75   = ~INVESTIGATOR: Often, it's better ask questions before you kill. The investigator always tries to speak before a fight. But if there is no choice (or you are faced by a very stupid foe), the Investigator doesn't disdain violence. An Investigator also has the ability to find traps and other dangers that most warriors would just step on.
+
+ADVANTAGES:
+- Intelligence and Wisdom: +1
+- Find Traps four times per day at level 1 with additional castings at levels 10, 15, 25 and 35
+- Detect Alignment four times per day at level 1 with additional castings at levels 10, 15, 25 and 35
+- Detect Illusion four times per day at level 1 with additional castings at levels 10, 15, 25 and 35
+- Open Locks (Knock) four times per day at level 1 with additional castings at levels 10, 15, 25 and 35
+
+DISADVANTAGES:
+- No dual-class
+- Must be Lawful Neutral
+- No proficiency in ranged weapons
+- May not go beyond specialisation (2 slots) for any weapon
+- Requires Intelligence and Wisdom: 16
+- Maximum Charisma: 14~
+@76   = ~juggler~
+@77   = ~Juggler~
+@78   = ~JUGGLER: the juggler is a bard who entertains people not only with words, but also with actions. In fact jugglers can handle daggers and other small blades with extraordinary skill.
+
+ADVANTAGES:
+- May specialize (two slots) with daggers, darts and short swords
+- +5 thac0 with ranged weapon
+- Juggler's Frenzy at levels 1x4, 15, 20, 25, 30, 35 and 40
+- Dexterity: +1
+
+DISADVANTAGES:
+- Requires: 16 Dexterity
+- No proficiency in ranged weapons (with the exception of darts)
+- No armors or helms~
+@79   = ~gladiator~
+@80   = ~Gladiator~
+@81   = ~GLADIATOR: Fighting for entertainment, is the job of a gladiator. Sometimes a freed gladiator may decide to travel a world larger than a sandy arena, seeking adventure. Without a doubt, a gladiator is a good companion in a party. Because of the years spent in battle, gladiators develop an innate resistance to physical damage. But living in a world of ignorance and superstition, gladiators have a senseless fear of what they consider "strange", that is intelligence, wisdom and magic.
+
+ADVANTAGES:
+- Strength and Constitution: +1
+- Physical and Elemental Damage Resistance: +15%
+- AC: +3 Bonus
+
+DISADVANTAGES:
+- Charisma and Dexterity: -2
+- Maximum Intelligence and Wisdom: 9
+- Saving Throws.: -2
+- Magic Resistance: -15%
+- Requires: 16 Strength and Constitution
+- No Multi- or Dualclass
+- No Gnomes or Halflings~
+@82   = ~golem trainer~
+@83   = ~Golem Trainer~
+@84   = ~GOLEM TRAINER: Some bards decide to study melodies to control the power of the elements. The Golem Trainer is a member of this particular elite of bards. Putting aside the old common and classical songs, they spend their days creating servants, called up from the very stuff of the land, to serve them, even fighting in their stead.
+
+ADVANTAGES:
+- Twice a day may "Summon Primary Golem" for 1 hour (the type of Golem depends on the level of the Trainer: level 1-13: Clay Golem, level 14-17: Stone Golem, level 18-21: Ice Golem, level 22+: Adamantite Golem)
+- Four times a day "Summon Support Golems" (the type of Support Golems depends on the type of the Primary Golem. The three Golems called will be one level lower then the Primary Golem)
+- Charm Golem (allows a save, but no magic resistance) at levels 1, 5, 10, 15, 20, 25, 30, 35 and 40
+
+DISADVANTAGES:
+- Cannot cast spells
+- Cannot open locks
+- Cannot pick pockets~
+@85   = ~giant slayer~
+@86   = ~Giant Slayer~
+@87   = ~GIANT SLAYER: There are very few gnomes who decide to leave their homes to dedicate their life to a great and noble cause: the destruction of giants!  Since antiquity gnomes and evil giants have despised one another. Giants have always held the advantage, except for the rare times when a brave giant slayer strode the land.
+
+ADVANTAGES:
+- Strength, Dexterity and Constitution: +1
+- Bonus Damage and Thac0 against giants: +4
+- Additional Bonuses to Damage and Thac0 against giants: +1 at levels 10, 15, 20, 25, 30, 35 and 40
+- Gnomic Rage: Twice per day at first level, additional rages at levels 15, 20, 25, 30, 35 and 40
+
+DISADVANTAGES:
+- Requires: 17 Strength, Dexterity, Constitution and Charisma
+- Maximum Intelligence and Wisdom: 10~
+@88   = ~enticer~
+@89   = ~Enticer~
+@90   = ~ENTICER: A master of the arts of charm magic, the only aim of the enticer is to "convert" the greatest number of people to his cause. With a mind fixed in equilibrium and through arcane power, an enticer can charm almost all his enemies. Unfortunately, the charmed creatures are conscious of their situation, and so, should the enticer's spell be disabled (or if someone else disables it) charmed creatures will turn on the enticer and fight with all their rage.
+
+ADVANTAGES:
+- Never-Ending Charm: Four times per day. One additional casting at level 10
+- Never-Ending Dire Charm: Twice per day at level 14, one additional casting at level 18
+- Never-Ending Domination: at levels 20, 25, 30, 35 and 40
+- Immune to all charm spells.
+
+DISADVANTAGES:
+- Alignment must be True Neutral
+- Requires: 17 Wisdom and Charisma
+- Strength and Constitution: -2~
+@91   = ~elementalist~
+@92   = ~Elementalist~
+@93   = ~ELEMENTALIST: An elementalist is a particular kind of ranger who has dedicated their life to fighting without protective devices. After many years of training, an elementalist's skin becomes as hard as stone! In practice, this means that an elementalist is protected by their natural armor and so is not encumbered by artificial armor. A side effect of this training is to increase the elementalist's resistance to every sort of climate.
+
+ADVANTAGES:
+- Elemental Resistance: +3% at level 1-15
+- Elemental Resistance: +2% at level 16-20
+- Elemental Resistance: +1% at level 21-...
+- Physical Damage Resistance: +15%, 
+- AC: +2 at level 15, 25
+
+DISADVANTAGES:
+- May not wear any armor, cloak or gauntlets
+- May not Multi- or Dualclass
+- Requires: 17 Constitution~
+@94   = ~gentleman~
+@95   = ~Gentleman~
+@96   = ~GENTLEMAN (or GENTLEWOMAN): Have you always dreamt of being Faerun's Robin Hood? Well... this kit is as close as you'll likely get! The gentleman (or gentlewoman) has a high reputation and the favor of the people. But...  this can have its drawbacks. The gentleman must be careful not to commit any evil act, or he will forever lose his special powers.
+
+ADVANTAGES:
+- Starting Reputation: 16
+- Charisma: +3
+- Pick Pockets, Open Locks and Stealth: +75%
+- Allows Specialization (two slots) with short and long bow.
+
+DISADVANTAGES:
+- Every hour the gentleman automatically donates 125 gp to worthy causes.
+- Must be Chaotic or Neutral Good
+- Requires: 16 Charisma
+- Reputation must never drop below 16, or the Gentleman will lose all kit abilities~
+@97   = ~dark ranger~
+@98   = ~Dark Ranger~
+@99   = ~DARK RANGER: Along with the dark druid, the dark ranger is the one of the renegades of nature. Through dark magic, the renegade can cause animals to dance to his tune.
+
+ADVANTAGES:
+- Shadow Transformation: Twice per day at level 1, plus additional castings at levels 15, 20 and 30
+- Summon Dog at levels 1 and 10
+- Summon Spider Progeny at levels 5 and 15
+- Summon Mountain Bear at levels 15 and 25
+- Summon Wyvern at levels 17 and 27
+- Cast Slay Animal: Three times per day at level 1, plus additional castings at levels 10, 15, 20, 25 and 30
+
+DISADVANTAGES:
+- Must be Neutral Evil
+- Maximum Charisma: 10
+- Maximum Constitution: 14
+- No Stealth~
+@100  = ~Soul~
+@101  = ~Lance of Valkiria~
+@102  = ~Spear of the Valkiria
+Type: innate (Amazons)
+Range: 0
+Duration: 114 seconds
+Casting Time: 3
+Target: the caster
+Saving Throw: None
+Effects: Summons one of the legendary spears of the Valkirias, the divine amazons.~
+@103  = ~Charm Animal~
+@117  = ~Healed~
+@124  = ~Summon Dogs~
+@125  = ~Slay Animal~
+@126  = ~Slay Animal
+Type: druid, level 3
+Range: 50 yards
+Duration: Permanent
+Casting Time: 6
+Target: All animals in range
+Save: yes
+Effects: Druids love animals and nature more than most. Sometimes, however, an animal becomes ill or destructive to the balance of nature. In this case, there is only one choice for a druid... Cast this spell and the poor animal will know nothing more.~
+@127  = ~Shadow Transformation~
+@135  = ~Invisible Samurai~
+@136  = ~Drow Invisibility
+Type: innate (Drow Warriors)
+Range: 0
+Duration: 20 seconds
+Casting Time: 1
+Target: the caster
+Saving Throw: None
+Effects: Drow are the masters of furtive movement, and this is the innate ability that permits it to be so, for drow warriors. The drow will always become invisible, even if it is only for a few moments, just sufficient time to launch a stealthy assault before they reveal themselves.~
+@137  = ~Time Stop (3s)~
+@138  = ~Time Stop (Alteration) 
+Level: 9
+Range: 0
+Duration: Special
+Casting Time: 9
+Area of Effect: Special
+Saving Throw: None 
+
+Upon casting a time stop spell, the wizard causes the flow of time to stop for one round in the area of effect.  Inside the sphere, the caster is free to act for three rounds of apparent time. The wizard can move and act freely within the area where time is stopped, but all other creatures are frozen in their actions, for they are literally between ticks of the time clock. (The spell duration is subjective to the caster.) Nothing can enter the area of effect without being stopped in time also.  When the spell duration ceases, the wizard is again operating in normal time.  Note that all spells cast during the timestop will take effect immediately after time returns to normal.~
+@139  = ~Time Stop (6s)~
+@140  = ~Time Stop (12s)~
+@141  = ~Time Stop (20s)~
+@142  = ~Dark Skin~
+@143  = ~Poison~
+@156  = ~Fascination of Evil~
+@157  = ~Fascination of Evil
+Type: innate (Priests of Cyric)
+Range: 0
+Duration: 1 day
+Casting Time: 1
+Target: one creature
+Saving Throw: None
+Effects: The effects of this spell are the same as the common Charm Person spell, but with a difference; if the target succumbs to the spell, their alignment will change to evil for an entire day. The priesthood of Cyric love to use this spell, especially against the paladins. They find it very funny.~
+@158  = ~Innate Magic Resistance~
+@159  = ~Magic Resistance: +3%~
+@160  = ~Magic Resistance: +1%~
+@161  = ~Drow Invisibility~
+@173  = ~Dispel Effects~
+@174  = ~Juggler's Frenzy~
+@175  = ~<No Text>~
+@176  = ~Wardens~
+@209  = ~Create Projectiles~
+@210  = ~Create Bullets
+Type: innate (Halfling Thrower)
+Range: 0
+Duration: Instantaneous 
+Casting Time: 9
+Target: the caster
+Saving Throw: None
+Effects: If a halfling launcher should run out of bullets, there is no problem. They are able to create them on their own! With this spell you will create 10 units of ammunition for each type of missile weapon (bow, crossbow and sling).~
+@211  = ~mask priest~
+@212  = ~Sudden Storm~
+@213  = ~Sudden Storm
+Type: innate (Wardens of the Water)
+Range: 40 yards
+Duration: 20 seconds
+Casting Time: 5
+Target: One creature
+Savign Throw: None
+Effects: The Druid's magic divides the heavens and a strange, boiling fluid of water, acid and other unpleasant things drops on to the target. The target will be blinded and deafened and suffer one hit point of damage per second until the spell ends. The target is also slowed by the weight of the water that surrounds him.~
+@214  = ~Mystra~
+@215  = ~Sacrilege of The Hands~
+@216  = ~Sacrilege of the Hands
+Type: innate (Anti-paladin)
+Range: 0
+Duration: Instantaneous 
+Casting Time: 1
+Target: one creature
+Saving Throw: neg.
+Effects: All anti-paladins and dark knights have this innate ability. The Sacrilege of the Hands is the exact opposite of Lay on Hands, instead of giving 2 hp, it damages the target by 2 hp for each level of the caster. ~
+@217  = ~Detect Good~
+@218  = ~Detect Good
+Type: innate (Anti-paladin and Dark Knight)
+Range: 0
+Duration: Instantaneous 
+Casting Time: 1
+Target: one creature
+Saving Throw: None
+Effects: Anti-paladins and dark knights have this innate ability. This is the opposite of Detect Evil; good individuals in the area will be illuminated. ~
+@219  = ~Protection from Good~
+@220  = ~Protection from Good
+Type: innate (Anti-paladins)
+Range: 0
+Duration: 60 seconds 
+Casting Time: 1
+Target: the caster
+Saving Throw: None
+Effects: This is the reverse of Protection from Evil. All the good individuals attempting to harm the caster will have -2 thac0 and evil individuals will be at +2 thac0. Also this spell gives protection from demonic creatures. ~
+@221  = ~Perversion of Evil~
+@222  = ~Perversion of Evil
+Type: innate (Anti-paladin)
+Range: 1
+Duration: 15 seconds
+Casting Time: 3
+Target: one creature
+Saving Throw: None
+Effects: This is the last hope of a difficult battle. The target will be slowed, physical and elemental resistances will be lowered by 50% and be at -5 to all saves.~
+@223  = ~Messiah's Spell~
+@224  = ~Fascination of Good~
+@225  = ~Fascination of Good
+Type: innate (Messiah)
+Range: 1
+Duration: 1 day
+Casting Time: 1
+Target: one creature
+Saving Throw: None
+Effects: This is the reverse of Fascination of Evil. The target will be controlled by the caster for 120 seconds, and he will remain Lawful Good for 3600 seconds (1 game day).~
+@226  = ~False Dawn~
+@227  = ~False Dawn (Evocation)
+Sphere: Sun
+Level: 6
+Range: 0
+Duration: 5 rounds
+Casting Time: 9
+Area of Effect: 30-foot radius sphere
+Saving Throw: None
+
+False dawn calls into existence a bright reddish light, as if a sunrise were occurring, within the area of effect.  All undead creatures within a false dawn suffer 6d6 points of damage.  There is no saving throw against this damage.  Affected undead also act confused on the round after the false dawn appears.~
+@230  = ~Dark Light ~
+@231  = ~Stinking Cloud~
+@232  = ~Stinking Cloud (Evocation) 
+Level: 2
+Range: 30 yards 
+Duration: 1 turn
+Casting Time: 2 
+Area of Effect: 30-foot radius
+Saving Throw: Special 
+
+When a stinking cloud is cast, the wizard creates a billowing mass of nauseous vapors up to 30 yards away from his position. Any creature caught within the cloud must roll a successful saving throw vs. poison or be sent reeling and fall down for 1-2 rounds.  Those who make successful saving throws can leave the cloud without suffering any ill effects, although those remaining in the cloud must continue to save each round.  A dispel magic will remove the nausea on a particular character, but if they remain in the cloud then they are still subject to its effects.
+~
+@233  = ~Dark Light~
+@238  = ~Elven Privilege~
+@239  = ~Elven Privilege
+Type: innate (Elven Paladin)
+Range: 0
+Duration: 114 seconds
+Casting Time: 3
+Target: the caster
+Saving Throw: None
+Effects: This is the special ability that Lathander gives to His elven paladins. No other class has access to this spell, that gives these temporary bonuses: +1 to all saves, +1 Thac0, +1/2 attack per round, +50% resistance to physical damage, +4 AC and immunity to level drain.~
+@240  = ~Cure Disease~
+@241  = ~Cure Disease (Abjuration)
+Sphere: Necromantic
+Range: Touch
+Duration: Permanent
+Casting Time: 1
+Area of Effect: 1 creature
+Saving Throw: None
+
+By laying her hands upon a sickly person, the caster can cure almost any disease with this spell.  The cure is permanent, but this does not grant the recipient of the spell immunity from further afflictions.  Blindness, deafness and feeblemind are also cured with this spell.  Some magically created diseases may not be curable by this spell.~
+@242  = ~Disease Cured~
+@243  = ~Kai~
+@244  = ~Lay On Hands~
+@250  = ~Protected from Evil~
+@251  = ~Poison Weapon~
+@252  = ~Hold Undead~
+@253  = ~Slow Poison~
+@259  = ~Gnomic Rage~
+@260  = ~Gnomic Rage
+Type: innate (kit of the Giant Slayer)
+Range: 0 
+Duration: 30 seconds
+Casting Time: 1
+Target: the caster
+Saving Throw: None
+Effects: The effects are the same as the spell "Barbarian Rage" but with an added increase in speed.~
+@261  = ~Never-ending Charm~
+@262  = ~Never-ending Charm
+Type: innate (kit of the Enticer)
+Range: 18 yards
+Duration: Permanent
+Casting Time: 1
+Target: a single creature
+Saving Throw: Neg.
+Effects: The effects are the same as the spell Charm Person, but it is permanent. Only a Dispel Magic spell can save the one affected.~
+@263  = ~Never-ending Dire Charm~
+@264  = ~Never-ending Dire Charm
+Type: innate (kit of the Enticer)
+Range: 18 yards
+Duration: Permanent
+Casting Time: 1
+Target: a single creature
+Saving Throw: Neg.
+Effects: The effects are the same as the spell Dire Charm, but it is permanent. Only a Dispel Magic spell can save the one affected.~
+@265  = ~Never-ending Domination~
+@266  = ~Never-ending Domination
+Type: innate (kit of the Enticer)
+Range: 18 yards
+Duration: Permanent
+Casting Time: 1
+Target: single person
+Saving Throw: Neg.
+Effects: The effects are the same as the spell Domination, but it is permanent. Only a Dispel Magic spell can save the one affected.~
+@267  = ~Summon Primary Golem~
+@268  = ~Summon Primary Golem
+Type: Innate (Golem Trainer)
+Range: 40 yards
+Duration: 1 hour
+Casing Time: 9
+Target: Special.
+Saving Throw: None
+Effects: This is one of the exclusive spells of the Golem Trainer. The bard will summon a Golem to serve for the next hour. The type of Golem depends on the level of the Golem Trainer: level 1-13: Clay Golem, level 14-17: Stone Golem, level 18-21: Ice Golem, level 22+ Adamantite Golem.~
+@269  = ~Summon Support Golems~
+@270  = ~Summon Support Golems
+Type: Innate (Golem Trainer)
+Range: 40 yards
+Duration: 1 hour
+Casing Time: 9
+Target: Special.
+Saving Throw: None.
+Effects: This is one of the exclusive spells of the Golem Trainer. The bard will summon three Support Golems to serve for the next hour. The type of Support Golems called depends on the type of Primary Golem present. The three Golems summoned will be a level lower than the Primary Golem.~
+@271  = ~Charm Golem~
+@272  = ~Charm Golem
+Type: Innate (Golem Trainer)
+Range: Touch
+Duration: 1 hour
+Casing Time: 1
+Target: 1 Golem.
+Saving Throw: Yes.
+Effects: Casting this spell enables the golem trainer to charm a golem for the next hour. A save vs. spells is allowed to negate the effect, but any magic resistance possessed by the target is bypassed.~
+@273  = ~Golem~
+@274  = ~Slayer~
+@275  = ~Gift of Tempus~
+@276  = ~Gift of Tempus
+Type: innate (Priests of Tempus)
+Range: 0
+Duration: 60 seconds
+Casting Time: 3
+Target: the caster
+Saving Throw: None.
+Effects: Calling upon the power of Tempus, the priest invokes power for both attack and defence. The priest gains +2 to all saves, +4 to Thac0, +4 to damage, +1/2 attacks per round and immunity to level drain.~
+@277  = ~Barbarian Rage~
+@278  = ~Weapon~
+@279  = ~Gentleman: Donation of 125 gp.~
+@401  = ~Valkiria's Lance~
+@402  = ~Nada~
+@403  = ~Tunic of the Warden~
+@404  = ~This is the tunic of a Time Keeper. Dry clean only...~
+@405  = ~Wardens~
+@406  = ~Keeper's Ring~
+@407  = ~This is a Time Keeper's holy ring.~
+@408  = ~Keeper's Amulet~
+@409  = ~This is the amulet of a Time Keeper.~
+@410  = ~Innate Magic Resistance~
+@411  = ~The juggler can't wear armor or helmets.~
+@415  = ~This is the tunic of a Warden of the Wind. It's very important! Dry clean only...~
+@416  = ~ This is the tunic of a Warden of the Wind. It's very important! Dry clean only...~
+@417  = ~ This is the tunic of a Warden of the Fire. It's very important! Dry clean only...~
+@418  = ~ This is the tunic of a Warden of the Water. It's very important! Dry clean only...~
+@419  = ~Staff of the Warden~
+@420  = ~ This is the Staff of the Warden, the only weapon your order allows you to use.~
+@421  = ~Sudden Storm~
+@422  = ~Sudden Storm
+Type: wizard, level 3
+Range: 40 yards
+Duration: 20 seconds
+Casting Time: 5
+Target: one creature
+Saving Throw: neg.
+Effects: The wizard's magic divides the heavens and a strange, boiling fluid of water, acid and other unpleasant things drops on to the target. The target will be blinded and deafened and suffer one hit point of damage per second until the spell ends. The target is also slowed by the weight of the water that surrounds him.~
+@423  = ~Greater Sudden Storm~
+@424  = ~Greater Sudden Storm
+Type: wizard, level 5
+Range: 40 yards
+Duration: 60 seconds
+Casting Time: 5
+Target: one creature
+Saving Throw: neg. 
+Effects: The effects of this spell are the same as the spell Sudden Storm, with the difference that the target will receive two points of damage (instead of one) each second, and the spell duration is 60 seconds (instead of 20 seconds).~
+@425  = ~Detect Good~
+@426  = ~Detect of Good
+Type: priest, level 1
+Range: 0
+Duration: Instantaneous
+Casting Time: 1
+Target: one creature
+Saving Throw: None
+Effects: This is the reverse of the spell Detect Evil; good individuals in the area will be illuminated. ~
+@427  = ~Protection from Good~
+@428  = ~Protection from Good
+Type: priest, level 1
+Range: 1
+Duration: 60 seconds
+Casting Time: 1
+Target: yourself
+SAVING THROW: no
+Effects: This is the reverse of Protection from Evil. All good individuals attempting to attack the caster will have -2 Thac0 and evil individuals will be at +2 Thac0. Also, this spell gives protection from demonic creatures. ~
+@429  = ~Sword of the Messiah~
+@430  = ~This is the sword of the Messiah...
+
+DESCRIPTION:
+Damage: 1d10+1, +1d3 lightning damage~
+@431  = ~Armor of the Messiah~
+@432  = ~This is the armor of the Messiah...
+
+DESCRIPTION:
+AC: 3~
+@433  = ~Shield of the Messiah~
+@434  = ~This is the shield of the messiah...
+
+DESCRIPTION:
+Medium Shield +1~
+@435  = ~Fascination of Good~
+@436  = ~Fascination of Good
+Type: priest, level 2
+Range: 1
+Duration: 1 day
+Casting Time: 1
+Target: one creature
+Saving Throw: None
+Effects: This is the reverse of Fascination of Evil. The target will be controlled by the caster for 120 seconds, and he will remain Lawful Good for 3600 seconds (1 game day).~
+@437  = ~Helm of the Messiah~
+@438  = ~This is the helm of the messiah~
+@439  = ~Sorry, you can't wear rings.~
+@440  = ~Sorry, you can't wear amulets.~
+@441  = ~Messiah's Spell~
+@442  = ~This is the upgraded sword of the Messiah.
+
+STATISTICS:
+Damage: 1d14+3, +1d8 lightning damage~
+@443  = ~This is the upgraded shield of the Messiah.
+
+STATISTICS:
+Medium Shield +6~
+@444  = ~Dark Light~
+@445  = ~Dark Light
+Type: wizard, level 7
+Range: 6 yards
+Duration: 20 seconds
+Casting Time: 4
+Target: any good creature
+Saving Throw: Neg.
+Effects: This is the reverse of the spell "False Dawn". Instead of un-dead and evil characters, only good characters will be damaged.~
+@446  = ~Greater Lightning Bolt~
+@447  = ~Greater Lightning Bolt
+Type: wizard, level 3
+Range: 0 
+Duration: Permanent
+Casting Time: 1
+Target: single person
+Saving Throw: half
+Effects: The effects are the same as the spell Lightning Bolt, but will receive 4d10 lightning damage.~
+@448  = ~Ice Golem~
+@449  = ~Summon Primary Golem~
+@450  = ~Summon Primary Golem
+Type: Innate (Golem Trainer)
+Range: 40 yards
+Duration: 1 hour
+Casing Time: 9
+Target: Special.
+Saving Throw: None
+Effects: This is one of the exclusive spells of the Golem Trainer. The bard will summon a Golem to serve for the next hour. The type of Golem depends on the level of the Golem Trainer: level 1-13: Clay Golem, level 14-17: Stone Golem, level 18-21: Ice Golem, level 22+ Adamantite Golem.~
+@451  = ~You cannot wear this~
+@452  = ~Sorry, but the elementalist ranger cannot wear armor, gloves or cloaks.~
+@453  = ~Gentleman~
+@454  = ~Gift of Tempus~
+@455  = ~Gift of Tempus
+Type: priest, level 3
+Range: 0
+Duration: 60 seconds
+Casting Time: 3
+Target: The caster
+Saving Throw: None
+Effects: Calling upon the power of Tempus, the priest invokes power for both attack and defence. The priest gains +2 to all saves, +4 to Thac0, +4 to damage, +1/2 attacks per round and immunity to level drain.~
+@456  = ~Not Usable~
+@457  = ~Sorry, but this kit can't use thrown weapons.~
+
+@500  = ~Items and Spells (you can't skip this component)~
+

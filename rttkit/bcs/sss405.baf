@@ -1,0 +1,36 @@
+IF
+  Global("robin","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("robin","LOCALS",1)
+    ReputationSet(16)
+END
+
+IF
+  Global("robinsoldi","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("robinsoldi","LOCALS",1)
+    RealSetGlobalTimer("robsold","GLOBAL",3600)
+END
+
+IF
+  RealGlobalTimerExpired("robsold","GLOBAL")
+  CombatCounter(0)
+  Global("robinsoldi","LOCALS",1)
+THEN
+  RESPONSE #100
+    DisplayStringNoName(Myself,@279)  
+    ActionOverride(Myself,DestroyGold(125))
+    SetGlobal("robinsoldi","LOCALS",0)
+END
+
+IF
+  Global("robin","LOCALS",1)
+  ReputationLT(Player1,16)
+THEN
+  RESPONSE #100
+    ReallyForceSpellRES("SSS405A",Myself)  // ~Gentleman~
+    SetGlobal("robin","LOCALS",3)
+END
+

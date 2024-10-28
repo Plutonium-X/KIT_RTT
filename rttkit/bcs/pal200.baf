@@ -1,0 +1,67 @@
+IF
+  Global("gutem65","LOCALS",0)
+  Global("gutem63","LOCALS",0)
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    SetGlobal("gutem63","LOCALS",1)
+    SetGlobal("gutem64","LOCALS",1)
+END
+
+IF
+  Global("gutem65","LOCALS",0)
+  Global("gutem64","LOCALS",1)
+  !HasItemEquipedReal("PAL200",Myself)
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    SetGlobal("gutem64","LOCALS",0)
+END
+
+IF
+  Global("gutem65","LOCALS",0)
+  Global("gutem64","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("gutem64","LOCALS",1)
+END
+
+IF
+  Global("gutem65","LOCALS",0)
+  LevelGT(Myself,14)
+THEN
+  RESPONSE #100
+    TakeItemReplace("PAL230","PAL200",Myself)
+    TakeItemReplace("PAL230","PAL200",Myself)
+    TakeItemReplace("PAL230","PAL200",Myself)
+    SetGlobal("gutem65","LOCALS",1)
+END
+
+IF
+  Global("gutem65","LOCALS",1)
+  Global("gutem66","LOCALS",0)
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    SetGlobal("gutem66","LOCALS",1)
+    SetGlobal("gutem67","LOCALS",1)
+END
+
+IF
+  Global("gutem65","LOCALS",1)
+  Global("gutem67","LOCALS",1)
+  !HasItemEquipedReal("PAL230",Myself)
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    SetGlobal("gutem67","LOCALS",0)
+END
+
+IF
+  Global("gutem65","LOCALS",1)
+  Global("gutem67","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("gutem67","LOCALS",1)
+END
+

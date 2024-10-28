@@ -1,0 +1,27 @@
+IF
+  CheckStatGT(Myself,51,SETTRAPS)
+  Global("furflamala","LOCALS",0)
+THEN
+  RESPONSE #100
+    ReallyForceSpellRES("CAC030",Myself)  // CAC030
+    SetGlobal("furflamala","LOCALS",1)
+END
+
+IF
+  CheckStatGT(Myself,51,DETECTILLUSIONS)
+  Global("furflamalb","LOCALS",0)
+THEN
+  RESPONSE #100
+    ReallyForceSpellRES("CAC031",Myself)  // CAC031
+    SetGlobal("furflamalb","LOCALS",1)
+END
+
+IF
+  CheckStatGT(Myself,51,TRAPS)
+  Global("furflamalc","LOCALS",0)
+THEN
+  RESPONSE #100
+    ReallyForceSpellRES("CAC032",Myself)  // CAC032
+    SetGlobal("furflamalc","LOCALS",1)
+END
+

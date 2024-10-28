@@ -1,0 +1,18 @@
+IF
+  Global("AMAZ","LOCALS",0)
+  Gender(Myself,MALE)
+THEN
+  RESPONSE #100
+    SetGlobal("AMAZ","LOCALS",1)
+    ChangeGender(Myself,FEMALE)
+    Polymorph(FIGHTER_FEMALE_HUMAN)
+END
+
+IF
+  Global("AMAZ535","LOCALS",0)
+THEN
+  RESPONSE #100
+    ReallyForceSpellRES("AMA005",Myself)  // AMA005
+    SetGlobal("AMAZ535","LOCALS",1)
+END
+

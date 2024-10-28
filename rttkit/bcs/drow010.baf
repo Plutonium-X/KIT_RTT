@@ -1,0 +1,9 @@
+IF
+  CheckStatGT(Myself,36,PICKPOCKET)
+  Global("rubdromal","LOCALS",0)
+THEN
+  RESPONSE #100
+    ReallyForceSpellRES("DROW015",Myself)  // DROW015
+    SetGlobal("rubdromal","LOCALS",1)
+END
+

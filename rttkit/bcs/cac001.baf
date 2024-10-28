@@ -1,0 +1,27 @@
+IF
+  CheckStatGT(Myself,51,PICKPOCKET)
+  Global("cactesa","LOCALS",0)
+THEN
+  RESPONSE #100
+    ReallyForceSpellRES("CAC005",Myself)  // CAC005
+    SetGlobal("cactesa","LOCALS",1)
+END
+
+IF
+  CheckStatGT(Myself,51,STEALTH)
+  Global("cactesb","LOCALS",0)
+THEN
+  RESPONSE #100
+    ReallyForceSpellRES("CAC006",Myself)  // CAC006
+    SetGlobal("cactesb","LOCALS",1)
+END
+
+IF
+  CheckStatGT(Myself,51,HIDEINSHADOWS)
+  Global("cactesc","LOCALS",0)
+THEN
+  RESPONSE #100
+    ReallyForceSpellRES("CAC007",Myself)  // CAC007
+    SetGlobal("cactesc","LOCALS",1)
+END
+

@@ -1,0 +1,19 @@
+RETURN TO TRADEMEET KIT PACK
+Author: al47 <http://www.shsforums.net/index.php?showtopic=15702>
+
+
+In order to let French gamers enjoy this mod, we repackaged it and included the translation.
+Of course, we'll take it down as soon as either al17 updates the mod or asks for it to be taken down.
+
+Leomar <http://www.shsforums.net/index.php?showuser=9003>
+
+
+Version 1.2
+- Last public version of al47
+
+Version 1.3 (28.12.2009 by Leomar)
+- Added French translation by SkipCool
+- Added VERSION flag
+- Changed to README command
+- Added updatedversion.txt
+- Updated to WeiDU v212

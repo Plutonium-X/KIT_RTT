@@ -1,0 +1,8 @@
+IF
+  Global("AMAZ5351","LOCALS",0)
+THEN
+  RESPONSE #100
+    ReallyForceSpellRES("AMA005",Myself)  // AMA005
+    SetGlobal("AMAZ5351","LOCALS",1)
+END
+

@@ -1,0 +1,25 @@
+IF
+  Global("gutem63","LOCALS",0)
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    SetGlobal("gutem63","LOCALS",1)
+    SetGlobal("gutem64","LOCALS",1)
+END
+
+IF
+  Global("gutem64","LOCALS",1)
+  !HasItemEquipedReal("GUA004",Myself)
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    SetGlobal("gutem64","LOCALS",0)
+END
+
+IF
+  Global("gutem64","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("gutem64","LOCALS",1)
+END
+

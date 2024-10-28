@@ -1,0 +1,86 @@
+// Note added due to LGPL terms.
+// 
+// This file was edited by Valerio Bigiani, AKA The Bigg, starting from
+// 6 November 2005. All changes for this file are listed in
+// diffs/examples.prompt.tra.diff file, as the output of a diff -p -E -b command.
+// 
+// It was originally taken from Westley Weimer's WeiDU 185.
+
+  // WeiDU behaves as if the following file TRA were read in automatically
+  
+  // you can change these prompts by assigning these special negative-index
+  // strings to whatever you want in your language-specific TRA files
+
+  // Note that it is NOT my goal to have every string in WeiDU be
+  // replaceable. Bug one of the GUI-people if you really want a better UI. 
+
+//@-1000= "This mod has"
+@-1000= "
+**************************************************************************
+*                                               	                 *
+* RTT Kit Pack aggiunge 30 nuovi kit a Baldur's Gate 2                   *
+* 								         *
+* Guerriero:		  Paladino:		  Ranger:                *
+* - AMAZZONE		  - ANTIPALADINO	  - RANGER ARCANO        *
+* - GLADIATORE		  - CAVALIERE OSCURO	  - ELEMENTALE           *
+* - INVESTIGATORE	  - ELFO PALADINO	  - GUARDIANO DEL TEMPO  *
+* - LANCIATORE HALFLING	  - MESSIA		  - RANGER OSCURO        *
+* - SAMURAI							         *
+* - UCCISORE DI GIGANTI						         *
+* 								         *
+* Chierico:		  Druido:	    	  Ladro:                 *
+* - CONVERTITORE	  - DRUIDO OSCURO	  - CACCIATORE DI TESORI *
+* - SACERDOTE DI CYRIC	  - GUARDIANO DELL'ACQUA  - FURFANTE             *
+* - SACERDOTE DI MASK	  - GUARDIANO DEL FUOCO	  - GENTILUOMO           *
+* - SACERDOTE DI MYSTRA	  - GUARDIANO DEL VENTO	  - NINJA                *
+* - SACERDOTE DI TEMPUS                                                  *  
+* 								         *
+* Bardo:		       Rttkit\Languages\Readme\readmeitalian.htm *
+* - AMMAESTRATORE DI GOLEM     per la descrizione dei kit e delle magie  *
+* - GIOCOLIERE							         *
+* - MENESTRELLO		       Compatibile con il solo SoA e con ToB     *
+* 								         *
+**************************************************************************
+
+Abbiamo"
+@-1001= "componenti distinti: 30 kit e 'armi e magie'.
+Per far prima, puoi installarli tutti in un solo blocco o sceglierli uno a uno.
+
+"
+@-1002= "Cosa vuoi fare dei kit che NON SONO ancora installati?
+[I]nstalla, [S]alta, [A]sk-domanda " 
+@-1003= "Cosa vuoi fare dei kit che SONO gia' installati?
+[R]einstalla, [U]ninstall-disinstalla, [S]alta o [A]sk-domanda " 
+
+@-1004= "PLEASE email the file" 
+@-1005= "to" 
+
+// @-1006= "Installa il Componente ["
+// @-1007= "][R]einstalla, [N]essun cambiamento, [U]ninstall-disinstalla o [Q]uit-esci "
+// @-1008= "][Y]es-si' o [N]o o [Q]uit-esci "
+@-1006= "Installa il Componente ["
+@-1007= "]?
+[R]einstalla, [N]essun cambiamento, [U]ninstall-disinstalla o [Q]uit-esci "
+@-1008= "]?
+[I]nstalla, [N]on installa o [Q]uit-esci "
+// note that the keys are always R,N,U,Q,I (synonim of the old, still valid 'Y') !!
+
+@-1009= "Enter part of a module name: " 
+
+@-1010= "Re-Installing ["
+@-1011= "] componente "  
+@-1012= "Re-Installing Using Language" 
+
+@-1013= "Removing old installation of [" 
+@-1014= "] first ..." 
+@-1015= "SUCCESSFULLY REMOVED OLD" 
+
+@-1016= "Installing" 
+@-1017= "ERROR Installing [" 
+@-1018= "], rolling back to previous state" 
+@-1019= "INSTALLATO CON SUCCESSO" 
+@-1020= "Skipping" 
+@-1021= "Removing ["
+@-1022= "] (component #"
+@-1023= ")" 
+@-1024= "RIMOSSO CON SUCCESSO [" 

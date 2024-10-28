@@ -1,0 +1,17 @@
+IF
+  NumberOfTimesTalkedTo(0)
+  See([PC])
+THEN
+  RESPONSE #100
+    StartDialogNoSet([PC])
+END
+
+IF
+  Global("pal001","GLOBAL",1)
+  Global("pal001e","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("pal001e","GLOBAL",1)
+    DestroySelf()
+END
+

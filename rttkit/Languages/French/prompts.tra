@@ -1,0 +1,81 @@
+// Note added due to LGPL terms.
+// 
+// This file was edited by Valerio Bigiani, AKA The Bigg, starting from
+// 6 November 2005. All changes for this file are listed in
+// diffs/examples.prompt.tra.diff file, as the output of a diff -p -E -b command.
+// 
+// It was originally taken from Westley Weimer's WeiDU 185.
+
+  // WeiDU behaves as if the following file TRA were read in automatically
+  
+  // you can change these prompts by assigning these special negative-index
+  // strings to whatever you want in your language-specific TRA files
+
+  // Note that it is NOT my goal to have every string in WeiDU be
+  // replaceable. Bug one of the GUI-people if you really want a better UI. 
+
+@-1000= "Contenu du mod
+
+**************************************************************************
+*                                               	                 *
+* RTT Kit Pack ajoute 30 nouveaux kits a Baldur's Gate 2                 *
+* 								     	 *
+* 	Guerrier :	  	Paladin :	  	Rodeur :         *
+* - AMAZONE		   - ANTI-PALADIN	- RODEUR ARCANE		 *
+* - GLADIATEUR		  - CHEVALIER NOIR	- ELEMENTAL              *
+* - ENQUETEUR		  - PALADIN ELFE	- GARDIEN DU TEMPS       *
+* - TIREUR SEMI-HOMME	  - MESSIE		- RODEUR TENEBREUX	 *
+* - SAMOURAI					         		 *
+* - TUEUR DE GEANTS				         		 *
+* 					         			 *
+* 	Clerc :		   	Druide :	  	Voleur :         *
+* - CONVERTISSEUR	  - DRUIDE DE L'OMBRE	  - CHASSEUR DE TRESORS  *
+* - PRETRE DE CYRIC	  - GARDIEN DE L'EAU	  - GREDIN               *
+* - PRETRE DE MASK	  - GARDIEN DU FEU	  - GENTILHOMME          *
+* - PRETRE DE MYSTRA	  - GARDIEN DES VENTS	  - NINJA                *
+* - PRETRE DE TEMPUS					                 *
+* 					         			 *
+* 	Barde :		     cf Rttkit\Languages\Readme\readmefrench.htm *
+* - MAITRE DES GOLEMS        pour la description des kits et des sorts   *
+* - JONGLEUR					         		 *
+* - CONTEUR		     Compatible avec SoA seul et avec SoA + ToB  *
+* 					         			 *
+**************************************************************************
+"
+@-1001= "composants distincts : 30 kits et 'Sorts et armes des kits'.
+Vous pouvez soit tous les installer en une seule fois, soit un par un.
+
+"
+@-1002= "Que faut-il faire de tous les kits qui NE sont PAS ENCORE installes ?
+Les [I]nstaller, les [S]auter, dem[A]nder pour chacun ? "
+@-1003= "Que faut-il faire de tous les kits qui sont DEJA installes ?
+Les [R]einstaller, les s[U]pprimer, dem[A]nder pour chacun ? "
+
+@-1004= "S'IL VOUS PLAIT, envoyez par e-mail le fichier"
+@-1005= "a"
+
+@-1006= "Installer le composant ["
+@-1007= "] ?
+[R]einstaller, co[N]server, s[U]pprimer ou [Q]uitter ? "
+@-1008= "] ?
+[I]nstaller, [N]e pas installer ou [Q]uitter ? "
+
+@-1009= "Entrez une partie du nom du module : "
+
+@-1010= "Reinstallation du composant ["
+@-1011= "] "
+@-1012= "Reinstallation dans la langue"
+
+@-1013= "Suppression de l'ancienne installation de ["
+@-1014= "] au prealable..."
+@-1015= "SUPPRESSION REUSSIE DE L'ANCIEN"
+
+@-1016= "Installation en cours"
+@-1017= "ERREUR pendant l'installation de ["
+@-1018= "], retour a l'etat anterieur"
+@-1019= "INSTALLATION REUSSIE"
+@-1020= "Saute"
+@-1021= "Suppression de ["
+@-1022= "] (composant #"
+@-1023= ")"
+@-1024= "SUPPRESSION REUSSIE DE ["
